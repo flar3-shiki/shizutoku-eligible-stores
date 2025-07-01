@@ -31,6 +31,8 @@ body.modal-open { overflow: hidden; }
 .filter-options { display: flex; flex-wrap: wrap; gap: 15px; }
 .filter-options label { display: flex; align-items: center; cursor: pointer; font-size: 14px; }
 .filter-options input[type="checkbox"] { margin-right: 5px; accent-color: var(--primary-color); }
+.filter-category-title { width: 100%; font-weight: bold; margin-top: 10px; margin-bottom: 5px; font-size: 0.9em; color: var(--muted-text-color); }
+.filter-options hr { width: 100%; border: 0; border-top: 1px solid var(--border-color); margin: 8px 0; }
 #results-area { display: none; }
 #results-count { margin: 20px 0 15px 0; font-weight: bold; text-align: right; color: var(--muted-text-color); }
 #results-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; }
@@ -70,9 +72,32 @@ body.modal-open { overflow: hidden; }
     .top-bar h1 { flex-shrink: 0; }
     #top-bar-search-input { flex-grow: 1; }
     #toggle-filters-btn { padding: 8px 16px; border-radius: 4px; border: 1px solid var(--border-color); background-color: var(--container-bg); color: var(--text-color); cursor: pointer; white-space: nowrap; }
-    .top-bar-filters { display: flex; gap: 15px; max-height: 0; overflow: hidden; transition: max-height 0.4s ease-out, margin-top 0.4s ease-out, opacity 0.4s; opacity: 0; }
-    .top-bar.is-expanded .top-bar-filters { max-height: 200px; margin-top: 15px; opacity: 1; }
-    .top-bar-filters .filter-group { flex: 1; margin: 0; }
+    
+    .top-bar-filters {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-out, margin-top 0.4s ease-out, opacity 0.4s, padding-bottom 0.4s ease-out;
+        opacity: 0;
+    }
+    .top-bar.is-expanded .top-bar-filters {
+        max-height: 40vh;
+        margin-top: 15px;
+        opacity: 1;
+        padding-bottom: 5px;
+    }
+    .top-bar-filters .filter-group {
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+    }
+    .top-bar-filters .filter-options {
+        max-height: calc(40vh - 60px);
+        overflow-y: auto;
+        padding-right: 5px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -81,11 +106,28 @@ body.modal-open { overflow: hidden; }
     #fab-search { position: fixed; bottom: 20px; right: 20px; width: 50px; height: 50px; background-color: var(--primary-color); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; border: none; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); opacity: 0; visibility: hidden; transform: scale(0.8); transition: opacity 0.3s, visibility 0.3s, transform 0.3s; z-index: 999; }
     #fab-search.is-visible { opacity: 1; visibility: visible; transform: scale(1); }
     .modal-overlay { align-items: flex-end; }
-    #search-modal.modal-overlay .modal-content { border-radius: 16px 16px 0 0; width: 100%; max-width: 100%; transform: translateY(100%); transition: transform 0.3s ease-out; }
-    #search-modal.modal-overlay.is-visible .modal-content { transform: translateY(0); transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1); }
+    #search-modal.modal-overlay .modal-content {
+        border-radius: 16px 16px 0 0; width: 100%; max-width: 100%; transform: translateY(100%);
+        transition: transform 0.3s ease-out;
+    }
+    #search-modal.modal-overlay.is-visible .modal-content {
+        transform: translateY(0);
+        transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1);
+    }
     #notice-modal.modal-overlay { align-items: center; }
     .accordion-state-text { font-size: 0.8em; font-weight: normal; color: var(--muted-text-color); margin-left: 5px; }
+    .filter-group.accordion { display: block; } /* Revert to block for mobile */
     .filter-group.accordion > legend { cursor: pointer; width: 100%; box-sizing: border-box; display: block; }
-    .filter-group.accordion .filter-options { max-height: 0; overflow: hidden; transition: max-height 0.5s ease-out; padding-top: 0; }
-    .filter-group.accordion.is-open .filter-options { max-height: 500px; padding-top: 15px; transition: max-height 0.5s ease-in; }
+    .filter-group.accordion .filter-options {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;
+        padding-top: 0;
+    }
+    .filter-group.accordion.is-open .filter-options {
+        max-height: 150px; /* Set max-height for scrolling */
+        overflow-y: auto;
+        padding-top: 15px;
+        transition: max-height 0.5s ease-in;
+    }
 }
