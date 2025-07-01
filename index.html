@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>静岡市 商品券利用可能店舗 検索</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <header class="top-bar">
+            <div class="top-bar-content">
+                <div class="top-bar-main-row">
+                     <h1>しずトク商品券 取扱店検索</h1>
+                </div>
+                <div id="top-bar-search-area"></div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div id="initial-view">
+                <h2>しずトク商品券 取扱店検索</h2>
+                <p>検索するには絞り込みか「すべて表示」を選択してください</p>
+                <button id="show-all-btn">すべて表示</button>
+            </div>
+            <div id="results-area">
+                <div id="results-count"></div>
+                <div id="results-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer">
+        <p>Last updated: 2025-07-01</p>
+        <p>情報の正確性には万全を期しておりますが、保証するものではありません。</p>
+        <p><span id="site-notice-link">このサイトに関する注意</span></p>
+    </footer>
+
+    <button id="fab-search" aria-label="検索フォームを開く">🔍</button>
+
+    <div id="search-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>店舗を検索</h2>
+            <div id="modal-search-area"></div>
+            <button class="modal-close-btn">閉じる</button>
+        </div>
+    </div>
+    
+    <div id="notice-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>このサイトに関する注意</h2>
+            <p>本サイトは個人が作成した非公式の検索ツールです。</p>
+            <p>掲載している店舗情報は「しずトク商品券」公式サイトの公開PDFを元に作成しておりますが、情報の正確性や最新性について保証するものではありません。</p>
+            <p>商品券の利用可否につきましては、ご利用者様ご自身の責任においてご判断ください。</p>
+            <p>しずトク商品券 店舗リストのPDF：<a href="https://shizu-tokushouhinken.com/stores/" target="_blank" rel="noopener noreferrer">shizu-tokushouhinken.com/stores/</a></p>
+            <p>必要に応じて、直接店舗 または しずトク商品券コールセンターへご確認いただくことを強くおすすめします。</p>
+            <button class="modal-close-btn btn-red">わかりました</button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
