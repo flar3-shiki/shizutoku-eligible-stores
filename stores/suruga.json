@@ -1,718 +1,4298 @@
 [
-  { "name": "DEN珈琲", "category": "飲食店", "ward": "駿河区" },
-  { "name": "赤から 東静岡駅南店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ASAHI coffee&public", "category": "飲食店", "ward": "駿河区" },
-  { "name": "アジアンダイニング カレーナンハウス", "category": "飲食店", "ward": "駿河区" },
-  { "name": "味処 こころ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "味処ふみ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "厚切り牛タン専門店 居酒屋タン吉", "category": "飲食店", "ward": "駿河区" },
-  { "name": "炙り焼&銘酒 えん", "category": "飲食店", "ward": "駿河区" },
-  { "name": "アリラ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "あるよ。宴のへそ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "淡路島バーガー静岡丸子店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "En Terrasse", "category": "飲食店", "ward": "駿河区" },
-  { "name": "eatery hanashiro", "category": "飲食店", "ward": "駿河区" },
-  { "name": "居酒屋 咲", "category": "飲食店", "ward": "駿河区" },
-  { "name": "居酒屋 とんからり", "category": "飲食店", "ward": "駿河区" },
-  { "name": "居酒屋 ひのき", "category": "飲食店", "ward": "駿河区" },
-  { "name": "居酒屋とんがり坊主", "category": "飲食店", "ward": "駿河区" },
-  { "name": "居酒屋ぷん", "category": "飲食店", "ward": "駿河区" },
-  { "name": "いちご狩りパーク&いちごカフェ 久能屋", "category": "飲食店", "ward": "駿河区" },
-  { "name": "一ふじこたか", "category": "飲食店", "ward": "駿河区" },
-  { "name": "一歩", "category": "飲食店", "ward": "駿河区" },
-  { "name": "一本氣蕎麦", "category": "飲食店", "ward": "駿河区" },
-  { "name": "稲穂", "category": "飲食店", "ward": "駿河区" },
-  { "name": "癒やしのカフェ Mother Moon", "category": "飲食店", "ward": "駿河区" },
-  { "name": "入船鮨 南店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "岩久 小鹿店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "岩久豊田店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "岩久 西脇店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "魚民 東静岡南口駅前店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "うさぎびより", "category": "飲食店", "ward": "駿河区" },
-  { "name": "うなぎの鈴茂", "category": "飲食店", "ward": "駿河区" },
-  { "name": "うな政 国吉田店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "海ぼうず", "category": "飲食店", "ward": "駿河区" },
-  { "name": "エアーフラッシュ2", "category": "飲食店", "ward": "駿河区" },
-  { "name": "駅南酒場餃子研究所", "category": "飲食店", "ward": "駿河区" },
-  { "name": "王様の耳はロバの耳", "category": "飲食店", "ward": "駿河区" },
-  { "name": "大阪王将 下川原店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "大政", "category": "飲食店", "ward": "駿河区" },
-  { "name": "お気軽グリルまんぷくや", "category": "飲食店", "ward": "駿河区" },
-  { "name": "お好み焼&鉄板焼 どんまい", "category": "飲食店", "ward": "駿河区" },
-  { "name": "長田商店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "小鹿山荘", "category": "飲食店", "ward": "駿河区" },
-  { "name": "おしかの丘食堂", "category": "飲食店", "ward": "駿河区" },
-  { "name": "おぢや", "category": "飲食店", "ward": "駿河区" },
-  { "name": "お茶和りチャチャチャ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "おでん屋いっとく", "category": "飲食店", "ward": "駿河区" },
-  { "name": "おにおん", "category": "飲食店", "ward": "駿河区" },
-  { "name": "お弁当の「なかのぶ」", "category": "飲食店", "ward": "駿河区" },
-  { "name": "おむすびカフェDCS", "category": "飲食店", "ward": "駿河区" },
-  { "name": "OMOCHA SHIZUOKA 聖一色店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "おわら茶屋", "category": "飲食店", "ward": "駿河区" },
-  { "name": "海鮮道楽 丼丸 静岡宮竹店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ガスト 静岡石田", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ガスト 静岡国吉田", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ガスト 静岡下川原", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ガスト 静岡曲金", "category": "飲食店", "ward": "駿河区" },
-  { "name": "がたろう寿司", "category": "飲食店", "ward": "駿河区" },
-  { "name": "かつ銀 静岡SBS通り店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "かっぱ寿司 静岡有明店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "Caffe' Tone 48", "category": "飲食店", "ward": "駿河区" },
-  { "name": "割烹居酒屋 和tanabe", "category": "飲食店", "ward": "駿河区" },
-  { "name": "Cafe & Restaurant tembooo", "category": "飲食店", "ward": "駿河区" },
-  { "name": "カフェ クレモンティーヌ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "カフェ ブラット", "category": "飲食店", "ward": "駿河区" },
-  { "name": "カフェ メルティングポット", "category": "飲食店", "ward": "駿河区" },
-  { "name": "Cafe PORTO", "category": "飲食店", "ward": "駿河区" },
-  { "name": "Cafe Refresh", "category": "飲食店", "ward": "駿河区" },
-  { "name": "Capri", "category": "飲食店", "ward": "駿河区" },
-  { "name": "からあげ本舗とり若丸 静岡駿河店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "カラオケバーYOU", "category": "飲食店", "ward": "駿河区" },
-  { "name": "からやま 静岡草薙店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "カリフォルニアダイナー ジャッカル", "category": "飲食店", "ward": "駿河区" },
-  { "name": "カルビー丁 静岡店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "カレーハウスココ壱番屋 静岡小黒店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "カレーハウスCoCo壱番屋 静岡丸子新田店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ガンガザムナ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "かん吉 静岡店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ガンジス川 大谷店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ガンジス川 中島店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "広東料理 棗", "category": "飲食店", "ward": "駿河区" },
-  { "name": "季節のお料理 辻むら", "category": "飲食店", "ward": "駿河区" },
-  { "name": "キッチンたうち", "category": "飲食店", "ward": "駿河区" },
-  { "name": "きゃべつ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "牛角 静岡SBS通り店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ぎゅう亭", "category": "飲食店", "ward": "駿河区" },
-  { "name": "京昌園 静岡駅南口店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "串焼酒場たいこう", "category": "飲食店", "ward": "駿河区" },
-  { "name": "くら寿司 静岡インター通り店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "グラデボール 日本平", "category": "飲食店", "ward": "駿河区" },
-  { "name": "グランテーブル", "category": "飲食店", "ward": "駿河区" },
-  { "name": "Grillくらもと", "category": "飲食店", "ward": "駿河区" },
-  { "name": "グルメ亭 静岡丸子店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "GRATEFUL'S HUTPARK用宗店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "京城園", "category": "飲食店", "ward": "駿河区" },
-  { "name": "けのひ堂 静岡店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ケンタッキーフライドチキン 草薙店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ケンタッキーフライドチキン 静岡SBS通り店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "幸八", "category": "飲食店", "ward": "駿河区" },
-  { "name": "珈琲館エバーグリーン", "category": "飲食店", "ward": "駿河区" },
-  { "name": "CoCo OIDE", "category": "飲食店", "ward": "駿河区" },
-  { "name": "こだわりとんかつ かつ政高松店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ごっちゃあん", "category": "飲食店", "ward": "駿河区" },
-  { "name": "此花", "category": "飲食店", "ward": "駿河区" },
-  { "name": "コパン", "category": "飲食店", "ward": "駿河区" },
-  { "name": "五味八珍 静岡豊田店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "五味八珍 東新田店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "コメダ珈琲店 静岡インター店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "コメダ珈琲店 東静岡店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "こもれび食堂", "category": "飲食店", "ward": "駿河区" },
-  { "name": "今夜、バターが溶ける前に", "category": "飲食店", "ward": "駿河区" },
-  { "name": "サーティワンアイスクリーム 静岡長田店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "サーティワンアイスクリーム 静岡高松ロードサイド店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "サイゴン", "category": "飲食店", "ward": "駿河区" },
-  { "name": "栄鮨", "category": "飲食店", "ward": "駿河区" },
-  { "name": "さくら茶寮", "category": "飲食店", "ward": "駿河区" },
-  { "name": "さつき", "category": "飲食店", "ward": "駿河区" },
-  { "name": "サングリア 久能店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "幸せの黄金鯛焼き 県立美術館前店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "シェーブル", "category": "飲食店", "ward": "駿河区" },
-  { "name": "静岡甲羅本店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "自然派惣菜大地", "category": "飲食店", "ward": "駿河区" },
-  { "name": "しぞ〜か 魚to畑 本店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "しぞ〜か魚to畑 駅南銀座店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "十千花前 静岡", "category": "飲食店", "ward": "駿河区" },
-  { "name": "清水港みなみ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "じゅうじゅうカルビ 東静岡店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "熟成焼肉いちばん 静岡曲金店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "酒仙隠家 みなみごち", "category": "飲食店", "ward": "駿河区" },
-  { "name": "旬菜亭 おか蔵", "category": "飲食店", "ward": "駿河区" },
-  { "name": "食事処 わがまま", "category": "飲食店", "ward": "駿河区" },
-  { "name": "次郎丸", "category": "飲食店", "ward": "駿河区" },
-  { "name": "四六時中 静岡石田店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "伸兆", "category": "飲食店", "ward": "駿河区" },
-  { "name": "伸桃縁", "category": "飲食店", "ward": "駿河区" },
-  { "name": "すし居酒屋 伸橋", "category": "飲食店", "ward": "駿河区" },
-  { "name": "すしと板前料理篤", "category": "飲食店", "ward": "駿河区" },
-  { "name": "すし処魚のへそ 駅南店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "スシロー 静岡有明店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "すず乃家", "category": "飲食店", "ward": "駿河区" },
-  { "name": "すたみな太郎 静岡西店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ステーキガスト 静岡SBS通店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ステーキハウスアオヤマ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ステーキハウス成しま草薙店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ステーキレストラン吉田", "category": "飲食店", "ward": "駿河区" },
-  { "name": "Steppin Burger イトーヨーカドー静岡店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "SPICY COLOMBO", "category": "飲食店", "ward": "駿河区" },
-  { "name": "炭火串焼 串はな", "category": "飲食店", "ward": "駿河区" },
-  { "name": "炭火焼肉 慶州", "category": "飲食店", "ward": "駿河区" },
-  { "name": "すみれ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "駿河もつ鍋・地魚 おかだ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "SlowFood3104", "category": "飲食店", "ward": "駿河区" },
-  { "name": "西洋菓子処 シューマン", "category": "飲食店", "ward": "駿河区" },
-  { "name": "そば処 錨", "category": "飲食店", "ward": "駿河区" },
-  { "name": "そば処 志ほ川", "category": "飲食店", "ward": "駿河区" },
-  { "name": "蕎麦処磐石", "category": "飲食店", "ward": "駿河区" },
-  { "name": "そば半 登呂店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "そば半馬渕店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "蕎麦屋神楽 静岡インター店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "蕎麦屋神楽 登呂店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "待月楼", "category": "飲食店", "ward": "駿河区" },
-  { "name": "橙家", "category": "飲食店", "ward": "駿河区" },
-  { "name": "たいやき珈琲", "category": "飲食店", "ward": "駿河区" },
-  { "name": "たきふく", "category": "飲食店", "ward": "駿河区" },
-  { "name": "たこ焼としちゃん", "category": "飲食店", "ward": "駿河区" },
-  { "name": "玉寿司", "category": "飲食店", "ward": "駿河区" },
-  { "name": "だるま商店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "地磯", "category": "飲食店", "ward": "駿河区" },
-  { "name": "CHERRY BEANS COCO", "category": "飲食店", "ward": "駿河区" },
-  { "name": "cherry beans garden 池田の森", "category": "飲食店", "ward": "駿河区" },
-  { "name": "cherry beans portside mochimune", "category": "飲食店", "ward": "駿河区" },
-  { "name": "知久屋 静岡敷地店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "中華・唐子", "category": "飲食店", "ward": "駿河区" },
-  { "name": "中華家gu", "category": "飲食店", "ward": "駿河区" },
-  { "name": "中国飲茶館", "category": "飲食店", "ward": "駿河区" },
-  { "name": "中国料理成華", "category": "飲食店", "ward": "駿河区" },
-  { "name": "チョンマゲ食堂", "category": "飲食店", "ward": "駿河区" },
-  { "name": "つぼ八 静岡駅南口店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "T's green", "category": "飲食店", "ward": "駿河区" },
-  { "name": "手打ち蕎麦とおるや", "category": "飲食店", "ward": "駿河区" },
-  { "name": "てっぱん屋 虎鉄", "category": "飲食店", "ward": "駿河区" },
-  { "name": "デニーズ 静岡草薙店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "天神屋 東新田店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "天神屋 曲金店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "天神屋 道の駅 宇津ノ谷峠下り店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "東海軒 泉町売店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "東海軒 登呂売店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "道とん堀 静岡敷地店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "戸隠そば 草薙店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "戸隠そば登呂店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "鳥幸 さつき町店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "鳥幸 富士見台店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "鶏白湯専門店 五星村", "category": "飲食店", "ward": "駿河区" },
-  { "name": "鳥よし", "category": "飲食店", "ward": "駿河区" },
-  { "name": "とろろ汁の丁子屋", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ドン岩崎", "category": "飲食店", "ward": "駿河区" },
-  { "name": "とんかつ うんの", "category": "飲食店", "ward": "駿河区" },
-  { "name": "とんかつ宇田川", "category": "飲食店", "ward": "駿河区" },
-  { "name": "とんかつ新宿さぼてん 静岡アピタ店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "とんかつとんき", "category": "飲食店", "ward": "駿河区" },
-  { "name": "豚豚 曲金店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "Donfarm", "category": "飲食店", "ward": "駿河区" },
-  { "name": "菜々や", "category": "飲食店", "ward": "駿河区" },
-  { "name": "namiki", "category": "飲食店", "ward": "駿河区" },
-  { "name": "223cafe", "category": "飲食店", "ward": "駿河区" },
-  { "name": "肉のいちの", "category": "飲食店", "ward": "駿河区" },
-  { "name": "Nikou plus", "category": "飲食店", "ward": "駿河区" },
-  { "name": "沼津魚がし鮨 流れ鮨 静岡石田店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "のっけ家 高松店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "のぼり", "category": "飲食店", "ward": "駿河区" },
-  { "name": "呑み処いけちゃん", "category": "飲食店", "ward": "駿河区" },
-  { "name": "バーミヤン 静岡国吉田", "category": "飲食店", "ward": "駿河区" },
-  { "name": "hugcoffee 南町店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "HACO CAFE", "category": "飲食店", "ward": "駿河区" },
-  { "name": "パスタ屋一丁目 アピタ静岡店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "八剣伝 小鹿店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "Patisserie VERT CLAIR", "category": "飲食店", "ward": "駿河区" },
-  { "name": "pâtisserie salut", "category": "飲食店", "ward": "駿河区" },
-  { "name": "早川農園&cafeいちご畑", "category": "飲食店", "ward": "駿河区" },
-  { "name": "HARU", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ピーズレストラン", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ピザーラ静岡インター店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "PIZZERIA&BAR SERENO", "category": "飲食店", "ward": "駿河区" },
-  { "name": "hitotema", "category": "飲食店", "ward": "駿河区" },
-  { "name": "福来源", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ふくわうち", "category": "飲食店", "ward": "駿河区" },
-  { "name": "文田商店 谷田店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "Bakey &Café GALLEY", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ホテルグランヒルズ静岡 ザ テーブル", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ホテルグランヒルズ静岡 中国料理 富翠珠", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ホテルグランヒルズ静岡 バー&ラウンジ エマイユ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ホテルグランヒルズ静岡 日本料理 花凜", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ホテルグランヒルズ静岡 鉄板焼 けやき", "category": "飲食店", "ward": "駿河区" },
-  { "name": "炎群", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ホルモン焼やまだ 静岡駅南店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "本格讃岐うどん こころ彩", "category": "飲食店", "ward": "駿河区" },
-  { "name": "まこと屋", "category": "飲食店", "ward": "駿河区" },
-  { "name": "マドンナ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "マハラジャダイニング", "category": "飲食店", "ward": "駿河区" },
-  { "name": "丸源ラーメン 静岡インター店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "マルコデュパン 聖一色店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "丸田そば 本店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "MANMA", "category": "飲食店", "ward": "駿河区" },
-  { "name": "味楽天", "category": "飲食店", "ward": "駿河区" },
-  { "name": "魅縲", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ミルポワ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "麺処 汐のや", "category": "飲食店", "ward": "駿河区" },
-  { "name": "麺家にのみや", "category": "飲食店", "ward": "駿河区" },
-  { "name": "モスバーガー 静岡小鹿店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "モスバーガー 静岡国一店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "もり竹", "category": "飲食店", "ward": "駿河区" },
-  { "name": "森のなかま 東新田店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "もんじゃ・お好み焼き 月島", "category": "飲食店", "ward": "駿河区" },
-  { "name": "焼津港みなみ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "焼きたてのかるび 静岡SBS通り店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "焼肉きんぐ小黒店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "焼肉ハウス 泉楽", "category": "飲食店", "ward": "駿河区" },
-  { "name": "焼肉ホルモン やまけん2号店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "焼肉ホルモン気分上上", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ヤマサン農園 カフェゆめ苺", "category": "飲食店", "ward": "駿河区" },
-  { "name": "UMI table", "category": "飲食店", "ward": "駿河区" },
-  { "name": "有限会社大信用宗のところてん", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ゆず庵 静岡インター通店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "united", "category": "飲食店", "ward": "駿河区" },
-  { "name": "吉野寿司 高松店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "よつ葉", "category": "飲食店", "ward": "駿河区" },
-  { "name": "405COFFEE", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ラ・アヴェニール", "category": "飲食店", "ward": "駿河区" },
-  { "name": "らぁ麺壱喰", "category": "飲食店", "ward": "駿河区" },
-  { "name": "らーめんとお好み焼きの店 十和田", "category": "飲食店", "ward": "駿河区" },
-  { "name": "Lounge Marry", "category": "飲食店", "ward": "駿河区" },
-  { "name": "LA PALETTE 用宗本店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "りとる", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ルコンテ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ruru plus", "category": "飲食店", "ward": "駿河区" },
-  { "name": "Restaurant Sperare", "category": "飲食店", "ward": "駿河区" },
-  { "name": "レストラン セラヴィ", "category": "飲食店", "ward": "駿河区" },
-  { "name": "レストラン NAGAFUSA", "category": "飲食店", "ward": "駿河区" },
-  { "name": "レストランAoki", "category": "飲食店", "ward": "駿河区" },
-  { "name": "レストラン金とき 池田店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "レストラン駿河 ツインメッセ静岡店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "レストランDADA 静岡中原店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "レストラン PIZZA DADA 草薙店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ROY G BIV", "category": "飲食店", "ward": "駿河区" },
-  { "name": "ロダンテラス", "category": "飲食店", "ward": "駿河区" },
-  { "name": "和牛焼肉 うしいち", "category": "飲食店", "ward": "駿河区" },
-  { "name": "和食さと 静岡池田店", "category": "飲食店", "ward": "駿河区" },
-  { "name": "和ダイニング梅丸", "category": "飲食店", "ward": "駿河区" },
-  { "name": "和の食楽佐平", "category": "飲食店", "ward": "駿河区" },
-  { "name": "和風居酒屋 拓造", "category": "飲食店", "ward": "駿河区" },
-  { "name": "WARABIYA", "category": "飲食店", "ward": "駿河区" },
-  { "name": "arc 中田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "アートライン", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "アイアイ家具", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "アイヒキノ", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "アインリヒト眼鏡院", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "アカチャンホンポ", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "あかのれん 静岡富士見台店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "あかのれん 静岡草薙店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "アクセス ユープラン静岡店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "Approach Ocean Sports", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "アルソア明樹", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "アルペン 静岡石田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "イエローハット 国吉田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "イシグロ 中吉田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ショップどうぶつたちのもり", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "伊奈せんべい 馬渕本店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "有東金魚店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "auショップ 静岡小黒", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "江崎書店 イトーヨーカドー静岡店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "エッセンブロート", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ANGEL", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "OAナガシマ 静岡国吉田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "御菓子庵田子の月 静岡池田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "お米のみうら", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "小田米穀 豊田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "お仏壇のやまき 石田街道店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "音楽舎", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "カーテンじゅうたん王国 静岡店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "カーテンハウス", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "家具の久和屋", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "かしはる 安倍川店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "雅正庵 おやいづ製茶本店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "カネカ園 丸子売店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "カフェドピンポン", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "株式会社イトーヨーカ堂 静岡店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "株式会社静岡合羽橋新村商店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "株式会社静岡西部食糧", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "株式会社メガネパル", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "株式会社望月利雄商店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "神谷家具", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "カメヤマ電器株式会社", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "唐花", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "CookiePige HUTPARK 用宗店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "靴の宮崎 小鹿店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "クボタ時計店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "くらしかる", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "慶州精肉店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ケーズデンキ 静岡駿河店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "元気ハピミルク", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "コーナンPRO静岡店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "コジマ×ビックカメラ静岡店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "コスモスベリーズ 静岡豊田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "呉服のニチブン", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "こまちや化粧品店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "米のジャンケンポン 東新田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ゴルフパートナー カネボウ通り馬渕店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ゴルフ5 静岡石田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "サイクルベースあさひ 静岡インター通店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "酒ゃビック 静岡下川原店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "酒ゃビック 静岡中村町店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "酒ゃビック 静岡曲金店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "サナ", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "静岡茶 藤川英一商店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "静岡ホビースクエア", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "しずてつストア花だより", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "シャレル イトーヨーカドー店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ジャンボエンチョー 静岡店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ジャンボエンチョー 下川原店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "シュープラザ 下川原店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ジョイプラザ 高松店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ショップトライアル本部", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "しんこう電気", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "Zoo Square 静岡店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "スーパーオートバックス 静岡中原", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "鈴木こうじ店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ステップインたまるや", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "すみやグッディ SBS通り店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "駿河屋馬渕店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "芹沢銈介美術館museumshop", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "鮮魚 魚芳", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "惣菜文香", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "創作珈琲工房くれあーる", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "大市カーテン", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ダイブハウスコーコス", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "高橋そば製粉株式会社", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "タムララジオ", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "月ヶ瀬", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "TSUTAYA 静岡西脇店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ヤマダデンキ テックランド 静岡国吉田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ヤマダデンキ テックランド 静岡店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "東海道写楽 西脇店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ドン・キホーテ SBS通り店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "南海部品 静岡中原店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "にしきや", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "西松屋チェーン 静岡敷地店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "西松屋チェーン 静岡下川原店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ニトリ 静岡草薙店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "日本平紅茶", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ノエル フラワースタジオ", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "野中酒店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ハードストック静岡", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "バイシクルわたなべ カネボウ通り店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ハウマッチライフ 静岡産業館西通り店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "HACO STORE", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "パッチワーク・パフ", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "はなしろ", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ピーターパン するが工房", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "フィッシングまえじま", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "フィッシング遊 静岡池田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "風船の店 ハッピーバルーン", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "婦人洋品モリモト", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ブックオフ 静岡馬渕店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ふりあんかどや", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "フリーズショップ-79℃", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "文具館コバヤシ 長田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "文具館コバヤシ 豊田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "文具館コバヤシ 馬渕店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ベスト電器 静岡西店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "豊月堂 曲金本店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ホームプラザナフコ丸子店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "保昇軒", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "増田焼豚本舗", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "マックハウス 静岡下川原", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "マル・メール", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "マルイチ 静岡店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "マルカイ本店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ミナローザ", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "夢天菓", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "メイツあおしま", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "メガネ 時計 ハクラ", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "眼鏡市場 静岡駅南店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "眼鏡市場 静岡SBS通り店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "眼鏡市場 静岡東新田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "眼鏡市場 静岡富士見台店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "メガネスーパー 静岡曲金店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "もち吉 静岡店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "molli", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "UMI qupu", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "オオハシ電気", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "有限会社しらい酒店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "有限会社駿府宅配センター", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "洋品のしおばら", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "洋服の青山 静岡インター店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "洋服の青山 東静岡駅前店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "吉見書店 長田店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ララちゃんランドセル 静岡ショールーム", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "リサイクルショップ スリフティ", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "リュバン 日本平店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ワイズ・ワーク・ステンドグラス", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ワインセラー マツキヤ", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "ワタキューリビング 小黒店", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "有限会社ワインショップハギワラ", "category": "ショッピング(小売店)", "ward": "駿河区" },
-  { "name": "エスポット静岡駅南店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "エブリィビッグデー 駿河店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "業務スーパー草薙店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "業務スーパー静岡東新田店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ザ・ビッグ 静岡川原店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ザ・ビッグ 静岡新川店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ザ・ビッグ 静岡登呂店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "しずてつストア KITEGO 南町店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "しずてつストア 丸子店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "しずてつストア みずほ店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "しずてつストア 宮本町店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "食鮮館タイヨー 高松店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "スーパーアンドウ国吉田店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "スーパーおさだ", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "スーパーマーケットバロー 大坪店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "スーパーマーケットバロー 富士見台店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "スーパーマーケットバロー 丸子新田店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "セブン-イレブン 静岡安倍川駅前店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "セブンイレブン静岡大坪町店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "セブンイレブン 静岡小鹿店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "セブンイレブン 静岡下川原5丁目店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "セブン-イレブン 静岡下島店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "セブンイレブン 静岡西島店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "セブンイレブン 静岡馬渕3丁目店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "セブン-イレブン 静岡みずほ店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "セブン-イレブン 静岡用宗店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "セブン-イレブン 静岡桃園町店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "セブン-イレブン 静岡森下町店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "セブンイレブン 静岡八幡1丁目店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "セブン-イレブン 静岡馬渕店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "田子重下川原店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "田子重 西中原店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ファミリーマート 静岡池田街道店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ファミリーマート 静岡長田店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ファミリーマート 静岡手越原店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ファミリーマート 静岡曲金七丁目店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ファミリーマート 静岡みずほ店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ファミリーマート 静岡緑が丘店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ファミリーマート 静岡池田店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ファミリーマート 静岡小鹿公園前", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ファミリーマート静岡高松二丁目店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ファミリーマート 静岡登呂六丁目店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ファミリーマート静岡富士見台店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "フードマーケットマム 大谷店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "フードマーケットマム 小鹿店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "フードマーケットマム 下川原店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "フードマーケットマム 高松店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "フードマーケットマム 曲金店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "フードマーケットマム生鮮市場 鎌田店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "フードマーケットマム生鮮市場 みずほ店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "富士屋 中田店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "プライムフーズマーケット 静岡1st", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "マックスバリュEX静岡西脇店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "マックスバリュ静岡曲金店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "マックスバリュ静岡丸子店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ミニストップ 静岡中田店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ミニストップ静岡中村町店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ミニストップ静岡谷田店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ミニストップ日本平PA下り店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン 草薙総合運動場前店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン 静岡敷地店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン 静岡手越店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン 静岡東新田1丁目店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン 静岡豊田三丁目", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン 静岡中原店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン 静岡西脇店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン 静岡西脇南店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン 静岡馬渕三丁目店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン 静岡丸子二丁目店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン 静岡みずほ三丁目店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン 静岡南安部店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン静岡登呂一丁目店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "ローソン静岡八幡五丁目店", "category": "コンビニ・スーパー", "ward": "駿河区" },
-  { "name": "V・drug 駿河敷地店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "V・drug 駿河下川原店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "V・drug 駿河北丸子店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "V・drug 駿河西脇店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ウエルシア 静岡用宗店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ウエルシア 静岡東新田店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ウエルシア 静岡みずほ店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ウエルシア 静岡西脇店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ウエルシア 静岡中吉田店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ウエルシア 静岡中原店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ウエルシア 静岡池田店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ウエルシア 静岡中田店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ウエルシア 静岡高松店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ウエルシア 静岡丸子店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ウエルシア 静岡下川原店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ウエルシア薬局 静岡エスパティオ店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "石川薬局 小鹿店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "石川薬局ゼフィルス", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ウエルシア静岡下川原西店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "杏林堂薬局 静岡大坪店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "杏林堂薬局 静岡小鹿店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "杏林堂薬局 静岡草薙店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "杏林堂薬局 静岡登呂店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "杏林堂薬局 テレビ静岡前店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "サンドラッグ 静岡イトーヨーカドー店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "サンドラッグ 静岡富士見台店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "スギドラッグ 駿河西島店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "スギドラッグ 駿河広野店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "スギ薬局 池田店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "スギ薬局 手越店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "スギ薬局 東静岡店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "たんぽぽ薬局小鹿店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "ドラッグス タカダ", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "マツモトキヨシ 静岡馬渕店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "マツモトキヨシ 寺田店", "category": "ドラッグストア", "ward": "駿河区" },
-  { "name": "AOKI 静岡インター店", "category": "ファッション", "ward": "駿河区" },
-  { "name": "AKAISHI直営店 静岡本店", "category": "ファッション", "ward": "駿河区" },
-  { "name": "Ambiance", "category": "ファッション", "ward": "駿河区" },
-  { "name": "株式会社ユニクロ 静岡国吉田店", "category": "ファッション", "ward": "駿河区" },
-  { "name": "着物仕立て・お直し 辻村", "category": "ファッション", "ward": "駿河区" },
-  { "name": "Chouette", "category": "ファッション", "ward": "駿河区" },
-  { "name": "Toko Ramai", "category": "ファッション", "ward": "駿河区" },
-  { "name": "marumaru", "category": "ファッション", "ward": "駿河区" },
-  { "name": "Men's & Ladies Nanami", "category": "ファッション", "ward": "駿河区" },
-  { "name": "UMI calf", "category": "ファッション", "ward": "駿河区" },
-  { "name": "一棟貸しの宿 日本色", "category": "旅館・ホテル", "ward": "駿河区" },
-  { "name": "徳川の奥座敷 久能宿<LIBERTY RESORT>", "category": "旅館・ホテル", "ward": "駿河区" },
-  { "name": "ホテルグランヒルズ静岡", "category": "旅館・ホテル", "ward": "駿河区" },
-  { "name": "リバティーリゾート久能山", "category": "旅館・ホテル", "ward": "駿河区" },
-  { "name": "merry land 見瀬店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "IE.RAE", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "明美指圧はりきゅう室", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "asian relaxation villa 静岡西R1店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "アット美容室", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "Atelier Venus", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "亜利姿", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "antique 美術館前", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "wit hair", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "A.D.E sugata ヨーカドー静岡店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "エステ以上治療未満の未病ケアサロン EMINY", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "N's", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "カイロプラクティック クアトロ", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "カット&シェーブやすまつ", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "カットサロンHand's 安倍川駅前店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "カットサロンHand's 手越店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "カットサロンHand's 丸子店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "cut space NAKAGAWA", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "カットハウスビーヘアー", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "からだメンテナンス整体CocoKaraHare", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "killik", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "QUATRO EAST", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "COALON.", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "米ぬか100%酵素風呂いまむら", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "CEサロン Citron", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "CEサロンAO", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "CEサロンemu", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "shige's hair", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "静岡長生館 小黒院", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "SHIZUKU", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "躾勢美 サロン幸", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "しんみ理容館", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "スタジオ ジュビランコットン", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "整体院一歩~ippo~", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "整体院くるら", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "創BODYDESIGN 静岡南店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "そうま鍼灸マッサージ院", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "W/Aヘアーメイク", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "TOBE", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "ネイル・耳つぼサロン rosarosa*", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "ネネ美容室", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "ビーヘアーステージⅡ", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "美肌エステ・脱毛 pixie433", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "ひまわり接骨院", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "Beauty parlors 愛", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "美容室 ミルソルズ・ポイント", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "美容室 夢先案内", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "美容室カレラ", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "美容室GRAZ", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "美容室THREE", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "美容室デューン", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "美容室パートナ", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "フットファースト静岡草薙かのん店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "hair amplop", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "Hair Art BUNTLINE", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "hair&make zone", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "HAIR Cranial毛髪補修クリニック", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "ヘアークラブ ウイン", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "ヘアーサロンミヤガワ", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "hairstudioPADDOCK", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "ヘアーメイクマツウラ", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "hairclub HEADS", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "hair space jack", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "BELLO", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "ホリスティックケアサロン Ruon", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "ホルミシスリンパサロン Chalcedny", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "マックスビューティー", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "mamAsIenne(total beauty salon)", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "守接骨院・鍼灸院 新川院", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "守接骨院・鍼灸院 八幡院", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "merry land 曲金店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "もみかる 150号下川原店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "もみかる 小黒店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "もみかる 静岡本店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "もみかる 総本店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "モルティー 小鹿店", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "ゆるリラ", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "理容富部", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "リラクゼーション&フェイシャルサロン LA MER【ラメール】", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "リラックスの彩(いろどり)", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "RILU", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "ルルーディア", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "Loge", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "ロン美容室", "category": "美容院・サロン・整体・マッサージ", "ward": "駿河区" },
-  { "name": "せいなんクリーニング", "category": "クリーニング", "ward": "駿河区" },
-  { "name": "富士ドライ", "category": "クリーニング", "ward": "駿河区" },
-  { "name": "牧野クリーニング店", "category": "クリーニング", "ward": "駿河区" },
-  { "name": "うど交通株式会社", "category": "タクシー・運転代行", "ward": "駿河区" },
-  { "name": "静岡平和タクシー株式会社", "category": "タクシー・運転代行", "ward": "駿河区" },
-  { "name": "ENEOS ディオス栗原SS", "category": "ガソリンスタンド", "ward": "駿河区" },
-  { "name": "ENEOS ディオス中村町SS", "category": "ガソリンスタンド", "ward": "駿河区" },
-  { "name": "KeePerPROSHOP高松", "category": "ガソリンスタンド", "ward": "駿河区" },
-  { "name": "カーケアステーション南安倍川", "category": "ガソリンスタンド", "ward": "駿河区" },
-  { "name": "セルフ静岡インター", "category": "ガソリンスタンド", "ward": "駿河区" },
-  { "name": "セルフ緑が丘", "category": "ガソリンスタンド", "ward": "駿河区" },
-  { "name": "高宮給油所", "category": "ガソリンスタンド", "ward": "駿河区" },
-  { "name": "中村町SS", "category": "ガソリンスタンド", "ward": "駿河区" },
-  { "name": "パティオ池田SS", "category": "ガソリンスタンド", "ward": "駿河区" },
-  { "name": "パティオ草薙", "category": "ガソリンスタンド", "ward": "駿河区" },
-  { "name": "静岡フットサルスタジアムヴィヴァーチェ", "category": "娯楽施設", "ward": "駿河区" },
-  { "name": "Art Jewelry Yoshikawa", "category": "その他", "ward": "駿河区" },
-  { "name": "ICTパソコンスクール アクセス ユープラン 静岡東新田教室", "category": "その他", "ward": "駿河区" },
-  { "name": "いちごみるく 南安倍店", "category": "その他", "ward": "駿河区" },
-  { "name": "稲毛輪業", "category": "その他", "ward": "駿河区" },
-  { "name": "エイト・トラベル", "category": "その他", "ward": "駿河区" },
-  { "name": "auショップ 静岡駅南", "category": "その他", "ward": "駿河区" },
-  { "name": "小鹿屋菓子舗", "category": "その他", "ward": "駿河区" },
-  { "name": "株式会社中島商店 中田店", "category": "その他", "ward": "駿河区" },
-  { "name": "株式会社花村安政葵商店 丸子営業所", "category": "その他", "ward": "駿河区" },
-  { "name": "株式会社村松精肉店", "category": "その他", "ward": "駿河区" },
-  { "name": "ClimbingJAM", "category": "その他", "ward": "駿河区" },
-  { "name": "サイクルワークス 静岡インター店", "category": "その他", "ward": "駿河区" },
-  { "name": "桜井自転車店", "category": "その他", "ward": "駿河区" },
-  { "name": "J-netレンタリース 静岡駅新幹線口店", "category": "その他", "ward": "駿河区" },
-  { "name": "J-netレンタリース 静岡店", "category": "その他", "ward": "駿河区" },
-  { "name": "シューズショップ レシピ", "category": "その他", "ward": "駿河区" },
-  { "name": "杉山オート", "category": "その他", "ward": "駿河区" },
-  { "name": "スタジオカルフ", "category": "その他", "ward": "駿河区" },
-  { "name": "ステンドグラス工房 ル・セルフィーユ", "category": "その他", "ward": "駿河区" },
-  { "name": "駿府の工房 匠宿", "category": "その他", "ward": "駿河区" },
-  { "name": "聖隷健康サポートセンターShizuoka", "category": "その他", "ward": "駿河区" },
-  { "name": "TANIMURA GYM", "category": "その他", "ward": "駿河区" },
-  { "name": "Chipakoya", "category": "その他", "ward": "駿河区" },
-  { "name": "テイクアウト金とき 池田店", "category": "その他", "ward": "駿河区" },
-  { "name": "東海自動車工業 静岡支店", "category": "その他", "ward": "駿河区" },
-  { "name": "トップロード", "category": "その他", "ward": "駿河区" },
-  { "name": "鳥羽漆芸", "category": "その他", "ward": "駿河区" },
-  { "name": "トヨタレンタカー 静岡新幹線口店", "category": "その他", "ward": "駿河区" },
-  { "name": "永嶋板金店", "category": "その他", "ward": "駿河区" },
-  { "name": "日本調剤 静岡豊田薬局", "category": "その他", "ward": "駿河区" },
-  { "name": "BIKE二番館", "category": "その他", "ward": "駿河区" },
-  { "name": "萩錦酒造株式会社", "category": "その他", "ward": "駿河区" },
-  { "name": "ひばり東新田薬局", "category": "その他", "ward": "駿河区" },
-  { "name": "ひばり谷田薬局", "category": "その他", "ward": "駿河区" },
-  { "name": "Fang for Stray Catz. ネコカフェ ファング。", "category": "その他", "ward": "駿河区" },
-  { "name": "Photo Atelier LuLu", "category": "その他", "ward": "駿河区" },
-  { "name": "フォトスタジオ中屋", "category": "その他", "ward": "駿河区" },
-  { "name": "マイウェディング中屋", "category": "その他", "ward": "駿河区" },
-  { "name": "用宗みなと温泉", "category": "その他", "ward": "駿河区" },
-  { "name": "森のくまさん", "category": "その他", "ward": "駿河区" },
-  { "name": "薬局メディスン高松店", "category": "その他", "ward": "駿河区" },
-  { "name": "薬局メディスン中田店", "category": "その他", "ward": "駿河区" },
-  { "name": "薬局メディスン長田店", "category": "その他", "ward": "駿河区" },
-  { "name": "薬局メディスン中田みなみ店", "category": "その他", "ward": "駿河区" },
-  { "name": "薬局メディスンみずほ店", "category": "その他", "ward": "駿河区" },
-  { "name": "山内屋", "category": "その他", "ward": "駿河区" },
-  { "name": "有限会社クレスト", "category": "その他", "ward": "駿河区" },
-  { "name": "有限会社坂本建設", "category": "その他", "ward": "駿河区" },
-  { "name": "有限会社タキイ輪店", "category": "その他", "ward": "駿河区" },
-  { "name": "リビング羽田", "category": "その他", "ward": "駿河区" },
-  { "name": "ル・グランジュ", "category": "その他", "ward": "駿河区" },
-  { "name": "ロボ団エディオン静岡曲金校", "category": "その他", "ward": "駿河区" }
+  {
+    "name": "DEN珈琲",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原３丁目６−１４"
+  },
+  {
+    "name": "赤から 東静岡駅南店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金７丁目８−１２"
+  },
+  {
+    "name": "ASAHI coffee&public",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町５−３６ オラシオン南町 ３ 1階"
+  },
+  {
+    "name": "アジアンダイニング カレーナンハウス",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田１丁目１１−２８"
+  },
+  {
+    "name": "味処 こころ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕４丁目１４−９ 味処 こころ"
+  },
+  {
+    "name": "味処ふみ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区寺田１６−１ さかやアパート"
+  },
+  {
+    "name": "厚切り牛タン専門店 居酒屋タン吉",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区石田１丁目３−３３"
+  },
+  {
+    "name": "炙り焼&銘酒 えん",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田本町１７−１８"
+  },
+  {
+    "name": "アリラ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗２丁目１４−１１ ＨＡＩＲ・ＳＰＡ ＫＡＮＣＡ 西側サロン"
+  },
+  {
+    "name": "あるよ。宴のへそ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町３−２２ 宴のへそ"
+  },
+  {
+    "name": "淡路島バーガー静岡丸子店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子３丁目７−２"
+  },
+  {
+    "name": "En Terrasse",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡県静岡市葵区両替町２丁目７−１２ 滝浪ビル 1F"
+  },
+  {
+    "name": "eatery hanashiro",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡県静岡市葵区横田町４−２１ 花城"
+  },
+  {
+    "name": "居酒屋 咲",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町５−２２ 芹澤ビル 1階"
+  },
+  {
+    "name": "居酒屋 とんからり",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町２−１"
+  },
+  {
+    "name": "居酒屋 ひのき",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ３丁目１１−３ 居酒屋ひのき。"
+  },
+  {
+    "name": "居酒屋とんがり坊主",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中原５８７−１ 居酒屋とんがり坊主"
+  },
+  {
+    "name": "居酒屋ぷん",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗１丁目２８−９ タガタコーポ 1-6"
+  },
+  {
+    "name": "いちご狩りパーク&いちごカフェ 久能屋",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区根古屋３０"
+  },
+  {
+    "name": "一ふじこたか",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "一歩",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１９−２６ 飯塚ビル 1F"
+  },
+  {
+    "name": "一本氣蕎麦",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡３丁目１−２１"
+  },
+  {
+    "name": "稲穂",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町５−３６"
+  },
+  {
+    "name": "癒やしのカフェ Mother Moon",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿３丁目１−４１"
+  },
+  {
+    "name": "入船鮨 南店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町６−６"
+  },
+  {
+    "name": "岩久 小鹿店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿２丁目３２−１２"
+  },
+  {
+    "name": "岩久豊田店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区豊田３丁目８"
+  },
+  {
+    "name": "岩久 西脇店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇８７５−６"
+  },
+  {
+    "name": "魚民 東静岡南口駅前店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金６丁目６−1 1 階2階"
+  },
+  {
+    "name": "うさぎびより",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１０−１２ T.Sビルディング 6階"
+  },
+  {
+    "name": "うなぎの鈴茂",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕２丁目１０−２４"
+  },
+  {
+    "name": "うな政 国吉田店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田４丁目４−１２"
+  },
+  {
+    "name": "海ぼうず",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "エアーフラッシュ2",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子３丁目７−５"
+  },
+  {
+    "name": "駅南酒場餃子研究所",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町７丁目７−１"
+  },
+  {
+    "name": "王様の耳はロバの耳",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区宮竹１丁目３−１８ 児童デイＳＥＳするが"
+  },
+  {
+    "name": "大阪王将 下川原店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原５丁目３６−３８"
+  },
+  {
+    "name": "大政",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区向敷地１丁目５−３２"
+  },
+  {
+    "name": "お気軽グリルまんぷくや",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中吉田３９−１６ エクセル山本"
+  },
+  {
+    "name": "お好み焼&鉄板焼 どんまい",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中原８７７−１"
+  },
+  {
+    "name": "長田商店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕４丁目１４−９"
+  },
+  {
+    "name": "小鹿山荘",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿９３０−３ パークサイド樹らん"
+  },
+  {
+    "name": "おしかの丘食堂",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿１３８０−１"
+  },
+  {
+    "name": "おぢや",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕４丁目７−１５ おぢや"
+  },
+  {
+    "name": "お茶和りチャチャチャ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町2丁目３−１４ エスカイア南町 101号室"
+  },
+  {
+    "name": "おでん屋いっとく",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田５２８−２"
+  },
+  {
+    "name": "おにおん",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕２丁目７−３ おにおん"
+  },
+  {
+    "name": "お弁当の「なかのぶ」",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡１丁目２−８"
+  },
+  {
+    "name": "おむすびカフェDCS",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１−３"
+  },
+  {
+    "name": "OMOCHA SHIZUOKA 聖一色店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区聖一色１５４−４"
+  },
+  {
+    "name": "おわら茶屋",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区宮本町２−７"
+  },
+  {
+    "name": "海鮮道楽 丼丸 静岡宮竹店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区宮竹１丁目１３−１２"
+  },
+  {
+    "name": "ガスト 静岡石田",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区石田１丁目４−３６"
+  },
+  {
+    "name": "ガスト 静岡国吉田",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田１丁目２−２６"
+  },
+  {
+    "name": "ガスト 静岡下川原",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原３丁目１９−３３"
+  },
+  {
+    "name": "ガスト 静岡曲金",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金５丁目２−４０"
+  },
+  {
+    "name": "がたろう寿司",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松１丁目１６−２５"
+  },
+  {
+    "name": "かつ銀 静岡SBS通り店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中村町２２５−１"
+  },
+  {
+    "name": "かっぱ寿司 静岡有明店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区有明町７−１５"
+  },
+  {
+    "name": "Caffe' Tone 48",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区光陽町４８"
+  },
+  {
+    "name": "割烹居酒屋 和tanabe",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町２−２４ カプセルインシズオカ 2F"
+  },
+  {
+    "name": "Cafe & Restaurant tembooo",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂３丁目１−１ 静岡新聞放送会館 17階"
+  },
+  {
+    "name": "カフェ クレモンティーヌ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区稲川１丁目５−３"
+  },
+  {
+    "name": "カフェ ブラット",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区津島町１２−２８"
+  },
+  {
+    "name": "カフェ メルティングポット",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "Cafe PORTO",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗３丁目９−２７"
+  },
+  {
+    "name": "Cafe Refresh",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田１７９５−１ ＣａｆｅＲｅｆｒｅｓｈ"
+  },
+  {
+    "name": "Capri",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区稲川１丁目２−３６"
+  },
+  {
+    "name": "からあげ本舗とり若丸 静岡駿河店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区有東３丁目１−５"
+  },
+  {
+    "name": "カラオケバーYOU",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町２−２３ コーポマックス 1F1D1号室"
+  },
+  {
+    "name": "からやま 静岡草薙店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区聖一色１９４−６"
+  },
+  {
+    "name": "カリフォルニアダイナー ジャッカル",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区聖一色４２１−３"
+  },
+  {
+    "name": "カルビー丁 静岡店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区緑が丘町２−１０"
+  },
+  {
+    "name": "カレーハウスココ壱番屋 静岡小黒店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小黒２丁目９−１６"
+  },
+  {
+    "name": "カレーハウスCoCo壱番屋 静岡丸子新田店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子新田３１７−３"
+  },
+  {
+    "name": "ガンガザムナ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目１０−２２ Ｃｈｉｌｄ"
+  },
+  {
+    "name": "かん吉 静岡店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田４丁目１９−５"
+  },
+  {
+    "name": "ガンジス川 大谷店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大谷１丁目４−１９"
+  },
+  {
+    "name": "ガンジス川 中島店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中島７３６−２"
+  },
+  {
+    "name": "広東料理 棗",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗２丁目１３−１９"
+  },
+  {
+    "name": "季節のお料理 辻むら",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区津島町１３−５"
+  },
+  {
+    "name": "キッチンたうち",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金６丁目２−３１ とんかつたうち"
+  },
+  {
+    "name": "きゃべつ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金６丁目１−５４ 1階 レストラン"
+  },
+  {
+    "name": "牛角 静岡SBS通り店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田本町１７−１２"
+  },
+  {
+    "name": "ぎゅう亭",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中島６９７−４"
+  },
+  {
+    "name": "京昌園 静岡駅南口店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１０−1 4F・5F"
+  },
+  {
+    "name": "串焼酒場たいこう",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町２−２３ コーポマックス"
+  },
+  {
+    "name": "くら寿司 静岡インター通り店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西中原１丁目７−３０"
+  },
+  {
+    "name": "グラデボール 日本平",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田１１５６−１"
+  },
+  {
+    "name": "グランテーブル",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区弥生町６−１"
+  },
+  {
+    "name": "Grillくらもと",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１１−１６ ノイエプラッツ １階"
+  },
+  {
+    "name": "グルメ亭 静岡丸子店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子３丁目１２−９２"
+  },
+  {
+    "name": "GRATEFUL'S HUTPARK用宗店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗４丁目１９−１２ HUT PARK １-Ｂ"
+  },
+  {
+    "name": "京城園",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下島２０６ 京城園"
+  },
+  {
+    "name": "けのひ堂 静岡店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金３丁目４−３"
+  },
+  {
+    "name": "ケンタッキーフライドチキン 草薙店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中吉田１５−５"
+  },
+  {
+    "name": "ケンタッキーフライドチキン 静岡SBS通り店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田本町４４−１５"
+  },
+  {
+    "name": "幸八",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗１丁目２８−９ 幸八"
+  },
+  {
+    "name": "珈琲館エバーグリーン",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田７１７"
+  },
+  {
+    "name": "CoCo OIDE",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区有明町１２−１５"
+  },
+  {
+    "name": "こだわりとんかつ かつ政高松店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下島４２１−１"
+  },
+  {
+    "name": "ごっちゃあん",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田３丁目１−８ ごっちゃあん"
+  },
+  {
+    "name": "此花",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕４丁目１４−３"
+  },
+  {
+    "name": "コパン",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子６丁目１５−７"
+  },
+  {
+    "name": "五味八珍 静岡豊田店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区豊田１丁目４−５８"
+  },
+  {
+    "name": "五味八珍 東新田店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田１丁目１５−２６８−６"
+  },
+  {
+    "name": "コメダ珈琲店 静岡インター店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区緑が丘町２−１"
+  },
+  {
+    "name": "コメダ珈琲店 東静岡店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金６丁目６−２６"
+  },
+  {
+    "name": "こもれび食堂",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡２丁目８−１"
+  },
+  {
+    "name": "今夜、バターが溶ける前に",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区聖一色４７１−４"
+  },
+  {
+    "name": "サーティワンアイスクリーム 静岡長田店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田２丁目１６−２２"
+  },
+  {
+    "name": "サーティワンアイスクリーム 静岡高松ロードサイド店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松２丁目５−６"
+  },
+  {
+    "name": "サイゴン",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中村町３７−３"
+  },
+  {
+    "name": "栄鮨",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿３丁目１６−２"
+  },
+  {
+    "name": "さくら茶寮",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区向敷地６丁目４−８６"
+  },
+  {
+    "name": "さつき",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区さつき町"
+  },
+  {
+    "name": "サングリア 久能店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区根古屋１６２−１"
+  },
+  {
+    "name": "幸せの黄金鯛焼き 県立美術館前店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区谷田４１−１ コーポラスアートヒル"
+  },
+  {
+    "name": "シェーブル",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区谷田４１−３０ アベニューサモン 103"
+  },
+  {
+    "name": "静岡甲羅本店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田１丁目５−１０"
+  },
+  {
+    "name": "自然派惣菜大地",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿２丁目１−１"
+  },
+  {
+    "name": "しぞ〜か 魚to畑 本店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１３−３ ＴＫビル B1F"
+  },
+  {
+    "name": "しぞ〜か魚to畑 駅南銀座店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町５−２３ Camden"
+  },
+  {
+    "name": "十千花前 静岡",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町３−２"
+  },
+  {
+    "name": "清水港みなみ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区森下町１−４１ タイヨウビル ２階"
+  },
+  {
+    "name": "じゅうじゅうカルビ 東静岡店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金６丁目８−２９"
+  },
+  {
+    "name": "熟成焼肉いちばん 静岡曲金店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金５丁目１−２５"
+  },
+  {
+    "name": "酒仙隠家 みなみごち",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区泉町７−１３"
+  },
+  {
+    "name": "旬菜亭 おか蔵",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区広野４丁目５−１"
+  },
+  {
+    "name": "食事処 わがまま",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗２丁目１７−２ みなと横丁 1-4"
+  },
+  {
+    "name": "次郎丸",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗２丁目１７−２ みなと横丁 2階"
+  },
+  {
+    "name": "四六時中 静岡石田店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南八幡町８−２２ セントラルスクエア静岡グルメ館 ２階"
+  },
+  {
+    "name": "伸兆",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区桃園町５−５"
+  },
+  {
+    "name": "伸桃縁",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区桃園町２０−１６"
+  },
+  {
+    "name": "すし居酒屋 伸橋",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区広野４丁目８−１８"
+  },
+  {
+    "name": "すしと板前料理篤",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿１丁目４−１９"
+  },
+  {
+    "name": "すし処魚のへそ 駅南店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１−２ 魚のへそ"
+  },
+  {
+    "name": "スシロー 静岡有明店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区有明町１２−１２"
+  },
+  {
+    "name": "すず乃家",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇４４８"
+  },
+  {
+    "name": "すたみな太郎 静岡西店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区手越原６６−１"
+  },
+  {
+    "name": "ステーキガスト 静岡SBS通店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中村町３３３−１"
+  },
+  {
+    "name": "ステーキハウスアオヤマ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地２丁目２５−１０ South Rim 1F"
+  },
+  {
+    "name": "ステーキハウス成しま草薙店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区谷田４−５"
+  },
+  {
+    "name": "ステーキレストラン吉田",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ２丁目７−５"
+  },
+  {
+    "name": "Steppin Burger イトーヨーカドー静岡店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金３丁目１−５ 1F"
+  },
+  {
+    "name": "SPICY COLOMBO",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "オラシオン南町２ ２Ｆ, １０-14 南町 駿河区 静岡市 静岡県 422-8067 日本"
+  },
+  {
+    "name": "炭火串焼 串はな",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田１丁目２−２２ 大村店舗 北東"
+  },
+  {
+    "name": "炭火焼肉 慶州",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区緑が丘町１１−１ 炭火焼肉慶州"
+  },
+  {
+    "name": "すみれ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡３丁目２１−３ すみれ"
+  },
+  {
+    "name": "駿河もつ鍋・地魚 おかだ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町４−６"
+  },
+  {
+    "name": "SlowFood3104",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡２丁目９−４ コダカビル 1F"
+  },
+  {
+    "name": "西洋菓子処 シューマン",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松２丁目８−２７"
+  },
+  {
+    "name": "そば処 錨",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中吉田３９−１６ エクセル山本"
+  },
+  {
+    "name": "そば処 志ほ川",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町５−３２ 志ほ川ビル"
+  },
+  {
+    "name": "蕎麦処磐石",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中島３７０−１ 四ツ田ビル"
+  },
+  {
+    "name": "そば半 登呂店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂６丁目２−１"
+  },
+  {
+    "name": "そば半馬渕店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕４丁目５−２３"
+  },
+  {
+    "name": "蕎麦屋神楽 静岡インター店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中野新田１７３"
+  },
+  {
+    "name": "蕎麦屋神楽 登呂店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南八幡町２３−１５ オラシオン南八幡Ａ"
+  },
+  {
+    "name": "待月楼",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子３３０５"
+  },
+  {
+    "name": "橙家",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子新田２４７ 橙家"
+  },
+  {
+    "name": "たいやき珈琲",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗４丁目３−５０"
+  },
+  {
+    "name": "たきふく",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目６−１５"
+  },
+  {
+    "name": "たこ焼としちゃん",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子２丁目１−８"
+  },
+  {
+    "name": "玉寿司",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区聖一色７３−５"
+  },
+  {
+    "name": "だるま商店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１０−１１ オラシオン南町 １F"
+  },
+  {
+    "name": "地磯",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田４丁目２−３８"
+  },
+  {
+    "name": "CHERRY BEANS COCO",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南八幡町８−２２ アピタクォーレ 館２F"
+  },
+  {
+    "name": "cherry beans garden 池田の森",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田１２６３"
+  },
+  {
+    "name": "cherry beans portside mochimune",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗２丁目１７−１ みなと横丁 2"
+  },
+  {
+    "name": "知久屋 静岡敷地店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目２７−３"
+  },
+  {
+    "name": "中華・唐子",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区富士見台１丁目１１−１４ 中国料理唐子"
+  },
+  {
+    "name": "中華家gu",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡５丁目３−５"
+  },
+  {
+    "name": "中国飲茶館",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区新川２丁目４−２０"
+  },
+  {
+    "name": "中国料理成華",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原６丁目２６−１３"
+  },
+  {
+    "name": "チョンマゲ食堂",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町５−２３ CAMDEN St 1F-A"
+  },
+  {
+    "name": "つぼ八 静岡駅南口店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１０−６ 村上駅南ビル B１F"
+  },
+  {
+    "name": "T's green",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区鎌田７１−１４"
+  },
+  {
+    "name": "手打ち蕎麦とおるや",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松２丁目１−３５−１０１"
+  },
+  {
+    "name": "てっぱん屋 虎鉄",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町２−１ 駅南銀座ビル ２F"
+  },
+  {
+    "name": "デニーズ 静岡草薙店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中吉田１５−９"
+  },
+  {
+    "name": "天神屋 東新田店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田１丁目１１−１"
+  },
+  {
+    "name": "天神屋 曲金店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金５丁目１−１"
+  },
+  {
+    "name": "天神屋 道の駅 宇津ノ谷峠下り店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区宇津ノ谷８２−２"
+  },
+  {
+    "name": "東海軒 泉町売店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区泉町１−８"
+  },
+  {
+    "name": "東海軒 登呂売店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂６丁目５−３５"
+  },
+  {
+    "name": "道とん堀 静岡敷地店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目１０−１０"
+  },
+  {
+    "name": "戸隠そば 草薙店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田４丁目３−１６"
+  },
+  {
+    "name": "戸隠そば登呂店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂２丁目１５−１３"
+  },
+  {
+    "name": "鳥幸 さつき町店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区さつき町６−１０"
+  },
+  {
+    "name": "鳥幸 富士見台店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区富士見台１丁目１−２５"
+  },
+  {
+    "name": "鶏白湯専門店 五星村",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金７丁目８−１３"
+  },
+  {
+    "name": "鳥よし",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町５−１９"
+  },
+  {
+    "name": "とろろ汁の丁子屋",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子７丁目１０−１０"
+  },
+  {
+    "name": "ドン岩崎",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕２丁目７−２ どん"
+  },
+  {
+    "name": "とんかつ うんの",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松２丁目１−１０"
+  },
+  {
+    "name": "とんかつ宇田川",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中野新田３０３−５"
+  },
+  {
+    "name": "とんかつ新宿さぼてん 静岡アピタ店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区石田１丁目５−１ アピタ静岡店 １Ｆ"
+  },
+  {
+    "name": "とんかつとんき",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区森下町１−３６"
+  },
+  {
+    "name": "豚豚 曲金店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金４丁目２−１０"
+  },
+  {
+    "name": "Donfarm",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西平松４８０−２"
+  },
+  {
+    "name": "菜々や",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町２０−１５"
+  },
+  {
+    "name": "namiki",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "223cafe",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松１丁目２４−１０"
+  },
+  {
+    "name": "肉のいちの",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿１丁目２８−１"
+  },
+  {
+    "name": "Nikou plus",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町３−１４ エスカイア南町 2F"
+  },
+  {
+    "name": "沼津魚がし鮨 流れ鮨 静岡石田店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南八幡町８−２２ セントラルスクエア静岡グルメ館 1F"
+  },
+  {
+    "name": "のっけ家 高松店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松１丁目１４−１８"
+  },
+  {
+    "name": "のぼり",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区見瀬１７０−２−１"
+  },
+  {
+    "name": "呑み処いけちゃん",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町６−７ 入船横丁"
+  },
+  {
+    "name": "バーミヤン 静岡国吉田",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田１丁目３−３４ バーミヤン静岡国吉田店"
+  },
+  {
+    "name": "hugcoffee 南町店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町２−１ 駅南銀座ビル"
+  },
+  {
+    "name": "HACO CAFE",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地２丁目１２−２"
+  },
+  {
+    "name": "パスタ屋一丁目 アピタ静岡店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南八幡町８−２２ アピタ静岡 クオーレ館1F"
+  },
+  {
+    "name": "八剣伝 小鹿店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿９１０−７"
+  },
+  {
+    "name": "Patisserie VERT CLAIR",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区豊田３丁目１−４５"
+  },
+  {
+    "name": "pâtisserie salut",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区谷田４１−３０ レイアップ中之郷 101"
+  },
+  {
+    "name": "早川農園&cafeいちご畑",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区根古屋３７−３７ 早川農園"
+  },
+  {
+    "name": "HARU",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小黒１丁目１−２９"
+  },
+  {
+    "name": "ピーズレストラン",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原２丁目１−５"
+  },
+  {
+    "name": "ピザーラ静岡インター店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中野新田２７４−４"
+  },
+  {
+    "name": "PIZZERIA&BAR SERENO",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町５−３４"
+  },
+  {
+    "name": "hitotema",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗２丁目１７−２ みなと横丁 内１F"
+  },
+  {
+    "name": "福来源",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金４丁目１−１２"
+  },
+  {
+    "name": "ふくわうち",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区泉町７−１６"
+  },
+  {
+    "name": "文田商店 谷田店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区谷田３３−６"
+  },
+  {
+    "name": "Bakey &Café GALLEY",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東静岡２丁目３−１ グランシップ 1F"
+  },
+  {
+    "name": "ホテルグランヒルズ静岡 ザ テーブル",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１８−１ ホテルグランヒルズ静岡メイン棟 1F"
+  },
+  {
+    "name": "ホテルグランヒルズ静岡 中国料理 富翠珠",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１８−１ ホテルグランヒルズ静岡 2階"
+  },
+  {
+    "name": "ホテルグランヒルズ静岡 バー&ラウンジ エマイユ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１８−１ ホテルグランヒルズ静岡 25階"
+  },
+  {
+    "name": "ホテルグランヒルズ静岡 日本料理 花凜",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１８−１ ホテルグランヒルズ静岡 2階"
+  },
+  {
+    "name": "ホテルグランヒルズ静岡 鉄板焼 けやき",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１８−１ ホテルグランヒルズ静岡メイン棟 2F"
+  },
+  {
+    "name": "炎群",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ４丁目７−１０"
+  },
+  {
+    "name": "ホルモン焼やまだ 静岡駅南店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１−５"
+  },
+  {
+    "name": "本格讃岐うどん こころ彩",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松２５７６"
+  },
+  {
+    "name": "まこと屋",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区豊田１丁目１−３５"
+  },
+  {
+    "name": "マドンナ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区宮竹１丁目１４−１５ Ｍａｄｏｎｎａ"
+  },
+  {
+    "name": "マハラジャダイニング",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田４０５"
+  },
+  {
+    "name": "丸源ラーメン 静岡インター店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中野新田３２０−１"
+  },
+  {
+    "name": "マルコデュパン 聖一色店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区聖一色２００−５"
+  },
+  {
+    "name": "丸田そば 本店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田１丁目１２−２２"
+  },
+  {
+    "name": "MANMA",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田５丁目１７−１０"
+  },
+  {
+    "name": "味楽天",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１０−１７−２"
+  },
+  {
+    "name": "魅縲",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西島７４０−１"
+  },
+  {
+    "name": "ミルポワ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松２６６３−１"
+  },
+  {
+    "name": "麺処 汐のや",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目１０−２２"
+  },
+  {
+    "name": "麺家にのみや",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田２１７−１"
+  },
+  {
+    "name": "モスバーガー 静岡小鹿店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿７３４−１"
+  },
+  {
+    "name": "モスバーガー 静岡国一店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区宮本町１−８"
+  },
+  {
+    "name": "もり竹",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区豊田１丁目９−３３ そば処もり竹"
+  },
+  {
+    "name": "森のなかま 東新田店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田１丁目１６−３"
+  },
+  {
+    "name": "もんじゃ・お好み焼き 月島",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田２丁目３−２０ もんじゃ東京月島"
+  },
+  {
+    "name": "焼津港みなみ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町２−１４"
+  },
+  {
+    "name": "焼きたてのかるび 静岡SBS通り店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区石田３丁目１０−３"
+  },
+  {
+    "name": "焼肉きんぐ小黒店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小黒３丁目１０−１３"
+  },
+  {
+    "name": "焼肉ハウス 泉楽",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田４丁目９−５０"
+  },
+  {
+    "name": "焼肉ホルモン やまけん2号店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町３−１４"
+  },
+  {
+    "name": "焼肉ホルモン気分上上",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡３丁目１３−３"
+  },
+  {
+    "name": "ヤマサン農園 カフェゆめ苺",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西平松４６２−１"
+  },
+  {
+    "name": "UMI table",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大谷３丁目３０−２５"
+  },
+  {
+    "name": "有限会社大信用宗のところてん",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "ゆず庵 静岡インター通店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南安倍３丁目４−１３"
+  },
+  {
+    "name": "united",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町５−２９"
+  },
+  {
+    "name": "吉野寿司 高松店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目１６−１８"
+  },
+  {
+    "name": "よつ葉",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗４丁目２０−１２ 2F"
+  },
+  {
+    "name": "405COFFEE",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "ラ・アヴェニール",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂５丁目１９−３８"
+  },
+  {
+    "name": "らぁ麺壱喰",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区古宿２９４"
+  },
+  {
+    "name": "らーめんとお好み焼きの店 十和田",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原６丁目２６−１１"
+  },
+  {
+    "name": "Lounge Marry",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町３−１４ エスカイア南町 ２Ｆ"
+  },
+  {
+    "name": "LA PALETTE 用宗本店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗４丁目２１−１２"
+  },
+  {
+    "name": "りとる",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小黒２丁目１１−２２"
+  },
+  {
+    "name": "ルコンテ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１０−１４"
+  },
+  {
+    "name": "ruru plus",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇１１−１ 2F TSUTAYA西脇店"
+  },
+  {
+    "name": "Restaurant Sperare",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡県焼津市中新田４５５−２ 市川ビル 2F"
+  },
+  {
+    "name": "レストラン セラヴィ",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕４丁目１０−６ セ．ラ．ヴィ"
+  },
+  {
+    "name": "レストラン NAGAFUSA",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田１丁目４−５"
+  },
+  {
+    "name": "レストランAoki",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区泉町１−２７"
+  },
+  {
+    "name": "レストラン金とき 池田店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区聖一色８６−４"
+  },
+  {
+    "name": "レストラン駿河 ツインメッセ静岡店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金３丁目１−１０"
+  },
+  {
+    "name": "レストランDADA 静岡中原店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中原１５８−１"
+  },
+  {
+    "name": "レストラン PIZZA DADA 草薙店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区聖一色６５４−６"
+  },
+  {
+    "name": "ROY G BIV",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂５丁目２１−４７−２"
+  },
+  {
+    "name": "ロダンテラス",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "和牛焼肉 うしいち",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇１２８６−１"
+  },
+  {
+    "name": "和食さと 静岡池田店",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田１５５−１"
+  },
+  {
+    "name": "和ダイニング梅丸",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町２−４"
+  },
+  {
+    "name": "和の食楽佐平",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中吉田３６−１"
+  },
+  {
+    "name": "和風居酒屋 拓造",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田４丁目９"
+  },
+  {
+    "name": "WARABIYA",
+    "category": "飲食店",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇１１４２−２"
+  },
+  {
+    "name": "arc 中田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田本町６"
+  },
+  {
+    "name": "アートライン",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田２丁目１６−２５"
+  },
+  {
+    "name": "アイアイ家具",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田３丁目１−１３"
+  },
+  {
+    "name": "アイヒキノ",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町２−４"
+  },
+  {
+    "name": "アインリヒト眼鏡院",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大坪町３−２０−１０１"
+  },
+  {
+    "name": "アカチャンホンポ",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金３丁目１−５ イトーヨーカドー静岡店 2Ｆ"
+  },
+  {
+    "name": "あかのれん 静岡富士見台店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区富士見台１丁目１９−１２"
+  },
+  {
+    "name": "あかのれん 静岡草薙店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中吉田１５−３０６ 番2"
+  },
+  {
+    "name": "アクセス ユープラン静岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田２丁目１５−２０"
+  },
+  {
+    "name": "Approach Ocean Sports",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南安倍３丁目１−４"
+  },
+  {
+    "name": "アルソア明樹",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区聖一色２３−１ ＡＲＳＯＡ明樹"
+  },
+  {
+    "name": "アルペン 静岡石田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南八幡町９−１"
+  },
+  {
+    "name": "イエローハット 国吉田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田１丁目２−３５"
+  },
+  {
+    "name": "イシグロ 中吉田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中吉田１８−８"
+  },
+  {
+    "name": "ショップどうぶつたちのもり",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "伊奈せんべい 馬渕本店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕３丁目１３−３０"
+  },
+  {
+    "name": "有東金魚店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区有明町１５−１３"
+  },
+  {
+    "name": "auショップ 静岡小黒",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小黒３丁目１１−１７ ａｕショップ静岡小黒"
+  },
+  {
+    "name": "江崎書店 イトーヨーカドー静岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金３丁目１−５ 2階"
+  },
+  {
+    "name": "エッセンブロート",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目６−７ ＥｓｓｅｎＢｒｏｔ"
+  },
+  {
+    "name": "ANGEL",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ１丁目５−４"
+  },
+  {
+    "name": "OAナガシマ 静岡国吉田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中吉田３４−３４"
+  },
+  {
+    "name": "御菓子庵田子の月 静岡池田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田６１０−２"
+  },
+  {
+    "name": "お米のみうら",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区宮本町４−５"
+  },
+  {
+    "name": "小田米穀 豊田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区豊田３丁目８−４５"
+  },
+  {
+    "name": "お仏壇のやまき 石田街道店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田４丁目１−５"
+  },
+  {
+    "name": "音楽舎",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田４丁目８−６"
+  },
+  {
+    "name": "カーテンじゅうたん王国 静岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下島１９５−１"
+  },
+  {
+    "name": "カーテンハウス",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南八幡町２５−１８"
+  },
+  {
+    "name": "家具の久和屋",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田本町５１−２１ 久和屋"
+  },
+  {
+    "name": "かしはる 安倍川店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田１丁目１６−１０"
+  },
+  {
+    "name": "雅正庵 おやいづ製茶本店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区向敷地１丁目５−３８ 小柳津清一商店"
+  },
+  {
+    "name": "カネカ園 丸子売店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子"
+  },
+  {
+    "name": "カフェドピンポン",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂２丁目６−２ 2F"
+  },
+  {
+    "name": "株式会社イトーヨーカ堂 静岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金３丁目１−５"
+  },
+  {
+    "name": "株式会社静岡合羽橋新村商店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕４丁目４−２４"
+  },
+  {
+    "name": "株式会社静岡西部食糧",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ１丁目４−８ 静岡西部食糧"
+  },
+  {
+    "name": "株式会社メガネパル",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区有東２丁目９−２５"
+  },
+  {
+    "name": "株式会社望月利雄商店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田４丁目１６−５"
+  },
+  {
+    "name": "神谷家具",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇１０５０−１ 神谷家具"
+  },
+  {
+    "name": "カメヤマ電器株式会社",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇７６８−４"
+  },
+  {
+    "name": "唐花",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金１丁目１０−７"
+  },
+  {
+    "name": "CookiePige HUTPARK 用宗店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗４丁目１９−１２"
+  },
+  {
+    "name": "靴の宮崎 小鹿店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿２丁目３０−１０ くつの宮崎"
+  },
+  {
+    "name": "クボタ時計店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕４丁目１４−１３"
+  },
+  {
+    "name": "くらしかる",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区有東１丁目７−２９"
+  },
+  {
+    "name": "慶州精肉店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区緑が丘町１２−１"
+  },
+  {
+    "name": "ケーズデンキ 静岡駿河店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区豊田３丁目４−５０"
+  },
+  {
+    "name": "元気ハピミルク",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "コーナンPRO静岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区富士見台１丁目１８−３３"
+  },
+  {
+    "name": "コジマ×ビックカメラ静岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田１丁目１−５７"
+  },
+  {
+    "name": "コスモスベリーズ 静岡豊田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区豊田１丁目４−５"
+  },
+  {
+    "name": "呉服のニチブン",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田１丁目１４−２３"
+  },
+  {
+    "name": "こまちや化粧品店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町５−３２"
+  },
+  {
+    "name": "米のジャンケンポン 東新田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田３丁目３２−１"
+  },
+  {
+    "name": "ゴルフパートナー カネボウ通り馬渕店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕３丁目７−２５"
+  },
+  {
+    "name": "ゴルフ5 静岡石田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南八幡町９−番1号"
+  },
+  {
+    "name": "サイクルベースあさひ 静岡インター通店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西中原１丁目６−２７"
+  },
+  {
+    "name": "酒ゃビック 静岡下川原店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原４丁目１６−３４"
+  },
+  {
+    "name": "酒ゃビック 静岡中村町店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中村町８−１"
+  },
+  {
+    "name": "酒ゃビック 静岡曲金店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金５丁目２−３８"
+  },
+  {
+    "name": "サナ",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田４丁目２０−２ Ｃａｎａ"
+  },
+  {
+    "name": "静岡茶 藤川英一商店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "静岡ホビースクエア",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１８−１ サウスポット静岡 3F"
+  },
+  {
+    "name": "しずてつストア花だより",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ２丁目１０−２"
+  },
+  {
+    "name": "シャレル イトーヨーカドー店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１０−１１ ヘアーサロンシャレル １階"
+  },
+  {
+    "name": "ジャンボエンチョー 静岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大和２丁目３−２５"
+  },
+  {
+    "name": "ジャンボエンチョー 下川原店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原２丁目４−４５"
+  },
+  {
+    "name": "シュープラザ 下川原店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原南９−６"
+  },
+  {
+    "name": "ジョイプラザ 高松店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松１丁目１５−２８"
+  },
+  {
+    "name": "ショップトライアル本部",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡県静岡市葵区安東２丁目１−２１ ショップトライアル"
+  },
+  {
+    "name": "しんこう電気",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿２丁目２８−８"
+  },
+  {
+    "name": "Zoo Square 静岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区富士見台１丁目１９−１２"
+  },
+  {
+    "name": "スーパーオートバックス 静岡中原",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区津島町１０−２０ スーパーオートバックス・静岡中原"
+  },
+  {
+    "name": "鈴木こうじ店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松３０７９−１４"
+  },
+  {
+    "name": "ステップインたまるや",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原５丁目３４−２０ 田丸屋本店観光開発部"
+  },
+  {
+    "name": "すみやグッディ SBS通り店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区駿河区中田本町５６−５"
+  },
+  {
+    "name": "駿河屋馬渕店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕２丁目３−３"
+  },
+  {
+    "name": "芹沢銈介美術館museumshop",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂５丁目１０−５"
+  },
+  {
+    "name": "鮮魚 魚芳",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿１丁目２２−７"
+  },
+  {
+    "name": "惣菜文香",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿１丁目２２−１１−２"
+  },
+  {
+    "name": "創作珈琲工房くれあーる",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡３丁目５−４"
+  },
+  {
+    "name": "大市カーテン",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "1840, 高松 駿河区 静岡市 静岡県 422-8034 日本"
+  },
+  {
+    "name": "ダイブハウスコーコス",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原１丁目７−６"
+  },
+  {
+    "name": "高橋そば製粉株式会社",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区豊田３丁目３−７"
+  },
+  {
+    "name": "タムララジオ",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡県静岡市葵区駿府町１−３７"
+  },
+  {
+    "name": "月ヶ瀬",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子２丁目１−１"
+  },
+  {
+    "name": "TSUTAYA 静岡西脇店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇１１−１"
+  },
+  {
+    "name": "ヤマダデンキ テックランド 静岡国吉田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田１丁目１−４３"
+  },
+  {
+    "name": "ヤマダデンキ テックランド 静岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕２丁目８−１"
+  },
+  {
+    "name": "東海道写楽 西脇店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇３４−１"
+  },
+  {
+    "name": "ドン・キホーテ SBS通り店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区富士見台２丁目１−１１"
+  },
+  {
+    "name": "南海部品 静岡中原店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区津島町３−２０ 日ノ出商会"
+  },
+  {
+    "name": "にしきや",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原２丁目３−６−２ 錦屋"
+  },
+  {
+    "name": "西松屋チェーン 静岡敷地店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地"
+  },
+  {
+    "name": "西松屋チェーン 静岡下川原店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原４丁目１６−16番30号"
+  },
+  {
+    "name": "ニトリ 静岡草薙店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区弥生町２−６０"
+  },
+  {
+    "name": "日本平紅茶",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田１０２８"
+  },
+  {
+    "name": "ノエル フラワースタジオ",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田本町２３−１３"
+  },
+  {
+    "name": "野中酒店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区鎌田９６−１"
+  },
+  {
+    "name": "ハードストック静岡",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田２丁目９−３８"
+  },
+  {
+    "name": "バイシクルわたなべ カネボウ通り店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金７丁目８−３５"
+  },
+  {
+    "name": "ハウマッチライフ 静岡産業館西通り店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区有明町７−１１"
+  },
+  {
+    "name": "HACO STORE",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地２丁目１２−２"
+  },
+  {
+    "name": "パッチワーク・パフ",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区宮竹２丁目１−１６ パッチワークパフ"
+  },
+  {
+    "name": "はなしろ",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗４丁目４−３６ 用宗三笑亭"
+  },
+  {
+    "name": "ピーターパン するが工房",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目１６−１ ピーターパンするが工房"
+  },
+  {
+    "name": "フィッシングまえじま",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂５丁目２−１７"
+  },
+  {
+    "name": "フィッシング遊 静岡池田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田８０８−１"
+  },
+  {
+    "name": "風船の店 ハッピーバルーン",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中村町３４２−１"
+  },
+  {
+    "name": "婦人洋品モリモト",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田２丁目２"
+  },
+  {
+    "name": "ブックオフ 静岡馬渕店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕３丁目４−６"
+  },
+  {
+    "name": "ふりあんかどや",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区稲川１丁目２−２９"
+  },
+  {
+    "name": "フリーズショップ-79℃",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "文具館コバヤシ 長田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田１丁目１５−２８"
+  },
+  {
+    "name": "文具館コバヤシ 豊田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区豊田１丁目２−５"
+  },
+  {
+    "name": "文具館コバヤシ 馬渕店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕４丁目１１−２１"
+  },
+  {
+    "name": "ベスト電器 静岡西店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗１丁目２９−２２"
+  },
+  {
+    "name": "豊月堂 曲金本店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金１丁目１−１１"
+  },
+  {
+    "name": "ホームプラザナフコ丸子店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区北丸子１丁目１−１０"
+  },
+  {
+    "name": "保昇軒",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗４丁目５−２５"
+  },
+  {
+    "name": "増田焼豚本舗",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕４丁目１６−１６"
+  },
+  {
+    "name": "マックハウス 静岡下川原",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原南１０−５"
+  },
+  {
+    "name": "マル・メール",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗２丁目１７−２ みなと横丁 1階"
+  },
+  {
+    "name": "マルイチ 静岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目２１−１"
+  },
+  {
+    "name": "マルカイ本店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗５丁目２０−２０"
+  },
+  {
+    "name": "ミナローザ",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田２丁目５−２７"
+  },
+  {
+    "name": "夢天菓",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子３丁目７−２"
+  },
+  {
+    "name": "メイツあおしま",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿３００−１ Ｍａｔｅｓあおしま"
+  },
+  {
+    "name": "メガネ 時計 ハクラ",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿１丁目２０−２７"
+  },
+  {
+    "name": "眼鏡市場 静岡駅南店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田１丁目１−１"
+  },
+  {
+    "name": "眼鏡市場 静岡SBS通り店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中村町２７−１"
+  },
+  {
+    "name": "眼鏡市場 静岡東新田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田１丁目１５−15番7号"
+  },
+  {
+    "name": "眼鏡市場 静岡富士見台店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区富士見台１丁目１−１"
+  },
+  {
+    "name": "メガネスーパー 静岡曲金店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金４丁目２−１"
+  },
+  {
+    "name": "もち吉 静岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小黒３丁目９−６"
+  },
+  {
+    "name": "molli",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田２丁目１７−２２"
+  },
+  {
+    "name": "UMI qupu",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大谷３丁目３０−２５"
+  },
+  {
+    "name": "オオハシ電気",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中島２８８２−１ オオハシ電気"
+  },
+  {
+    "name": "有限会社しらい酒店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子７丁目３−２９"
+  },
+  {
+    "name": "有限会社駿府宅配センター",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区津島町１２−８"
+  },
+  {
+    "name": "洋品のしおばら",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿１丁目１８−１４ 洋品のしおばら"
+  },
+  {
+    "name": "洋服の青山 静岡インター店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中野新田３０７ 番3"
+  },
+  {
+    "name": "洋服の青山 東静岡駅前店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金６丁目７−４"
+  },
+  {
+    "name": "吉見書店 長田店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田２丁目１６−２２"
+  },
+  {
+    "name": "ララちゃんランドセル 静岡ショールーム",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大坪町４−３８"
+  },
+  {
+    "name": "リサイクルショップ スリフティ",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区広野１丁目１９−２３"
+  },
+  {
+    "name": "リュバン 日本平店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区栗原３５−３５−２"
+  },
+  {
+    "name": "ワイズ・ワーク・ステンドグラス",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中島４３９−７ ワイズ・ワークステンドグラス"
+  },
+  {
+    "name": "ワインセラー マツキヤ",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子２丁目４−１７"
+  },
+  {
+    "name": "ワタキューリビング 小黒店",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小黒３丁目１１−１５"
+  },
+  {
+    "name": "有限会社ワインショップハギワラ",
+    "category": "ショッピング(小売店)",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿２丁目３０−１ ＷｉｎｅＳｈｏｐハギワラ"
+  },
+  {
+    "name": "エスポット静岡駅南店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中村町９８−９８ エスポット"
+  },
+  {
+    "name": "エブリィビッグデー 駿河店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中原３１１−２"
+  },
+  {
+    "name": "業務スーパー草薙店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区栗原２１−５"
+  },
+  {
+    "name": "業務スーパー静岡東新田店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田１丁目１４−２０ 秋山金属製作所"
+  },
+  {
+    "name": "ザ・ビッグ 静岡川原店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原６丁目２７−３"
+  },
+  {
+    "name": "ザ・ビッグ 静岡新川店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区新川２丁目１０−３６"
+  },
+  {
+    "name": "ザ・ビッグ 静岡登呂店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂２丁目１８−１７"
+  },
+  {
+    "name": "しずてつストア KITEGO 南町店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町５−２６"
+  },
+  {
+    "name": "しずてつストア 丸子店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子４丁目２−６３ しずてつストア丸子店"
+  },
+  {
+    "name": "しずてつストア みずほ店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ２丁目１０−２"
+  },
+  {
+    "name": "しずてつストア 宮本町店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区宮本町１２−１２"
+  },
+  {
+    "name": "食鮮館タイヨー 高松店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目２１−５"
+  },
+  {
+    "name": "スーパーアンドウ国吉田店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田４丁目６−１５"
+  },
+  {
+    "name": "スーパーおさだ",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区向敷地６丁目７−５２"
+  },
+  {
+    "name": "スーパーマーケットバロー 大坪店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大坪町１２−２６"
+  },
+  {
+    "name": "スーパーマーケットバロー 富士見台店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区富士見台１丁目１９−１２"
+  },
+  {
+    "name": "スーパーマーケットバロー 丸子新田店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子新田２２７−１"
+  },
+  {
+    "name": "セブン-イレブン 静岡安倍川駅前店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ４丁目８−１"
+  },
+  {
+    "name": "セブンイレブン静岡大坪町店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大坪町１３−３"
+  },
+  {
+    "name": "セブンイレブン 静岡小鹿店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿２丁目１０−２８"
+  },
+  {
+    "name": "セブンイレブン 静岡下川原5丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原５丁目２０−３"
+  },
+  {
+    "name": "セブン-イレブン 静岡下島店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下島４２８−２"
+  },
+  {
+    "name": "セブンイレブン 静岡西島店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西島３５５−２"
+  },
+  {
+    "name": "セブンイレブン 静岡馬渕3丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕３丁目５−２８"
+  },
+  {
+    "name": "セブン-イレブン 静岡みずほ店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ３丁目１−２"
+  },
+  {
+    "name": "セブン-イレブン 静岡用宗店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗"
+  },
+  {
+    "name": "セブン-イレブン 静岡桃園町店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区桃園町２０−４０"
+  },
+  {
+    "name": "セブン-イレブン 静岡森下町店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区森下町３−３番３"
+  },
+  {
+    "name": "セブンイレブン 静岡八幡1丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡１丁目１−１５"
+  },
+  {
+    "name": "セブン-イレブン 静岡馬渕店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕４丁目１２−３７"
+  },
+  {
+    "name": "田子重下川原店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原５丁目３６−３０"
+  },
+  {
+    "name": "田子重 西中原店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西中原２丁目７−２４"
+  },
+  {
+    "name": "ファミリーマート 静岡池田街道店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田１２６−１"
+  },
+  {
+    "name": "ファミリーマート 静岡長田店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子新田３８２番１"
+  },
+  {
+    "name": "ファミリーマート 静岡手越原店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区手越原６６−１"
+  },
+  {
+    "name": "ファミリーマート 静岡曲金七丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金７丁目８−２２"
+  },
+  {
+    "name": "ファミリーマート 静岡みずほ店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ２丁目１９−１５"
+  },
+  {
+    "name": "ファミリーマート 静岡緑が丘店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区緑が丘町４−１６"
+  },
+  {
+    "name": "ファミリーマート 静岡池田店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田８７６−１"
+  },
+  {
+    "name": "ファミリーマート 静岡小鹿公園前",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿９２７−１ ハートライフ小鹿公園前"
+  },
+  {
+    "name": "ファミリーマート静岡高松二丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松２丁目６−１２"
+  },
+  {
+    "name": "ファミリーマート 静岡登呂六丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂６丁目１−１１"
+  },
+  {
+    "name": "ファミリーマート静岡富士見台店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区富士見台１丁目４−８７"
+  },
+  {
+    "name": "フードマーケットマム 大谷店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大谷２丁目２−９"
+  },
+  {
+    "name": "フードマーケットマム 小鹿店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿８６５"
+  },
+  {
+    "name": "フードマーケットマム 下川原店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原２丁目４−４５"
+  },
+  {
+    "name": "フードマーケットマム 高松店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目１−５ マム"
+  },
+  {
+    "name": "フードマーケットマム 曲金店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿３丁目１−５８"
+  },
+  {
+    "name": "フードマーケットマム生鮮市場 鎌田店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区鎌田７３−１"
+  },
+  {
+    "name": "フードマーケットマム生鮮市場 みずほ店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ２丁目１３−１０"
+  },
+  {
+    "name": "富士屋 中田店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田１丁目７−２７"
+  },
+  {
+    "name": "プライムフーズマーケット 静岡1st",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子新田５５−３"
+  },
+  {
+    "name": "マックスバリュEX静岡西脇店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇４７"
+  },
+  {
+    "name": "マックスバリュ静岡曲金店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金７丁目７−１５"
+  },
+  {
+    "name": "マックスバリュ静岡丸子店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区北丸子１丁目５−５"
+  },
+  {
+    "name": "ミニストップ 静岡中田店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田４丁目１０−３５"
+  },
+  {
+    "name": "ミニストップ静岡中村町店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中村町２１５"
+  },
+  {
+    "name": "ミニストップ静岡谷田店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区谷田３２−３２−３"
+  },
+  {
+    "name": "ミニストップ日本平PA下り店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田 字西原坪"
+  },
+  {
+    "name": "ローソン 草薙総合運動場前店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区栗原９−２３"
+  },
+  {
+    "name": "ローソン 静岡敷地店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目１−３０"
+  },
+  {
+    "name": "ローソン 静岡手越店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区向手越１丁目１−２３"
+  },
+  {
+    "name": "ローソン 静岡東新田1丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田１丁目１４−３５"
+  },
+  {
+    "name": "ローソン 静岡豊田三丁目",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区豊田３丁目１０−５"
+  },
+  {
+    "name": "ローソン 静岡中原店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中原５５５−１"
+  },
+  {
+    "name": "ローソン 静岡西脇店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇６−３"
+  },
+  {
+    "name": "ローソン 静岡西脇南店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇６８４−１"
+  },
+  {
+    "name": "ローソン 静岡馬渕三丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕３丁目１−２１"
+  },
+  {
+    "name": "ローソン 静岡丸子二丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子２丁目４−２０"
+  },
+  {
+    "name": "ローソン 静岡みずほ三丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ３丁目２−１７"
+  },
+  {
+    "name": "ローソン 静岡南安部店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "ローソン静岡登呂一丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂１丁目１８−３０"
+  },
+  {
+    "name": "ローソン静岡八幡五丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡５丁目２４−１０"
+  },
+  {
+    "name": "V・drug 駿河敷地店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目２５−８"
+  },
+  {
+    "name": "V・drug 駿河下川原店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原５丁目１−８"
+  },
+  {
+    "name": "V・drug 駿河北丸子店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区北丸子２丁目３−８"
+  },
+  {
+    "name": "V・drug 駿河西脇店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇７４９"
+  },
+  {
+    "name": "ウエルシア 静岡用宗店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗"
+  },
+  {
+    "name": "ウエルシア 静岡東新田店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子新田２３４−４"
+  },
+  {
+    "name": "ウエルシア 静岡みずほ店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ２丁目１５−１"
+  },
+  {
+    "name": "ウエルシア 静岡西脇店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇３０−１"
+  },
+  {
+    "name": "ウエルシア 静岡中吉田店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中吉田２１−１４"
+  },
+  {
+    "name": "ウエルシア 静岡中原店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中原１３１−３"
+  },
+  {
+    "name": "ウエルシア 静岡池田店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田６１５−５"
+  },
+  {
+    "name": "ウエルシア 静岡中田店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田２丁目１０−３"
+  },
+  {
+    "name": "ウエルシア 静岡高松店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区宮竹１丁目５−３５"
+  },
+  {
+    "name": "ウエルシア 静岡丸子店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区北丸子１丁目５−５"
+  },
+  {
+    "name": "ウエルシア 静岡下川原店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原南８−１５"
+  },
+  {
+    "name": "ウエルシア薬局 静岡エスパティオ店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１４−２５ エスパティオ 1階101-B"
+  },
+  {
+    "name": "石川薬局 小鹿店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿３８４"
+  },
+  {
+    "name": "石川薬局ゼフィルス",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿１丁目４−２１"
+  },
+  {
+    "name": "ウエルシア静岡下川原西店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原３丁目１４−６"
+  },
+  {
+    "name": "杏林堂薬局 静岡大坪店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大坪町１３−５"
+  },
+  {
+    "name": "杏林堂薬局 静岡小鹿店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿２２８−１"
+  },
+  {
+    "name": "杏林堂薬局 静岡草薙店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中吉田１５−６"
+  },
+  {
+    "name": "杏林堂薬局 静岡登呂店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂１丁目１８−３８"
+  },
+  {
+    "name": "杏林堂薬局 テレビ静岡前店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区栗原１８−６４"
+  },
+  {
+    "name": "サンドラッグ 静岡イトーヨーカドー店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金３丁目１−５ １階"
+  },
+  {
+    "name": "サンドラッグ 静岡富士見台店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区富士見台１丁目１９−１２"
+  },
+  {
+    "name": "スギドラッグ 駿河西島店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西島851番地1"
+  },
+  {
+    "name": "スギドラッグ 駿河広野店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区広野３丁目４−１５"
+  },
+  {
+    "name": "スギ薬局 池田店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田 字長市坪１２６－１"
+  },
+  {
+    "name": "スギ薬局 手越店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区手越"
+  },
+  {
+    "name": "スギ薬局 東静岡店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金５丁目６"
+  },
+  {
+    "name": "たんぽぽ薬局小鹿店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金５丁目４−５２"
+  },
+  {
+    "name": "ドラッグス タカダ",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区聖一色４７１−４"
+  },
+  {
+    "name": "マツモトキヨシ 静岡馬渕店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕４丁目３−１０"
+  },
+  {
+    "name": "マツモトキヨシ 寺田店",
+    "category": "ドラッグストア",
+    "ward": "駿河区",
+    "address": "静岡市駿河区寺田１０−１"
+  },
+  {
+    "name": "AOKI 静岡インター店",
+    "category": "ファッション",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中野新田３２６−８"
+  },
+  {
+    "name": "AKAISHI直営店 静岡本店",
+    "category": "ファッション",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子６９５５−３"
+  },
+  {
+    "name": "Ambiance",
+    "category": "ファッション",
+    "ward": "駿河区",
+    "address": "静岡市駿河区見瀬２７８−１ ART２階"
+  },
+  {
+    "name": "株式会社ユニクロ 静岡国吉田店",
+    "category": "ファッション",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田１丁目１−５７"
+  },
+  {
+    "name": "着物仕立て・お直し 辻村",
+    "category": "ファッション",
+    "ward": "駿河区",
+    "address": "静岡市駿河区津島町１３−５"
+  },
+  {
+    "name": "Chouette",
+    "category": "ファッション",
+    "ward": "駿河区",
+    "address": "静岡市駿河区聖一色"
+  },
+  {
+    "name": "Toko Ramai",
+    "category": "ファッション",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中島４０７−２"
+  },
+  {
+    "name": "marumaru",
+    "category": "ファッション",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田２丁目４"
+  },
+  {
+    "name": "Men's & Ladies Nanami",
+    "category": "ファッション",
+    "ward": "駿河区",
+    "address": "静岡市駿河区豊田１丁目６−３３"
+  },
+  {
+    "name": "UMI calf",
+    "category": "ファッション",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大谷３丁目２５−３１"
+  },
+  {
+    "name": "一棟貸しの宿 日本色",
+    "category": "旅館・ホテル",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗４丁目２０−１２ 1F HUTPARK用宗"
+  },
+  {
+    "name": "徳川の奥座敷 久能宿<LIBERTY RESORT>",
+    "category": "旅館・ホテル",
+    "ward": "駿河区",
+    "address": "静岡市駿河区古宿２９４"
+  },
+  {
+    "name": "ホテルグランヒルズ静岡",
+    "category": "旅館・ホテル",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１８−１８−１"
+  },
+  {
+    "name": "リバティーリゾート久能山",
+    "category": "旅館・ホテル",
+    "ward": "駿河区",
+    "address": "静岡市駿河区古宿２９４"
+  },
+  {
+    "name": "merry land 見瀬店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区見瀬２２２−８ Ｍｅｒｒｙ Ｌａｎｄ"
+  },
+  {
+    "name": "IE.RAE",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡１丁目４−３４ アンソレーユ八幡 102"
+  },
+  {
+    "name": "明美指圧はりきゅう室",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡４丁目２−２"
+  },
+  {
+    "name": "asian relaxation villa 静岡西R1店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子３丁目１−１"
+  },
+  {
+    "name": "アット美容室",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂６丁目１−２ ロイヤルハイツ登呂"
+  },
+  {
+    "name": "Atelier Venus",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町２−２６ ロア・シズオカ 804"
+  },
+  {
+    "name": "亜利姿",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田本町１−３６"
+  },
+  {
+    "name": "antique 美術館前",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区谷田３３−８"
+  },
+  {
+    "name": "wit hair",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡２丁目１２−７ エストソレイユ 1F"
+  },
+  {
+    "name": "A.D.E sugata ヨーカドー静岡店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金３丁目１−５"
+  },
+  {
+    "name": "エステ以上治療未満の未病ケアサロン EMINY",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区見瀬２５６ グランパ青島 303"
+  },
+  {
+    "name": "N's",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区聖一色１５７−１"
+  },
+  {
+    "name": "カイロプラクティック クアトロ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区向敷地２丁目９−１０ グランパ 101号室"
+  },
+  {
+    "name": "カット&シェーブやすまつ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大和１丁目６−１"
+  },
+  {
+    "name": "カットサロンHand's 安倍川駅前店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ４丁目１１−５"
+  },
+  {
+    "name": "カットサロンHand's 手越店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区向手越１丁目１１−１２ 1F"
+  },
+  {
+    "name": "カットサロンHand's 丸子店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子１丁目６−１９"
+  },
+  {
+    "name": "cut space NAKAGAWA",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子４丁目２０−９ ＣｕｔＳｐａｃｅ ＮＡＫＡＧＡＷＡ"
+  },
+  {
+    "name": "カットハウスビーヘアー",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "からだメンテナンス整体CocoKaraHare",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇１１４２−２ 2F"
+  },
+  {
+    "name": "killik",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大谷４１９１−１５ クールドノール大谷B"
+  },
+  {
+    "name": "QUATRO EAST",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田４丁目９−３ パストラル"
+  },
+  {
+    "name": "COALON.",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区有東２丁目５−15 2 階Ｂ"
+  },
+  {
+    "name": "米ぬか100%酵素風呂いまむら",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子６丁目１５−６０ イマジン・ヴィレッジ"
+  },
+  {
+    "name": "CEサロン Citron",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田４丁目１７−１ スイート ジェントリー 1階G号"
+  },
+  {
+    "name": "CEサロンAO",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子新田２３８−２ メゾン ウーノA 101"
+  },
+  {
+    "name": "CEサロンemu",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区津島町７−９ 大伸木工 ３F A区画"
+  },
+  {
+    "name": "shige's hair",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田２丁目１６−２５"
+  },
+  {
+    "name": "静岡長生館 小黒院",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区駿河区小黒１丁目１１−２５"
+  },
+  {
+    "name": "SHIZUKU",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡県静岡市葵区両替町２丁目４−５"
+  },
+  {
+    "name": "躾勢美 サロン幸",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡県静岡市葵区幸町"
+  },
+  {
+    "name": "しんみ理容館",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子３丁目７"
+  },
+  {
+    "name": "スタジオ ジュビランコットン",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "整体院一歩~ippo~",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大和２丁目８−７"
+  },
+  {
+    "name": "整体院くるら",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田1791‐39"
+  },
+  {
+    "name": "創BODYDESIGN 静岡南店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区稲川２丁目３−１３ １F"
+  },
+  {
+    "name": "そうま鍼灸マッサージ院",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区向手越１丁目１"
+  },
+  {
+    "name": "W/Aヘアーメイク",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "TOBE",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１１−１２ ＣＥＲＡＭＩＣ ＨＥＩＧＨＴＳ"
+  },
+  {
+    "name": "ネイル・耳つぼサロン rosarosa*",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大谷１３６０ 202"
+  },
+  {
+    "name": "ネネ美容室",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区向敷地６丁目２−３"
+  },
+  {
+    "name": "ビーヘアーステージⅡ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "美肌エステ・脱毛 pixie433",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町４−３３ 南町ビル 3F"
+  },
+  {
+    "name": "ひまわり接骨院",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松２丁目２４−４１ アマノビル 1F"
+  },
+  {
+    "name": "Beauty parlors 愛",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "美容室 ミルソルズ・ポイント",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿１丁目７−１１"
+  },
+  {
+    "name": "美容室 夢先案内",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ２丁目１−２"
+  },
+  {
+    "name": "美容室カレラ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区栗原１５−２３ ＨＡＩＲ ＳＡＬＯＮ Ｃａｒｒｅｒａ"
+  },
+  {
+    "name": "美容室GRAZ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "美容室THREE",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金６丁目８−１０"
+  },
+  {
+    "name": "美容室デューン",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区鎌田３４１−９"
+  },
+  {
+    "name": "美容室パートナ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区石田３丁目１６−４３"
+  },
+  {
+    "name": "フットファースト静岡草薙かのん店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区谷田３３−８"
+  },
+  {
+    "name": "hair amplop",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金５丁目２−３３"
+  },
+  {
+    "name": "Hair Art BUNTLINE",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区見瀬２７８−１"
+  },
+  {
+    "name": "hair&make zone",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田３丁目２−２１"
+  },
+  {
+    "name": "HAIR Cranial毛髪補修クリニック",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町４−７ ユーフォリア南町 101"
+  },
+  {
+    "name": "ヘアークラブ ウイン",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区稲川１丁目１−６ フォレスト静岡駅前 101"
+  },
+  {
+    "name": "ヘアーサロンミヤガワ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田４丁目１４−１"
+  },
+  {
+    "name": "hairstudioPADDOCK",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "ヘアーメイクマツウラ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中野新田２８１−４"
+  },
+  {
+    "name": "hairclub HEADS",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田２丁目１５−１８ コーポ尾崎 102"
+  },
+  {
+    "name": "hair space jack",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目６−４ ｊａｃｋ"
+  },
+  {
+    "name": "BELLO",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区富士見台１丁目１９−１２"
+  },
+  {
+    "name": "ホリスティックケアサロン Ruon",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大谷3681‐15"
+  },
+  {
+    "name": "ホルミシスリンパサロン Chalcedny",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "マックスビューティー",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区寺田１７０−２ フローリスト F203"
+  },
+  {
+    "name": "mamAsIenne(total beauty salon)",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町３−２５ ＤＥＳＩＧＮ ＯＦＦＩＣＥ ＳＯＺＯＳＹＡ 2F"
+  },
+  {
+    "name": "守接骨院・鍼灸院 新川院",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区新川２丁目７−５"
+  },
+  {
+    "name": "守接骨院・鍼灸院 八幡院",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区八幡２丁目１１−９"
+  },
+  {
+    "name": "merry land 曲金店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "もみかる 150号下川原店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原５丁目３６−１７"
+  },
+  {
+    "name": "もみかる 小黒店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小黒１丁目１０−２４ 吉田ビル"
+  },
+  {
+    "name": "もみかる 静岡本店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕４丁目５−２１ doraビル 1F"
+  },
+  {
+    "name": "もみかる 総本店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇１１−１"
+  },
+  {
+    "name": "モルティー 小鹿店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿３９３−１１ ＨＡＩＲ＆ＳＰＡ ＭＯＬＴＩ"
+  },
+  {
+    "name": "ゆるリラ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡県静岡市葵区鷹匠２丁目１０−７ パサージュ鷹匠 1F"
+  },
+  {
+    "name": "理容富部",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金４丁目１４−１４ ＤＡＮＤＹ ＳＡＬＯＮ"
+  },
+  {
+    "name": "リラクゼーション&フェイシャルサロン LA MER【ラメール】",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大谷２丁目２０−４５ ラ・メール"
+  },
+  {
+    "name": "リラックスの彩(いろどり)",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区駿河区宮竹１丁目１８−１５ 豊ハイツ102号"
+  },
+  {
+    "name": "RILU",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区新川１丁目６−３ オラシオン新川 204"
+  },
+  {
+    "name": "ルルーディア",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区鎌田535ｰ1 リベルタ ２号"
+  },
+  {
+    "name": "Loge",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田６丁目１０−３５−２"
+  },
+  {
+    "name": "ロン美容室",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "駿河区",
+    "address": "静岡市駿河区馬渕３丁目１９−３５ ベル・ジュバンス ロン"
+  },
+  {
+    "name": "せいなんクリーニング",
+    "category": "クリーニング",
+    "ward": "駿河区",
+    "address": "静岡市駿河区宮本町１１−１９"
+  },
+  {
+    "name": "富士ドライ",
+    "category": "クリーニング",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂２丁目１０−３２"
+  },
+  {
+    "name": "牧野クリーニング店",
+    "category": "クリーニング",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿２丁目２８−９ マキノファッションクリーニング"
+  },
+  {
+    "name": "うど交通株式会社",
+    "category": "タクシー・運転代行",
+    "ward": "駿河区",
+    "address": "静岡市駿河区広野４丁目８−２１"
+  },
+  {
+    "name": "静岡平和タクシー株式会社",
+    "category": "タクシー・運転代行",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地２丁目９−９番７号 マストホームズ静岡"
+  },
+  {
+    "name": "ENEOS ディオス栗原SS",
+    "category": "ガソリンスタンド",
+    "ward": "駿河区",
+    "address": "静岡市駿河区栗原１８−６１ ＥＮＥＯＳディオス栗原ＳＳ"
+  },
+  {
+    "name": "ENEOS ディオス中村町SS",
+    "category": "ガソリンスタンド",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中村町３３１ ＥＮＥＯＳディオス中村町ＳＳ"
+  },
+  {
+    "name": "KeePerPROSHOP高松",
+    "category": "ガソリンスタンド",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松２丁目２４−２５"
+  },
+  {
+    "name": "カーケアステーション南安倍川",
+    "category": "ガソリンスタンド",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "セルフ静岡インター",
+    "category": "ガソリンスタンド",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中村町３３９−１"
+  },
+  {
+    "name": "セルフ緑が丘",
+    "category": "ガソリンスタンド",
+    "ward": "駿河区",
+    "address": "静岡市駿河区緑が丘町２−５"
+  },
+  {
+    "name": "高宮給油所",
+    "category": "ガソリンスタンド",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "中村町SS",
+    "category": "ガソリンスタンド",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中村町１３０−１ タナカ燃料 中村町ＳＳ"
+  },
+  {
+    "name": "パティオ池田SS",
+    "category": "ガソリンスタンド",
+    "ward": "駿河区",
+    "address": "静岡市駿河区池田２７３−１ 出光パティオ池田ＳＳ"
+  },
+  {
+    "name": "パティオ草薙",
+    "category": "ガソリンスタンド",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中吉田４１−２１ 出光パティオ草薙ＳＳ"
+  },
+  {
+    "name": "静岡フットサルスタジアムヴィヴァーチェ",
+    "category": "娯楽施設",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小黒１丁目５−２５ 静岡フットサルスタジアムヴィヴァーチェ"
+  },
+  {
+    "name": "Art Jewelry Yoshikawa",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西中原１丁目３−４１"
+  },
+  {
+    "name": "ICTパソコンスクール アクセス ユープラン 静岡東新田教室",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区東新田２丁目１５−２０"
+  },
+  {
+    "name": "いちごみるく 南安倍店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南安倍３丁目１３−５ ＮＫビル"
+  },
+  {
+    "name": "稲毛輪業",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区高松１８２３−１ 稲毛輪業"
+  },
+  {
+    "name": "エイト・トラベル",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金６丁目８−３７ 松下ビル ２F"
+  },
+  {
+    "name": "auショップ 静岡駅南",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区寿町１３−１８"
+  },
+  {
+    "name": "小鹿屋菓子舗",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿１丁目１８−１３"
+  },
+  {
+    "name": "株式会社中島商店 中田店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田２丁目３−１６"
+  },
+  {
+    "name": "株式会社花村安政葵商店 丸子営業所",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡県静岡市葵区田町４丁目３６−３６"
+  },
+  {
+    "name": "株式会社村松精肉店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区登呂２丁目１４−１２"
+  },
+  {
+    "name": "ClimbingJAM",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "サイクルワークス 静岡インター店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西中原１丁目７−３４"
+  },
+  {
+    "name": "桜井自転車店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿１丁目２０−３１"
+  },
+  {
+    "name": "J-netレンタリース 静岡駅新幹線口店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区稲川１丁目３−８"
+  },
+  {
+    "name": "J-netレンタリース 静岡店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "シューズショップ レシピ",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "杉山オート",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田４丁目２０−８ 杉山オート"
+  },
+  {
+    "name": "スタジオカルフ",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区"
+  },
+  {
+    "name": "ステンドグラス工房 ル・セルフィーユ",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区稲川１丁目５−３"
+  },
+  {
+    "name": "駿府の工房 匠宿",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子３２４０−１ 駿府の工房 匠宿"
+  },
+  {
+    "name": "聖隷健康サポートセンターShizuoka",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金６丁目８−５−２"
+  },
+  {
+    "name": "TANIMURA GYM",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区敷地１丁目６−１５ 沢マンション １０４"
+  },
+  {
+    "name": "Chipakoya",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区稲川２丁目９−８ パークマンション"
+  },
+  {
+    "name": "テイクアウト金とき 池田店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区聖一色 駿河屋聖一色94-4"
+  },
+  {
+    "name": "東海自動車工業 静岡支店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区国吉田２丁目１−１１"
+  },
+  {
+    "name": "トップロード",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区下川原６丁目２６−２０ トップロード"
+  },
+  {
+    "name": "鳥羽漆芸",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区大坪町１−３"
+  },
+  {
+    "name": "トヨタレンタカー 静岡新幹線口店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区南町１１−１１−６"
+  },
+  {
+    "name": "永嶋板金店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区駿河区高松２丁目１４−２０"
+  },
+  {
+    "name": "日本調剤 静岡豊田薬局",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区豊田３丁目４−４３"
+  },
+  {
+    "name": "BIKE二番館",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿４１８−５ ＢＩＫＥ二番館"
+  },
+  {
+    "name": "萩錦酒造株式会社",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇３８１"
+  },
+  {
+    "name": "ひばり東新田薬局",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子新田２４６−６"
+  },
+  {
+    "name": "ひばり谷田薬局",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区谷田３４−２２"
+  },
+  {
+    "name": "Fang for Stray Catz. ネコカフェ ファング。",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区稲川２丁目１−２６"
+  },
+  {
+    "name": "Photo Atelier LuLu",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中村町２１８ 第二静和ビル 1F"
+  },
+  {
+    "name": "フォトスタジオ中屋",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小黒２丁目２−１０"
+  },
+  {
+    "name": "マイウェディング中屋",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小黒２丁目６−１ マイウェディング中屋"
+  },
+  {
+    "name": "用宗みなと温泉",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区用宗２丁目１８−１"
+  },
+  {
+    "name": "森のくまさん",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区上川原２−３"
+  },
+  {
+    "name": "薬局メディスン高松店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区宮竹１丁目４−５ 静岡メディスン高松会営薬局"
+  },
+  {
+    "name": "薬局メディスン中田店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田２丁目３−２０ もんじゃ東京月島"
+  },
+  {
+    "name": "薬局メディスン長田店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子１丁目５−１"
+  },
+  {
+    "name": "薬局メディスン中田みなみ店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区中田３丁目１−38 2"
+  },
+  {
+    "name": "薬局メディスンみずほ店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区みずほ１丁目７−２"
+  },
+  {
+    "name": "山内屋",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区根古屋４０４−１−２"
+  },
+  {
+    "name": "有限会社クレスト",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区西脇１２２５−１"
+  },
+  {
+    "name": "有限会社坂本建設",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区北丸子１丁目６−６１"
+  },
+  {
+    "name": "有限会社タキイ輪店",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子３丁目６−７"
+  },
+  {
+    "name": "リビング羽田",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区小鹿１丁目２４−２８"
+  },
+  {
+    "name": "ル・グランジュ",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区丸子４丁目２−７８"
+  },
+  {
+    "name": "ロボ団エディオン静岡曲金校",
+    "category": "その他",
+    "ward": "駿河区",
+    "address": "静岡市駿河区曲金７丁目８−８"
+  }
 ]

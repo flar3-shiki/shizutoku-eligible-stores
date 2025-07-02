@@ -1,843 +1,5048 @@
 [
-  { "name": "あおぞら", "category": "飲食店", "ward": "清水区" },
-  { "name": "AKEBONO.", "category": "飲食店", "ward": "清水区" },
-  { "name": "あさ乃そば店", "category": "飲食店", "ward": "清水区" },
-  { "name": "味彩酒蔵らいず", "category": "飲食店", "ward": "清水区" },
-  { "name": "アトリエ・ルールグルマンド", "category": "飲食店", "ward": "清水区" },
-  { "name": "ありがとう食堂", "category": "飲食店", "ward": "清水区" },
-  { "name": "アレグロ アッサイ", "category": "飲食店", "ward": "清水区" },
-  { "name": "アンドクーリ", "category": "飲食店", "ward": "清水区" },
-  { "name": "EAGLE PASS", "category": "飲食店", "ward": "清水区" },
-  { "name": "居酒屋 我家我家", "category": "飲食店", "ward": "清水区" },
-  { "name": "居酒屋 たかだ", "category": "飲食店", "ward": "清水区" },
-  { "name": "居酒屋 魚魚六", "category": "飲食店", "ward": "清水区" },
-  { "name": "居酒屋 和花", "category": "飲食店", "ward": "清水区" },
-  { "name": "居酒屋けんけん", "category": "飲食店", "ward": "清水区" },
-  { "name": "居酒屋ぶす", "category": "飲食店", "ward": "清水区" },
-  { "name": "居酒屋ぽれぽれ", "category": "飲食店", "ward": "清水区" },
-  { "name": "居酒屋凜", "category": "飲食店", "ward": "清水区" },
-  { "name": "イタリアンバル Glowup", "category": "飲食店", "ward": "清水区" },
-  { "name": "イタリアンバル ステイゴールド", "category": "飲食店", "ward": "清水区" },
-  { "name": "一元八木間店", "category": "飲食店", "ward": "清水区" },
-  { "name": "壱参", "category": "飲食店", "ward": "清水区" },
-  { "name": "いちまる水産 まぐろ屋", "category": "飲食店", "ward": "清水区" },
-  { "name": "井筒屋", "category": "飲食店", "ward": "清水区" },
-  { "name": "いっぴん亭", "category": "飲食店", "ward": "清水区" },
-  { "name": "入船鮨 ドリームプラザ店", "category": "飲食店", "ward": "清水区" },
-  { "name": "インド・ネパール料理 ミトラ", "category": "飲食店", "ward": "清水区" },
-  { "name": "魚市場食堂", "category": "飲食店", "ward": "清水区" },
-  { "name": "うおかん", "category": "飲食店", "ward": "清水区" },
-  { "name": "魚福", "category": "飲食店", "ward": "清水区" },
-  { "name": "魚勇", "category": "飲食店", "ward": "清水区" },
-  { "name": "UDONCAFE Holssi", "category": "飲食店", "ward": "清水区" },
-  { "name": "うどん屋げんき", "category": "飲食店", "ward": "清水区" },
-  { "name": "うなぎの春日野", "category": "飲食店", "ward": "清水区" },
-  { "name": "海to太陽", "category": "飲食店", "ward": "清水区" },
-  { "name": "海辺のビュッフェはとばキッチン", "category": "飲食店", "ward": "清水区" },
-  { "name": "A ONE DINING", "category": "飲食店", "ward": "清水区" },
-  { "name": "S.colina", "category": "飲食店", "ward": "清水区" },
-  { "name": "エピシェール 清水", "category": "飲食店", "ward": "清水区" },
-  { "name": "YEBISU倶楽部海人", "category": "飲食店", "ward": "清水区" },
-  { "name": "エベレストキッチン ベイドリーム清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "おうちごはん まんさく", "category": "飲食店", "ward": "清水区" },
-  { "name": "大戸屋 静岡清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "大間新栄丸", "category": "飲食店", "ward": "清水区" },
-  { "name": "おさかな工房 魚清", "category": "飲食店", "ward": "清水区" },
-  { "name": "御食事処 大漁市場", "category": "飲食店", "ward": "清水区" },
-  { "name": "お食事処おがわ", "category": "飲食店", "ward": "清水区" },
-  { "name": "海蛇", "category": "飲食店", "ward": "清水区" },
-  { "name": "海鮮酒場 浜ちゃん", "category": "飲食店", "ward": "清水区" },
-  { "name": "海鮮丼たかし", "category": "飲食店", "ward": "清水区" },
-  { "name": "回転寿司 のぶちゃん", "category": "飲食店", "ward": "清水区" },
-  { "name": "Cavern Tavern", "category": "飲食店", "ward": "清水区" },
-  { "name": "隠れ居酒屋 頂", "category": "飲食店", "ward": "清水区" },
-  { "name": "河岸分店", "category": "飲食店", "ward": "清水区" },
-  { "name": "ガスト 清水七ツ新屋", "category": "飲食店", "ward": "清水区" },
-  { "name": "活うなぎ橋本", "category": "飲食店", "ward": "清水区" },
-  { "name": "活火山", "category": "飲食店", "ward": "清水区" },
-  { "name": "かつさと 新蒲原駅前店", "category": "飲食店", "ward": "清水区" },
-  { "name": "かっぱ寿司 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "割烹 大武", "category": "飲食店", "ward": "清水区" },
-  { "name": "割烹 大花", "category": "飲食店", "ward": "清水区" },
-  { "name": "割烹 わかすぎ", "category": "飲食店", "ward": "清水区" },
-  { "name": "かね田食堂", "category": "飲食店", "ward": "清水区" },
-  { "name": "カフェ アイムフィッシュ", "category": "飲食店", "ward": "清水区" },
-  { "name": "Cafe a by Netz SHIZUOKA", "category": "飲食店", "ward": "清水区" },
-  { "name": "CAFE OEC", "category": "飲食店", "ward": "清水区" },
-  { "name": "カフェ れいじーじゃっく", "category": "飲食店", "ward": "清水区" },
-  { "name": "カフェオビー", "category": "飲食店", "ward": "清水区" },
-  { "name": "Cafe-Yamazaki", "category": "飲食店", "ward": "清水区" },
-  { "name": "カプチーノ", "category": "飲食店", "ward": "清水区" },
-  { "name": "カプリコーン", "category": "飲食店", "ward": "清水区" },
-  { "name": "がブリチキン 草薙駅前店", "category": "飲食店", "ward": "清水区" },
-  { "name": "亀八", "category": "飲食店", "ward": "清水区" },
-  { "name": "鴨蕎麦 柏寿", "category": "飲食店", "ward": "清水区" },
-  { "name": "からあげ「大ちゃん」岡店", "category": "飲食店", "ward": "清水区" },
-  { "name": "からあげ「大ちゃん」鳥坂店", "category": "飲食店", "ward": "清水区" },
-  { "name": "カレーうどん 鐘壱", "category": "飲食店", "ward": "清水区" },
-  { "name": "カレーハウス香琳", "category": "飲食店", "ward": "清水区" },
-  { "name": "カレーハウスCoCo壱番屋 清水大曲店", "category": "飲食店", "ward": "清水区" },
-  { "name": "川京", "category": "飲食店", "ward": "清水区" },
-  { "name": "かん吉 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "ガンジス川 駒越中店", "category": "飲食店", "ward": "清水区" },
-  { "name": "cantineコトイチ", "category": "飲食店", "ward": "清水区" },
-  { "name": "蒲原の味処 よし川", "category": "飲食店", "ward": "清水区" },
-  { "name": "kicheka", "category": "飲食店", "ward": "清水区" },
-  { "name": "喫茶 陽だまり", "category": "飲食店", "ward": "清水区" },
-  { "name": "キッチン&ビストロ 光輪", "category": "飲食店", "ward": "清水区" },
-  { "name": "キッチンルポ", "category": "飲食店", "ward": "清水区" },
-  { "name": "キャトルエピス", "category": "飲食店", "ward": "清水区" },
-  { "name": "牛角清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "餃子の翁亭", "category": "飲食店", "ward": "清水区" },
-  { "name": "霧下そば 岡田屋", "category": "飲食店", "ward": "清水区" },
-  { "name": "GINZAシャル", "category": "飲食店", "ward": "清水区" },
-  { "name": "GINZA 澄海", "category": "飲食店", "ward": "清水区" },
-  { "name": "銀座なないろ", "category": "飲食店", "ward": "清水区" },
-  { "name": "くいもの屋わん 清水駅前店", "category": "飲食店", "ward": "清水区" },
-  { "name": "草薙 茄兵衛", "category": "飲食店", "ward": "清水区" },
-  { "name": "草薙 ブキチ", "category": "飲食店", "ward": "清水区" },
-  { "name": "草薙バル sea-Dz", "category": "飲食店", "ward": "清水区" },
-  { "name": "CRaT", "category": "飲食店", "ward": "清水区" },
-  { "name": "くらさわや", "category": "飲食店", "ward": "清水区" },
-  { "name": "くら寿司 清水二の丸店", "category": "飲食店", "ward": "清水区" },
-  { "name": "ぐらん かんぱぁにゅ", "category": "飲食店", "ward": "清水区" },
-  { "name": "クレイファクトリー", "category": "飲食店", "ward": "清水区" },
-  { "name": "コク醤油ラーメン あじぶか", "category": "飲食店", "ward": "清水区" },
-  { "name": "ココス 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "五鉄 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "ごはん屋さくら", "category": "飲食店", "ward": "清水区" },
-  { "name": "コミュニティカフェsow", "category": "飲食店", "ward": "清水区" },
-  { "name": "古民家いつつの森", "category": "飲食店", "ward": "清水区" },
-  { "name": "コメダ珈琲店 清水インター店", "category": "飲食店", "ward": "清水区" },
-  { "name": "コメダ珈琲店 清水有東坂店", "category": "飲食店", "ward": "清水区" },
-  { "name": "狐狸庵", "category": "飲食店", "ward": "清水区" },
-  { "name": "コロッケのころっ家", "category": "飲食店", "ward": "清水区" },
-  { "name": "THE SIX STADIUM", "category": "飲食店", "ward": "清水区" },
-  { "name": "サーティワンアイスクリーム フレスポ静岡店", "category": "飲食店", "ward": "清水区" },
-  { "name": "サーティワンアイスクリーム ベイドリーム清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "榊屋", "category": "飲食店", "ward": "清水区" },
-  { "name": "魚屋酒家うおだい", "category": "飲食店", "ward": "清水区" },
-  { "name": "さかなや道場 清水駅前店", "category": "飲食店", "ward": "清水区" },
-  { "name": "酒場 岩科", "category": "飲食店", "ward": "清水区" },
-  { "name": "桜えび茶屋", "category": "飲食店", "ward": "清水区" },
-  { "name": "侍ちゃんぷる 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "三盛楼 渋川本店", "category": "飲食店", "ward": "清水区" },
-  { "name": "サンライス", "category": "飲食店", "ward": "清水区" },
-  { "name": "四季菜 Gelato & Café きらり", "category": "飲食店", "ward": "清水区" },
-  { "name": "十千花前 清水", "category": "飲食店", "ward": "清水区" },
-  { "name": "清水うなぎ店", "category": "飲食店", "ward": "清水区" },
-  { "name": "清水港 海岸食堂 バンノウ水産", "category": "飲食店", "ward": "清水区" },
-  { "name": "清水港 海山", "category": "飲食店", "ward": "清水区" },
-  { "name": "清水商店", "category": "飲食店", "ward": "清水区" },
-  { "name": "シャンテ", "category": "飲食店", "ward": "清水区" },
-  { "name": "熟成焼肉いちばん 清水秋吉町店", "category": "飲食店", "ward": "清水区" },
-  { "name": "酒菜屋 IKEGAMI", "category": "飲食店", "ward": "清水区" },
-  { "name": "旬菜旬魚八十八", "category": "飲食店", "ward": "清水区" },
-  { "name": "鐘庵 三保総本店", "category": "飲食店", "ward": "清水区" },
-  { "name": "食酒屋 船路", "category": "飲食店", "ward": "清水区" },
-  { "name": "食道楽", "category": "飲食店", "ward": "清水区" },
-  { "name": "四六時中 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "新生丸", "category": "飲食店", "ward": "清水区" },
-  { "name": "すーざん食堂", "category": "飲食店", "ward": "清水区" },
-  { "name": "すぎやま", "category": "飲食店", "ward": "清水区" },
-  { "name": "鮨 川澄", "category": "飲食店", "ward": "清水区" },
-  { "name": "寿司元", "category": "飲食店", "ward": "清水区" },
-  { "name": "寿司照", "category": "飲食店", "ward": "清水区" },
-  { "name": "鮨処やましち", "category": "飲食店", "ward": "清水区" },
-  { "name": "寿司の村田屋", "category": "飲食店", "ward": "清水区" },
-  { "name": "スパーゴ 草薙店", "category": "飲食店", "ward": "清水区" },
-  { "name": "炭火焼肉がらっぱ", "category": "飲食店", "ward": "清水区" },
-  { "name": "炭火焼肉伴", "category": "飲食店", "ward": "清水区" },
-  { "name": "炭火焼肉ホルモン やまけん草薙店", "category": "飲食店", "ward": "清水区" },
-  { "name": "炭火焼肉やまけん", "category": "飲食店", "ward": "清水区" },
-  { "name": "スモークヘッド", "category": "飲食店", "ward": "清水区" },
-  { "name": "駿河の味処 富士屋", "category": "飲食店", "ward": "清水区" },
-  { "name": "清栄寿司", "category": "飲食店", "ward": "清水区" },
-  { "name": "盛旺飯店 駒越", "category": "飲食店", "ward": "清水区" },
-  { "name": "千花カフェ", "category": "飲食店", "ward": "清水区" },
-  { "name": "千代商店清水", "category": "飲食店", "ward": "清水区" },
-  { "name": "袖師寿し鐡", "category": "飲食店", "ward": "清水区" },
-  { "name": "そば玉川", "category": "飲食店", "ward": "清水区" },
-  { "name": "そば処 かつみ", "category": "飲食店", "ward": "清水区" },
-  { "name": "蕎麦屋慶徳", "category": "飲食店", "ward": "清水区" },
-  { "name": "ダイニングカフェバオバブ", "category": "飲食店", "ward": "清水区" },
-  { "name": "高雄飯店", "category": "飲食店", "ward": "清水区" },
-  { "name": "高田アイス", "category": "飲食店", "ward": "清水区" },
-  { "name": "たから屋", "category": "飲食店", "ward": "清水区" },
-  { "name": "竹ふじ", "category": "飲食店", "ward": "清水区" },
-  { "name": "タコカフェ フレスポ静岡店", "category": "飲食店", "ward": "清水区" },
-  { "name": "たれ蔵", "category": "飲食店", "ward": "清水区" },
-  { "name": "たれむすめ", "category": "飲食店", "ward": "清水区" },
-  { "name": "だんらん酒場 マサヒロ", "category": "飲食店", "ward": "清水区" },
-  { "name": "Ce'ilsole~はれのひ~", "category": "飲食店", "ward": "清水区" },
-  { "name": "CHERRY BEANS BURGER SHIMIZU", "category": "飲食店", "ward": "清水区" },
-  { "name": "CHERRY BEANS POTATO SHIMIZU", "category": "飲食店", "ward": "清水区" },
-  { "name": "知久屋 三保店", "category": "飲食店", "ward": "清水区" },
-  { "name": "千年成", "category": "飲食店", "ward": "清水区" },
-  { "name": "チャイナハウス せいと", "category": "飲食店", "ward": "清水区" },
-  { "name": "茶香茶花", "category": "飲食店", "ward": "清水区" },
-  { "name": "茶楽蔵withとんぺい", "category": "飲食店", "ward": "清水区" },
-  { "name": "ちゃん源", "category": "飲食店", "ward": "清水区" },
-  { "name": "中華飯店さくら屋", "category": "飲食店", "ward": "清水区" },
-  { "name": "ChoBin", "category": "飲食店", "ward": "清水区" },
-  { "name": "珍華楼下野店", "category": "飲食店", "ward": "清水区" },
-  { "name": "月の舟", "category": "飲食店", "ward": "清水区" },
-  { "name": "This Is Cafe 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "手打ち蕎麦 きのえね", "category": "飲食店", "ward": "清水区" },
-  { "name": "手打ちそば京すき焼き泉乃里", "category": "飲食店", "ward": "清水区" },
-  { "name": "手打そば由のや", "category": "飲食店", "ward": "清水区" },
-  { "name": "TEXAS", "category": "飲食店", "ward": "清水区" },
-  { "name": "デニーズ 清水インター店", "category": "飲食店", "ward": "清水区" },
-  { "name": "デリーズキッチン", "category": "飲食店", "ward": "清水区" },
-  { "name": "天神屋 大坪店", "category": "飲食店", "ward": "清水区" },
-  { "name": "天神屋 押切店", "category": "飲食店", "ward": "清水区" },
-  { "name": "天神屋 清水駅前店", "category": "飲食店", "ward": "清水区" },
-  { "name": "天神屋 NEOPASA清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "天神屋 船越店", "category": "飲食店", "ward": "清水区" },
-  { "name": "天神屋 ベイドリーム清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "道とん堀 清水渋川店", "category": "飲食店", "ward": "清水区" },
-  { "name": "十勝 紫あん 道頓堀 ふわとろ 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "とことこ", "category": "飲食店", "ward": "清水区" },
-  { "name": "ドッグカフェしっぽーむ", "category": "飲食店", "ward": "清水区" },
-  { "name": "ととすけ", "category": "飲食店", "ward": "清水区" },
-  { "name": "巴バーガー", "category": "飲食店", "ward": "清水区" },
-  { "name": "トラットリア なおちか", "category": "飲食店", "ward": "清水区" },
-  { "name": "とりきん", "category": "飲食店", "ward": "清水区" },
-  { "name": "吞", "category": "飲食店", "ward": "清水区" },
-  { "name": "とんかつレストラン勝富 清水本店", "category": "飲食店", "ward": "清水区" },
-  { "name": "とん通", "category": "飲食店", "ward": "清水区" },
-  { "name": "どん福", "category": "飲食店", "ward": "清水区" },
-  { "name": "丼兵衛", "category": "飲食店", "ward": "清水区" },
-  { "name": "なが田酒店Japan", "category": "飲食店", "ward": "清水区" },
-  { "name": "なすび庵", "category": "飲食店", "ward": "清水区" },
-  { "name": "なすび総本店", "category": "飲食店", "ward": "清水区" },
-  { "name": "七富チーズ静岡店", "category": "飲食店", "ward": "清水区" },
-  { "name": "ナマステ カンバラ", "category": "飲食店", "ward": "清水区" },
-  { "name": "肉匠坂井 清水インター店", "category": "飲食店", "ward": "清水区" },
-  { "name": "ねぎぼうず", "category": "飲食店", "ward": "清水区" },
-  { "name": "呑美喰学遊館 すずき酒店", "category": "飲食店", "ward": "清水区" },
-  { "name": "呑処", "category": "飲食店", "ward": "清水区" },
-  { "name": "BARSOL", "category": "飲食店", "ward": "清水区" },
-  { "name": "バーミヤン 清水矢部", "category": "飲食店", "ward": "清水区" },
-  { "name": "バール・スパゲッテリア イタリア", "category": "飲食店", "ward": "清水区" },
-  { "name": "梅光", "category": "飲食店", "ward": "清水区" },
-  { "name": "パスタ屋一丁目 ベイドリーム清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "Patisserie Mare Pere", "category": "飲食店", "ward": "清水区" },
-  { "name": "patisserie Lien", "category": "飲食店", "ward": "清水区" },
-  { "name": "はなまるうどん ベイドリーム清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "はまとん", "category": "飲食店", "ward": "清水区" },
-  { "name": "浜焼き小屋 馬鹿貝", "category": "飲食店", "ward": "清水区" },
-  { "name": "晚翠", "category": "飲食店", "ward": "清水区" },
-  { "name": "pan ya M's", "category": "飲食店", "ward": "清水区" },
-  { "name": "ビアードパパ ベイドリーム清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "ピザーラ草薙店", "category": "飲食店", "ward": "清水区" },
-  { "name": "Pizza Verde", "category": "飲食店", "ward": "清水区" },
-  { "name": "PIZZERIA L'APE", "category": "飲食店", "ward": "清水区" },
-  { "name": "日出寿司", "category": "飲食店", "ward": "清水区" },
-  { "name": "日与志", "category": "飲食店", "ward": "清水区" },
-  { "name": "広島お好み焼き 鉄板焼き Mochi", "category": "飲食店", "ward": "清水区" },
-  { "name": "family cafe restaurant freely", "category": "飲食店", "ward": "清水区" },
-  { "name": "フェリーチェ・ドルチェ", "category": "飲食店", "ward": "清水区" },
-  { "name": "Fukuyama 福", "category": "飲食店", "ward": "清水区" },
-  { "name": "ふじ乃や", "category": "飲食店", "ward": "清水区" },
-  { "name": "FUJIMA", "category": "飲食店", "ward": "清水区" },
-  { "name": "ぶどうの丘 草薙", "category": "飲食店", "ward": "清水区" },
-  { "name": "ブランオーシャン 清水", "category": "飲食店", "ward": "清水区" },
-  { "name": "Flip Flop", "category": "飲食店", "ward": "清水区" },
-  { "name": "ふるさと", "category": "飲食店", "ward": "清水区" },
-  { "name": "ふるまき", "category": "飲食店", "ward": "清水区" },
-  { "name": "フレンチ食堂", "category": "飲食店", "ward": "清水区" },
-  { "name": "Bear's Kitchen", "category": "飲食店", "ward": "清水区" },
-  { "name": "ベーカリーOBL 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "Bell's MEAT", "category": "飲食店", "ward": "清水区" },
-  { "name": "北條", "category": "飲食店", "ward": "清水区" },
-  { "name": "蓬莱亭", "category": "飲食店", "ward": "清水区" },
-  { "name": "ボードゲームカフェ&バー あなぐま", "category": "飲食店", "ward": "清水区" },
-  { "name": "ぼくの家", "category": "飲食店", "ward": "清水区" },
-  { "name": "hobo こっぺ", "category": "飲食店", "ward": "清水区" },
-  { "name": "BonMasuda", "category": "飲食店", "ward": "清水区" },
-  { "name": "まいどおおきに清水江尻食堂", "category": "飲食店", "ward": "清水区" },
-  { "name": "まぐろ一船買い問屋バンノウ水産 エスパルスドリームプラザ店", "category": "飲食店", "ward": "清水区" },
-  { "name": "まぐろ一船買い問屋 バンノウ水産 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "まぐろ王国大ちゃん", "category": "飲食店", "ward": "清水区" },
-  { "name": "まぐろ王国大ちゃん いちば館店", "category": "飲食店", "ward": "清水区" },
-  { "name": "鮪専門店一期", "category": "飲食店", "ward": "清水区" },
-  { "name": "まぐろダイニング はぐるま", "category": "飲食店", "ward": "清水区" },
-  { "name": "マッシモ", "category": "飲食店", "ward": "清水区" },
-  { "name": "摩天楼", "category": "飲食店", "ward": "清水区" },
-  { "name": "丸玄ラーメン", "category": "飲食店", "ward": "清水区" },
-  { "name": "マルコデュパン 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "PatisserieMarronnierマロニエ洋菓子店", "category": "飲食店", "ward": "清水区" },
-  { "name": "miZuno", "category": "飲食店", "ward": "清水区" },
-  { "name": "御穂鶴", "category": "飲食店", "ward": "清水区" },
-  { "name": "ミヤマパン", "category": "飲食店", "ward": "清水区" },
-  { "name": "みやもと 河岸の市店", "category": "飲食店", "ward": "清水区" },
-  { "name": "宮本商店", "category": "飲食店", "ward": "清水区" },
-  { "name": "味楽苑", "category": "飲食店", "ward": "清水区" },
-  { "name": "味楽亭はしもと", "category": "飲食店", "ward": "清水区" },
-  { "name": "みんみ中華飯店", "category": "飲食店", "ward": "清水区" },
-  { "name": "掬屋", "category": "飲食店", "ward": "清水区" },
-  { "name": "目利きの銀次 清水駅前店", "category": "飲食店", "ward": "清水区" },
-  { "name": "麺屋ARIGA", "category": "飲食店", "ward": "清水区" },
-  { "name": "モスバーガー清水エンチョー店", "category": "飲食店", "ward": "清水区" },
-  { "name": "モスバーガー バロー清水高橋店", "category": "飲食店", "ward": "清水区" },
-  { "name": "モップンキッチン", "category": "飲食店", "ward": "清水区" },
-  { "name": "もとよし", "category": "飲食店", "ward": "清水区" },
-  { "name": "焼きたてのかるび 清水春日店", "category": "飲食店", "ward": "清水区" },
-  { "name": "やきとり鳥元坊", "category": "飲食店", "ward": "清水区" },
-  { "name": "やきとり家すみれ 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "焼肉 千番閣", "category": "飲食店", "ward": "清水区" },
-  { "name": "焼肉 びっくり屋", "category": "飲食店", "ward": "清水区" },
-  { "name": "焼肉居酒屋 農家の食卓", "category": "飲食店", "ward": "清水区" },
-  { "name": "焼肉たんぽぽ", "category": "飲食店", "ward": "清水区" },
-  { "name": "焼肉ふじみ 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "八木春", "category": "飲食店", "ward": "清水区" },
-  { "name": "やっちき", "category": "飲食店", "ward": "清水区" },
-  { "name": "屋根裏", "category": "飲食店", "ward": "清水区" },
-  { "name": "YAMA no Kitchen", "category": "飲食店", "ward": "清水区" },
-  { "name": "ゆうき", "category": "飲食店", "ward": "清水区" },
-  { "name": "芳川", "category": "飲食店", "ward": "清水区" },
-  { "name": "吉野寿司 高部店", "category": "飲食店", "ward": "清水区" },
-  { "name": "よもぎ", "category": "飲食店", "ward": "清水区" },
-  { "name": "らーめん 一心", "category": "飲食店", "ward": "清水区" },
-  { "name": "らーめん 海山", "category": "飲食店", "ward": "清水区" },
-  { "name": "らーめん通り", "category": "飲食店", "ward": "清水区" },
-  { "name": "楽酒呑家 西陣", "category": "飲食店", "ward": "清水区" },
-  { "name": "Lhasso ネパールインド料理", "category": "飲食店", "ward": "清水区" },
-  { "name": "LA PALETTE 清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "蘭蘭", "category": "飲食店", "ward": "清水区" },
-  { "name": "リストランテ ロメオ", "category": "飲食店", "ward": "清水区" },
-  { "name": "龍鳳", "category": "飲食店", "ward": "清水区" },
-  { "name": "漁師めし岸家", "category": "飲食店", "ward": "清水区" },
-  { "name": "リンガーハット ベイドリーム清水店", "category": "飲食店", "ward": "清水区" },
-  { "name": "louis cherry beans", "category": "飲食店", "ward": "清水区" },
-  { "name": "RAINBOW", "category": "飲食店", "ward": "清水区" },
-  { "name": "六六魚", "category": "飲食店", "ward": "清水区" },
-  { "name": "ワイン食堂シャンティ", "category": "飲食店", "ward": "清水区" },
-  { "name": "若駒", "category": "飲食店", "ward": "清水区" },
-  { "name": "若竹", "category": "飲食店", "ward": "清水区" },
-  { "name": "和CAFE茶楽/茶楽山梨商店", "category": "飲食店", "ward": "清水区" },
-  { "name": "1LDK~cafe&dining~", "category": "飲食店", "ward": "清水区" },
-  { "name": "arc 草薙店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "アイサポ 清水駅前店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "あいむ三保", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "AOKI 静岡草薙店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "赤池電器", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "あかのれん 清水高橋店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "アクセス ユープラン清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "鰺岡酒店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "あまのや繁田商店 エスパルスドリームプラザ店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "あまのや繁田商店 ベイドリーム清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "庵昇堂", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "イエローハット 清水興津店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "イエローハット 清水北矢部店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "イオン 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "池治", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "石川商店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "石川寝具ランド", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "磯部釣具店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "一茶堂", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "入船一星", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "岩崎酒店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "植田薬舗", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ウォーク 興津店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "株式会社魚格出口鮮魚店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "うさぎや", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "Excite Mart", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "江崎書店 ベイドリーム清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "エスポア イケヤ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "エディオン 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "エディオン プラザナカムラ清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "エヌ・プランニング グループ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "オートバックス 清水桜橋店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "オオムラ自転車折戸店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "御菓子庵田子の月 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "荻野商店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "お茶の緑千", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "お仏壇のやまき 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "オプティックパリミキ ベイドリーム清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "カーテンじゅうたん王国 清水鳥坂店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "海鮮組!!", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "海鮮組市場 河岸の市店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "海里", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "カインズ 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "菓子工房mijon", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "雅正庵 ベイドリーム清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "かずさや精肉店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "片瀬刃物店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "かっぱ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "家庭用品のもちづき", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "角屋", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "蟹縁", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "株式会社カネタカ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "株式会社ギフトの鈴屋", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "株式会社栗田家具センター", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "株式会社藤山電化センター", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "株式会社みかみ 河岸の市店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "神谷生花店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "かめや釣具 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "カルディコーヒーファーム エスパルスドリームプラザ店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "神沢川酒店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "鑑賞魚餌職人工房", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "蒲原屋", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "菊幸刃物店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "岸山化粧品店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "キデイランド 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "きもの丸京", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "キャトルセゾン", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "京呉服 しおさか", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "キレートオーイシ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "GINZAひまわり", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "Kuura", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "くすりのつつじ堂", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "くつ・スニーカー うえのや", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "くつしたの店ラブラブ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "久保山靴店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "グラニフ ネオパーサ清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "クラフトマーケット", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "栗田せんべい本舗", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "栗田屋本店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "クルル", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "くれよん", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "クロロフイル美顔教室 柳屋", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "桑原ストアー", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ケアショップ 銀のすず", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "削りぶし製造見学直売所", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "工明電気株式会社", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "Coast to Coast ドリームプラザ店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "コスモスベリーズ 由比店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "こだわり食品の店 オリーブ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "後藤紙店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ことぶき農園", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "小松園", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "コメリハードアンドグリーン 蒲原店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ゴルフパートナー 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "酒蔵屋 高部店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "酒ゃビック 清水飯田店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "酒ゃビック 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "桜えびと削り節の専門店 カネジョウ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "さくらストーン。", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "さくらや 静岡清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "酒のuマート", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "さすぼし蒲鉾本店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "サスヨのり", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "サッカープラザFA", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "サニーマーケット酒蔵屋", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "サルーン東屋", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "三球堂スポーツ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "三代目つきや", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "幸せの酒 銘酒市川", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "CEサロン +nanko", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "シェ・ヒロ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "JAしみずグリーンセンター", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "静岡工房", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "自転車のオオムラ 矢倉店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "柴田薬局", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "渋川園 河岸の市店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "清水サイクルセンターいしだ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "清水しぞ~か物産展", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "シャレル 静鉄ストア草薙店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "シャレル 清水イオン店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ジャンボエンチョー 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ジャンボエンチョー 清水鳥坂店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "秋月堂 西久保本店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "シュープラザ フレスポ静岡店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ショアライン", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ジョイプラザ 清水押切店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "次郎長屋", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "SWEN清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "鈴木米穀", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "スポーツショップアラジン 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "駿河みのり市場", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "駿河みやげ横丁", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "SoyLabo", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "総合電化 モチデン", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "惣菜屋はなまる ベイドリーム清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "創作陶器 平野屋", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "駄菓子彌吉", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "タケウチ製パン", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "タケムラフォト", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "たこまん 静岡本店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "だし屋 西尾商店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "立花園茶舗", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "竹翁堂", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ちびまる子ちゃんランド", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "TSUTAYA 辻店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "つつじ堂薬局 二番館", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "tips", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "デジタル補聴器のサガワ 草薙店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "手塚ふとん店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ヤマダデンキ テックランド 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "トイザらスベビーザらス静岡店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "東海道写楽岡店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "東海道写楽 船越店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "東海道駿河楽市", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "東京靴流通センター 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "東京靴流通センター バロー清水高橋店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "東南物産株式会社", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "戸田書店 江尻台店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ドン・キホーテ 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "中澤園茶舗", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "中村米作商店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "西松屋チェーン 清水北脇店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "西松屋チェーン ベイドリーム清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ニトリ ベイドリーム清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "日本平月日星", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "日本平ロープウェイ駅売店 門前の恵み たいらぎ はなあおい", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "沼田酒店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ノエビアco.to.na.", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ノジマ 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "*nonohana", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "梅芳園", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ハウマッチライフ 清水高橋店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "はせがわカメラ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "パッケージプラザイトウ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "HappyBakery", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "パティズ 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "パティスリーマチネ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "花のナカムラ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "花の店 Un ami", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "花勇", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ハリカ 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "HARUTA", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ファミリーショップuマート", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ふかくら 河岸の市店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "深沢種苗園芸", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ふじや", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ブックオフ 清水岡町店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "風土菓 庵原屋", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ふとんの三田", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "プラス10 静鉄ストア草薙店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "フラワー大石", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "フラワー雑貨 小春日和", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "Fleur SAWA", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "古郡商店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "プロショップ はる くにもち", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "文具館四ッ葉 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ベーカリークレイドル", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "紅屋", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ベルマートキヨスク 清水", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "宝石・時計 内山", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ホームアシスト 清水駒越店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "松尾商店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "マニラヤ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "マライカ エスパルスドリームプラザ清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "マルイチ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "丸兼水産 河岸の市店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "マルミ 渡辺商店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ミスタータイヤマン青山", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "水谷商店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ミチドンキ NEOPASA清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "みのや総本舗 清水駅前店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "みほしるベミュージアムショップ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "三保の松原 いちまる", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "宮様まんぢう本舗 潮屋", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "村越くだもの店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "名物屋", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "眼鏡市場 イオン清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "眼鏡市場 清水梅が岡店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "眼鏡市場 清水駅前店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "眼鏡市場 清水草薙店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "眼鏡市場 清水鳥坂店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "眼鏡市場 ベイドリーム清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "メガネスーパー 草薙店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "メガネのアイガン イオン清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "メガネの春田 清水駅前店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "メガネの富士", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "もち吉 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "もちづき楽器 静岡草薙店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "もちづき楽器 清水巴町本店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "望月海苔店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "モンマルシェ 清水本店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "やなぎだてパン", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ヤマクニ水産 河岸の市店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "やまだ酒店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "山田酒店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ヤマボシ水産", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ヤマボシ鮮魚店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "山本Farm", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "由比・むつみ市場", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "由比缶詰直売所", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ゆい桜えび館", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "油井文具", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "有限会社遠藤テレビ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "有限会社黒田呉服店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "有限会社小長谷電設", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "有限会社しおから本舗", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "有限会社鈴や化粧品店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "有限会社ノガデンキ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "有限会社深沢米店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "used-OA合同会社", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ユニクロ エスパルスドリームプラザ店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "聴色", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "洋服の青山 清水清開店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "洋服の青山 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ラ・ローザンヌ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ライフデザイン・ピオン 清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ラボサーフ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "リカーランドマツナガ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "リサイクルキング ベイドリーム清水", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "良質酒専門 リバティ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "レディス ミウラ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ロゴスショップ 静岡清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "ワインショップモチヅキ", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "渡辺忠夫商店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "倭物やカヤ NEOPASA清水店", "category": "ショッピング(小売店)", "ward": "清水区" },
-  { "name": "Yesmart 静岡店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "エスポット清水天王店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "エブリィビッグデー清水店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "エムエムフーズ", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "株式会社マルキフードセンター", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "業務スーパー清水店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "業務スーパー清水駒越店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ザ・ビッグ 蒲原店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "しずてつストア 入江店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "しずてつストア 興津店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "しずてつストア 草薙店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "しずてつストア 御門台店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "食鮮館タイヨー 庵原店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "食鮮館タイヨー 長崎店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "食鮮館タイヨー 二の丸店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "食鮮館タイヨー 日立店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "食鮮館タイヨー 由比蒲原店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "食鮮館タイヨー 横砂店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "食鮮館タイヨー 三保店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "スーパー サカマル", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "スーパーマーケットバロー 清水高橋店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "生活協同組合ユーコープ下野東店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブン-イレブン 清水庵原町店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水梅ヶ谷店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水江尻東1丁目店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水大内店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブン-イレブン 清水岡町", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水小島店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水折戸2丁目店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水木の下町店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水渋川3丁目店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水島崎町店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水中之郷1丁目店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水中矢部町店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブン-イレブン 清水西久保北店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水西久保店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水西高町店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水浜田町店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水堀込店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水真砂町店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水宮代町店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブン-イレブン 清水村松原", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水八木間店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 東名清水インター店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン 清水大坪2丁目店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブン-イレブン清水袖師町東店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン清水辻1丁目店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "セブンイレブン清水三保店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "田子重鳥坂店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "BIGMOM 清水高部店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ヒバリヤ新鮮市場 駒越ベイドリーム店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ヒバリヤ新鮮市場 高部店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ファミリーマート 興津中町店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ファミリーマート 押切北店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ファミリーマート 蒲原バイパス店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ファミリーマート コンコルド清水大曲/S店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ファミリーマート 清水石川店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ファミリーマート 清水追分店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ファミリーマート 清水由比店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ファミリーマート 興津中町北店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ファミリーマート 清水興津駅前店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ファミリーマート清水吉川", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ファミリーマート清水楠新田東", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ファミリーマート清水能島", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ファミリーマート新清水店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "フードマーケットマム 清水上店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "プライムフーズマーケット 清水梅田町店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "マックスバリュEX清水駅前店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "マックスバリュEX清水追分店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "マックスバリュEX清水村松原店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "マックスバリュ清水興津店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "マックスバリュ清水三保店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "マックスバリュ 清水八坂店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ミニストップ清水草薙一里山店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 蒲原東店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 静岡小糸製作所店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 清水梅が岡店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 清水駅西口店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "LAWSON 清水大坪二丁目店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 清水草薙杉道", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 清水桜が丘町店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 清水宍原店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 清水新緑町店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 清水清開3丁目店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 清水西久保店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 清水万世町", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 清水宮加三店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 清水横砂店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 清水永楽町店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン 清水天神二丁目店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "ローソン ひばり草薙駅南口店", "category": "コンビニ・スーパー", "ward": "清水区" },
-  { "name": "V・drug 清水長崎店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "V・drug 清水辻店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "V・drug 清水岡店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水北矢部店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水高部店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水興津店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水庵原店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水村松店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水有東坂店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水北脇店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水折戸店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水下野店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水秋吉町店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水長崎店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水天王店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水下清水店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水駒越店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水小島店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水草薙店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水横砂店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水高橋店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水八木間店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水西久保店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水江尻台店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水由比店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア 清水駅店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ウエルシア ベイドリーム清水店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "杏林堂薬局 清水三保店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "草薙薬局", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "さかえ薬局", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "サンドラッグ 清水渋川店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "サンドラッグ 清水店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "サンドラッグ 清水八千代店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "全快堂薬局 本店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "高橋薬局", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "田島薬局", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ドラッグストアコスモス 大曲店", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "みとみどう薬局", "category": "ドラッグストア", "ward": "清水区" },
-  { "name": "ABC-MARTエスパルスドリームプラザ店", "category": "ファッション", "ward": "清水区" },
-  { "name": "クサナギラヴズマーケット", "category": "ファッション", "ward": "清水区" },
-  { "name": "KUSHITANI PERFOMANCE STORE 清水店", "category": "ファッション", "ward": "清水区" },
-  { "name": "kupu-kupu", "category": "ファッション", "ward": "清水区" },
-  { "name": "クリスタル パッケージ", "category": "ファッション", "ward": "清水区" },
-  { "name": "coran", "category": "ファッション", "ward": "清水区" },
-  { "name": "ジーユー エスパルスドリームプラザ店", "category": "ファッション", "ward": "清水区" },
-  { "name": "十一屋洋服店", "category": "ファッション", "ward": "清水区" },
-  { "name": "31BRIGHT 清水店", "category": "ファッション", "ward": "清水区" },
-  { "name": "セブンエビス", "category": "ファッション", "ward": "清水区" },
-  { "name": "tabi", "category": "ファッション", "ward": "清水区" },
-  { "name": "ニットショップ クサガヤ", "category": "ファッション", "ward": "清水区" },
-  { "name": "LIME.INC ベイドリーム清水", "category": "ファッション", "ward": "清水区" },
-  { "name": "駿河健康ランド", "category": "旅館・ホテル", "ward": "清水区" },
-  { "name": "日本平ホテル", "category": "旅館・ホテル", "ward": "清水区" },
-  { "name": "見晴旅館", "category": "旅館・ホテル", "ward": "清水区" },
-  { "name": "asian relaxation villa 清水有東坂店", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "アトリエ創", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "アペゼ", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "Amici", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "アルソア樹奈", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "alm.", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "M's Aroma Bar", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "オールドニュー", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "CARLIN hair design", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "かずっちネイル", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "カットスタジオリバティー", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "color&spa URANUS", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "カリオン 香港式リンパサロン", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "CARING (ケアリング)", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "core TH", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "コアフュール マリー・エレイヌ", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "酵素風呂RIKU", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "Cheri", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "志田鍼灸接骨院", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "SMILE", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "swallowtail", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "Sept trois", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "sopi", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "つかさ治療院", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "tekuteku", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "TRANSIT", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "Treatment Room Tyy", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "ナポレオン・N", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "パリス美容院", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "ピエスヘア", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "百日草美容室", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "Beauty and Photo salon TSUMUGI", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "美容室 blanca", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "美容室ルーチェ", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "FOR YOU 清水店", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "プレミア草薙", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "プレミアムもみかる 草薙店", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "ヘアーサイト ムービズ", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "ヘアーサロン アキヤマ", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "ヘアーサロン カナザワ", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "ヘアーサロン サチ", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "ヘアーサロン パイオニア", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "HAIRSALON union", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "ヘアーサロンしばきり", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "Hair Make Kéké", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "ヘアールームMIYAKE", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "HAIRSHOP HAYASHI", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "petale", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "守接骨院・鍼灸院 清水院", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "Mumps", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "Mumps utata", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "miho hair and make", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "More爽々", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "Reach hair lab", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "relaxation salon Uru.Uru", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "る一つ美容室", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "Lecielbleu", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "RED J-B Hair Co", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "ロム", "category": "美容院・サロン・整体・マッサージ", "ward": "清水区" },
-  { "name": "クリーニングショップイケダ", "category": "クリーニング", "ward": "清水区" },
-  { "name": "すぎやまクリーニング", "category": "クリーニング", "ward": "清水区" },
-  { "name": "ノーベルクリーニング", "category": "クリーニング", "ward": "清水区" },
-  { "name": "フジドライ 清水店", "category": "クリーニング", "ward": "清水区" },
-  { "name": "株式会社静清交通", "category": "タクシー・運転代行", "ward": "清水区" },
-  { "name": "蒲原タクシー合資会社", "category": "タクシー・運転代行", "ward": "清水区" },
-  { "name": "共栄タクシー株式会社", "category": "タクシー・運転代行", "ward": "清水区" },
-  { "name": "南急観光株式会社", "category": "タクシー・運転代行", "ward": "清水区" },
-  { "name": "港タクシー株式会社", "category": "タクシー・運転代行", "ward": "清水区" },
-  { "name": "サガミシード株式会社 セルフ清水神田", "category": "ガソリンスタンド", "ward": "清水区" },
-  { "name": "セルフ興津川", "category": "ガソリンスタンド", "ward": "清水区" },
-  { "name": "セルフ清水", "category": "ガソリンスタンド", "ward": "清水区" },
-  { "name": "フレンドリー清水インターSS", "category": "ガソリンスタンド", "ward": "清水区" },
-  { "name": "フレンドリー清水SS", "category": "ガソリンスタンド", "ward": "清水区" },
-  { "name": "[おきつがわオートキャンプ場]", "category": "娯楽施設", "ward": "清水区" },
-  { "name": "キッズパラダイス", "category": "娯楽施設", "ward": "清水区" },
-  { "name": "富士山清水港クルーズ", "category": "娯楽施設", "ward": "清水区" },
-  { "name": "マイフィット シミズ", "category": "娯楽施設", "ward": "清水区" },
-  { "name": "ICTパソコンスクール アクセス ユープラン清水辻教室", "category": "その他", "ward": "清水区" },
-  { "name": "アキヤマ", "category": "その他", "ward": "清水区" },
-  { "name": "auショップ 清水大曲", "category": "その他", "ward": "清水区" },
-  { "name": "auショップ 清水矢部", "category": "その他", "ward": "清水区" },
-  { "name": "尾崎会計事務所", "category": "その他", "ward": "清水区" },
-  { "name": "カービューティーサービス望月", "category": "その他", "ward": "清水区" },
-  { "name": "貸衣装・写真スタジオ blanca", "category": "その他", "ward": "清水区" },
-  { "name": "片山衣料株式会社", "category": "その他", "ward": "清水区" },
-  { "name": "株式会社電友社", "category": "その他", "ward": "清水区" },
-  { "name": "株式会社トリプルフォー", "category": "その他", "ward": "清水区" },
-  { "name": "けいらく治療院", "category": "その他", "ward": "清水区" },
-  { "name": "米ぬか酵素風呂 カリオン", "category": "その他", "ward": "清水区" },
-  { "name": "三代目板金屋", "category": "その他", "ward": "清水区" },
-  { "name": "自転車のオオムラ 桜橋店", "category": "その他", "ward": "清水区" },
-  { "name": "清水魚市場 河岸の市", "category": "その他", "ward": "清水区" },
-  { "name": "清孝園", "category": "その他", "ward": "清水区" },
-  { "name": "制服のハマザキ", "category": "その他", "ward": "清水区" },
-  { "name": "坪井畳店", "category": "その他", "ward": "清水区" },
-  { "name": "ドイツ式フットケア テネシー", "category": "その他", "ward": "清水区" },
-  { "name": "トヨタレンタカー 清水駅前店", "category": "その他", "ward": "清水区" },
-  { "name": "ニコニコレンタカー 清水駅西口店", "category": "その他", "ward": "清水区" },
-  { "name": "日本調剤 殿沢薬局", "category": "その他", "ward": "清水区" },
-  { "name": "Personal Gym ZIPS", "category": "その他", "ward": "清水区" },
-  { "name": "パソコン倶楽部センチュリー", "category": "その他", "ward": "清水区" },
-  { "name": "パソコンの窓口 静岡店", "category": "その他", "ward": "清水区" },
-  { "name": "はんこ屋さん21 清水店", "category": "その他", "ward": "清水区" },
-  { "name": "ひばり天王町薬局", "category": "その他", "ward": "清水区" },
-  { "name": "ベイクドハート", "category": "その他", "ward": "清水区" },
-  { "name": "HORSEHEAD LABS", "category": "その他", "ward": "清水区" },
-  { "name": "ホテイフーズ 購買", "category": "その他", "ward": "清水区" },
-  { "name": "mamoru HIGH-SPEC FITNESS", "category": "その他", "ward": "清水区" },
-  { "name": "有限会社アクアワールド", "category": "その他", "ward": "清水区" },
-  { "name": "ローヴィーガンスクール清水南校", "category": "その他", "ward": "清水区" },
-  { "name": "ロン・ポワン洋菓子店", "category": "その他", "ward": "清水区" },
-  { "name": "若月オート", "category": "その他", "ward": "清水区" }
+  {
+    "name": "あおぞら",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区由比今宿１９５−１"
+  },
+  {
+    "name": "AKEBONO.",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区長崎南町７−２５"
+  },
+  {
+    "name": "あさ乃そば店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保１７６−３３"
+  },
+  {
+    "name": "味彩酒蔵らいず",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区清水区旭町２−１３"
+  },
+  {
+    "name": "アトリエ・ルールグルマンド",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙一里山２２−８ Ｌ’ｈｅｕｒｅ Ｇｏｕｒｍａｎｄｅ"
+  },
+  {
+    "name": "ありがとう食堂",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区旭町６ ６番8号 清水区役所地下1階"
+  },
+  {
+    "name": "アレグロ アッサイ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目８−２０ さかえビル ２F"
+  },
+  {
+    "name": "アンドクーリ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区船原１丁目２５１"
+  },
+  {
+    "name": "EAGLE PASS",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "居酒屋 我家我家",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区折戸５１０−６"
+  },
+  {
+    "name": "居酒屋 たかだ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区宝町７−２４"
+  },
+  {
+    "name": "居酒屋 魚魚六",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区高橋４丁目１０−７"
+  },
+  {
+    "name": "居酒屋 和花",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区千歳町６−３２"
+  },
+  {
+    "name": "居酒屋けんけん",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区大沢町４−１ 久保田ビル"
+  },
+  {
+    "name": "居酒屋ぶす",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区三保９２−４５−１"
+  },
+  {
+    "name": "居酒屋ぽれぽれ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町６−４"
+  },
+  {
+    "name": "居酒屋凜",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町１−３５"
+  },
+  {
+    "name": "イタリアンバル Glowup",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町１−２０"
+  },
+  {
+    "name": "イタリアンバル ステイゴールド",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目８−１３ の8の13"
+  },
+  {
+    "name": "一元八木間店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区八木間町４３０ パルネット52"
+  },
+  {
+    "name": "壱参",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座１０−２１ 壱参"
+  },
+  {
+    "name": "いちまる水産 まぐろ屋",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区三保１２９９−４"
+  },
+  {
+    "name": "井筒屋",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区由比３１４"
+  },
+  {
+    "name": "いっぴん亭",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区辻２丁目５−２５"
+  },
+  {
+    "name": "入船鮨 ドリームプラザ店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "インド・ネパール料理 ミトラ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "魚市場食堂",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 清水魚市場 河岸の市 まぐろ館 2階"
+  },
+  {
+    "name": "うおかん",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 河岸の市 まぐろ館 1階"
+  },
+  {
+    "name": "魚福",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保１９−１"
+  },
+  {
+    "name": "魚勇",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区天神２丁目５−１７"
+  },
+  {
+    "name": "UDONCAFE Holssi",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区相生町９−４１"
+  },
+  {
+    "name": "うどん屋げんき",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙一里山３−７ 稲葉スカイビル 1階"
+  },
+  {
+    "name": "うなぎの春日野",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保４４−１"
+  },
+  {
+    "name": "海to太陽",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区旭町５−５"
+  },
+  {
+    "name": "海辺のビュッフェはとばキッチン",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "A ONE DINING",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区吉川Ａ"
+  },
+  {
+    "name": "S.colina",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区山切１４８７−１ 清水ナショナルトレーニングセンター 内"
+  },
+  {
+    "name": "エピシェール 清水",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町１−１ アスティ清水 ２Ｆ"
+  },
+  {
+    "name": "YEBISU倶楽部海人",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区旭町５−５"
+  },
+  {
+    "name": "エベレストキッチン ベイドリーム清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１"
+  },
+  {
+    "name": "おうちごはん まんさく",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区巴町１０−９"
+  },
+  {
+    "name": "大戸屋 静岡清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区七ツ新屋４３５−１"
+  },
+  {
+    "name": "大間新栄丸",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 河岸の市 まぐろ館"
+  },
+  {
+    "name": "おさかな工房 魚清",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区小芝町１−１８"
+  },
+  {
+    "name": "御食事処 大漁市場",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "お食事処おがわ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区美濃輪町５−２ おがわ"
+  },
+  {
+    "name": "海蛇",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区上力町３−１１"
+  },
+  {
+    "name": "海鮮酒場 浜ちゃん",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目８−１６"
+  },
+  {
+    "name": "海鮮丼たかし",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９"
+  },
+  {
+    "name": "回転寿司 のぶちゃん",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "Cavern Tavern",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区辻１丁目３−１ 田中屋ビル 1階"
+  },
+  {
+    "name": "隠れ居酒屋 頂",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区辻５丁目２−１４"
+  },
+  {
+    "name": "河岸分店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区相生町１−３"
+  },
+  {
+    "name": "ガスト 清水七ツ新屋",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区七ツ新屋４４２−１"
+  },
+  {
+    "name": "活うなぎ橋本",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区庄福町７−１５"
+  },
+  {
+    "name": "活火山",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区中之郷１丁目４−１１ ＭＩＨＡＲＡビル"
+  },
+  {
+    "name": "かつさと 新蒲原駅前店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原８０２−４"
+  },
+  {
+    "name": "かっぱ寿司 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区七ツ新屋２丁目１−６０"
+  },
+  {
+    "name": "割烹 大武",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区西高町１１−４"
+  },
+  {
+    "name": "割烹 大花",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻東３丁目１０−１３"
+  },
+  {
+    "name": "割烹 わかすぎ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区巴町１２−２ 新清水ビル 2F"
+  },
+  {
+    "name": "かね田食堂",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入江１丁目１−２３"
+  },
+  {
+    "name": "カフェ アイムフィッシュ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区二の丸町７−７ カサマロン"
+  },
+  {
+    "name": "Cafe a by Netz SHIZUOKA",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１９８２−６"
+  },
+  {
+    "name": "CAFE OEC",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区松井町１２−１"
+  },
+  {
+    "name": "カフェ れいじーじゃっく",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区高橋南町１２−１ れいじーじゃっく"
+  },
+  {
+    "name": "カフェオビー",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原１丁目９−１９"
+  },
+  {
+    "name": "Cafe-Yamazaki",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区矢倉町２−９"
+  },
+  {
+    "name": "カプチーノ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区村松６２４−３５"
+  },
+  {
+    "name": "カプリコーン",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町２−２"
+  },
+  {
+    "name": "がブリチキン 草薙駅前店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目８−１１"
+  },
+  {
+    "name": "亀八",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区相生町９−１７"
+  },
+  {
+    "name": "鴨蕎麦 柏寿",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５ エスパルスドリームプラザ 1F 国道側デッキ"
+  },
+  {
+    "name": "からあげ「大ちゃん」岡店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区月見町１−７"
+  },
+  {
+    "name": "からあげ「大ちゃん」鳥坂店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区鳥坂７４８−７"
+  },
+  {
+    "name": "カレーうどん 鐘壱",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区殿沢１丁目３−２"
+  },
+  {
+    "name": "カレーハウス香琳",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区八坂東２丁目１−３５"
+  },
+  {
+    "name": "カレーハウスCoCo壱番屋 清水大曲店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区鶴舞町１−４"
+  },
+  {
+    "name": "川京",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区平川地３−２０ 割烹川京"
+  },
+  {
+    "name": "かん吉 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区御門台３−１０"
+  },
+  {
+    "name": "ガンジス川 駒越中店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越中２丁目１４−２"
+  },
+  {
+    "name": "cantineコトイチ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目１４−９"
+  },
+  {
+    "name": "蒲原の味処 よし川",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原３丁目５−１８"
+  },
+  {
+    "name": "kicheka",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区村松７０５−１ クリーンフジミ"
+  },
+  {
+    "name": "喫茶 陽だまり",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区由比２９７−１"
+  },
+  {
+    "name": "キッチン&ビストロ 光輪",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町７−１０"
+  },
+  {
+    "name": "キッチンルポ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区庵原町１６０５"
+  },
+  {
+    "name": "キャトルエピス",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区天神２丁目６ ｑｕａｔｒｅ ｅｐｉｃｅ"
+  },
+  {
+    "name": "牛角清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町５−２ シャレーム清水 1Ｆ"
+  },
+  {
+    "name": "餃子の翁亭",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区下野東１０−７"
+  },
+  {
+    "name": "霧下そば 岡田屋",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻台町１４−１８"
+  },
+  {
+    "name": "GINZAシャル",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座１３−２７−２ ＧＩＮＺＡＳｃｈａｌｌ"
+  },
+  {
+    "name": "GINZA 澄海",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座１−２４ 2階"
+  },
+  {
+    "name": "銀座なないろ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座１０−１１"
+  },
+  {
+    "name": "くいもの屋わん 清水駅前店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区辻１丁目２−１ えじりあ 2F"
+  },
+  {
+    "name": "草薙 茄兵衛",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目２６−１"
+  },
+  {
+    "name": "草薙 ブキチ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目７−２"
+  },
+  {
+    "name": "草薙バル sea-Dz",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目５−７"
+  },
+  {
+    "name": "CRaT",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保１丁目１３−２４"
+  },
+  {
+    "name": "くらさわや",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区由比東倉澤６９−１"
+  },
+  {
+    "name": "くら寿司 清水二の丸店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区二の丸町１−２７"
+  },
+  {
+    "name": "ぐらん かんぱぁにゅ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区巴町１１−２３ 居酒屋 ぐらん・かんぱぁにゅ"
+  },
+  {
+    "name": "クレイファクトリー",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町６−４９"
+  },
+  {
+    "name": "コク醤油ラーメン あじぶか",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区梅ヶ谷２４２−１ 田島荘"
+  },
+  {
+    "name": "ココス 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区築地町１０−２８"
+  },
+  {
+    "name": "五鉄 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ まぐろ館 2階"
+  },
+  {
+    "name": "ごはん屋さくら",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区由比今宿１０２７−８"
+  },
+  {
+    "name": "コミュニティカフェsow",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区村松２２２１−１"
+  },
+  {
+    "name": "古民家いつつの森",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区小河内１１００−１"
+  },
+  {
+    "name": "コメダ珈琲店 清水インター店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区八坂西町１５−３０"
+  },
+  {
+    "name": "コメダ珈琲店 清水有東坂店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区有東坂２丁目３６４−１"
+  },
+  {
+    "name": "狐狸庵",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区宮代町１０−３"
+  },
+  {
+    "name": "コロッケのころっ家",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "THE SIX STADIUM",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５ エスパルスドリームプラザ ２F"
+  },
+  {
+    "name": "サーティワンアイスクリーム フレスポ静岡店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区鳥坂８６０"
+  },
+  {
+    "name": "サーティワンアイスクリーム ベイドリーム清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１ ベイドリーム清水 １Ｆ"
+  },
+  {
+    "name": "榊屋",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区横砂西町６−１５"
+  },
+  {
+    "name": "魚屋酒家うおだい",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区東大曲町２−７"
+  },
+  {
+    "name": "さかなや道場 清水駅前店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町２−２７ 清水駅前商店街ビル 1F"
+  },
+  {
+    "name": "酒場 岩科",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原４丁目３２−２５ 酒場"
+  },
+  {
+    "name": "桜えび茶屋",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区由比６７２−１"
+  },
+  {
+    "name": "侍ちゃんぷる 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町２−６"
+  },
+  {
+    "name": "三盛楼 渋川本店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区渋川２２８"
+  },
+  {
+    "name": "サンライス",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区港町２丁目６−１９ サンライスＲＥＳＴＡＵＲＡＮＴ"
+  },
+  {
+    "name": "四季菜 Gelato & Café きらり",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区北脇２５０−１"
+  },
+  {
+    "name": "十千花前 清水",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町２−２４"
+  },
+  {
+    "name": "清水うなぎ店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻東３丁目１０−１"
+  },
+  {
+    "name": "清水港 海岸食堂 バンノウ水産",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 河岸の市 まぐろ館 1階"
+  },
+  {
+    "name": "清水港 海山",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 河岸の市 まぐろ館 2階"
+  },
+  {
+    "name": "清水商店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目８−１３"
+  },
+  {
+    "name": "シャンテ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区七ツ新屋５７２−１ シャンテ"
+  },
+  {
+    "name": "熟成焼肉いちばん 清水秋吉町店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区秋吉町８−３０２−８"
+  },
+  {
+    "name": "酒菜屋 IKEGAMI",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙２丁目２−３"
+  },
+  {
+    "name": "旬菜旬魚八十八",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区相生町３−２２ パル新清水ビル"
+  },
+  {
+    "name": "鐘庵 三保総本店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区三保９２−１１"
+  },
+  {
+    "name": "食酒屋 船路",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区木の下町２７６ 船越ハイツ １０３"
+  },
+  {
+    "name": "食道楽",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻町３−１３"
+  },
+  {
+    "name": "四六時中 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区上原１丁目６−１６ イオン清水店 2階"
+  },
+  {
+    "name": "新生丸",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区巴町９−２３"
+  },
+  {
+    "name": "すーざん食堂",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越西１丁目４−１６"
+  },
+  {
+    "name": "すぎやま",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区杉山"
+  },
+  {
+    "name": "鮨 川澄",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５ エスパルスドリームプラザ 一階 すし横丁"
+  },
+  {
+    "name": "寿司元",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区蜂ヶ谷寿司元"
+  },
+  {
+    "name": "寿司照",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入江１丁目９−１５"
+  },
+  {
+    "name": "鮨処やましち",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原３丁目３−１０"
+  },
+  {
+    "name": "寿司の村田屋",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区木の下町１０"
+  },
+  {
+    "name": "スパーゴ 草薙店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙３４−１ 美容室グリース"
+  },
+  {
+    "name": "炭火焼肉がらっぱ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区港南町１−８"
+  },
+  {
+    "name": "炭火焼肉伴",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区八坂北１丁目８−１０"
+  },
+  {
+    "name": "炭火焼肉ホルモン やまけん草薙店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目７−６ トレンディー草薙 2階"
+  },
+  {
+    "name": "炭火焼肉やまけん",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目７−６ トレンディー草薙 2階"
+  },
+  {
+    "name": "スモークヘッド",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入江岡町１"
+  },
+  {
+    "name": "駿河の味処 富士屋",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区殿沢２丁目１−１０"
+  },
+  {
+    "name": "清栄寿司",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区三保３５８１"
+  },
+  {
+    "name": "盛旺飯店 駒越",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越西２丁目２−１２"
+  },
+  {
+    "name": "千花カフェ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区大沢町５−１５"
+  },
+  {
+    "name": "千代商店清水",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区八坂東２丁目１−２７"
+  },
+  {
+    "name": "袖師寿し鐡",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区袖師町５１７−１"
+  },
+  {
+    "name": "そば玉川",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区御門台１−３３"
+  },
+  {
+    "name": "そば処 かつみ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区緑が丘町１−２０"
+  },
+  {
+    "name": "蕎麦屋慶徳",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区七ツ新屋２丁目１−６３ そばうどん慶徳"
+  },
+  {
+    "name": "ダイニングカフェバオバブ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区北脇１３２−１７"
+  },
+  {
+    "name": "高雄飯店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区相生町６−２８ 神戸ビル"
+  },
+  {
+    "name": "高田アイス",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座１−８"
+  },
+  {
+    "name": "たから屋",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区相生町２−３０ たから屋"
+  },
+  {
+    "name": "竹ふじ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区三保１１４"
+  },
+  {
+    "name": "タコカフェ フレスポ静岡店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区鳥坂８６０"
+  },
+  {
+    "name": "たれ蔵",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座１２−１２−６"
+  },
+  {
+    "name": "たれむすめ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "だんらん酒場 マサヒロ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目５−３"
+  },
+  {
+    "name": "Ce'ilsole~はれのひ~",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区辻１丁目４−１１"
+  },
+  {
+    "name": "CHERRY BEANS BURGER SHIMIZU",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５ エスパルスドリームプラザ 3階"
+  },
+  {
+    "name": "CHERRY BEANS POTATO SHIMIZU",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５ エスパルスドリームプラザ 1F シーサイドストリート"
+  },
+  {
+    "name": "知久屋 三保店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区三保１１１−２"
+  },
+  {
+    "name": "千年成",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区相生町２−２４"
+  },
+  {
+    "name": "チャイナハウス せいと",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区港南町１−１０ チャイナハウス成都"
+  },
+  {
+    "name": "茶香茶花",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越東町５−２６ ソレイユノノムラ"
+  },
+  {
+    "name": "茶楽蔵withとんぺい",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区小芝町３−４６"
+  },
+  {
+    "name": "ちゃん源",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原３丁目７−１８"
+  },
+  {
+    "name": "中華飯店さくら屋",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区上清水町１１−２４"
+  },
+  {
+    "name": "ChoBin",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区万世町１丁目１−８"
+  },
+  {
+    "name": "珍華楼下野店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区下野北９−１２"
+  },
+  {
+    "name": "月の舟",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区旭町３−１２ 佐野ビル"
+  },
+  {
+    "name": "This Is Cafe 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５ 1F"
+  },
+  {
+    "name": "手打ち蕎麦 きのえね",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区七ツ新屋４２３−６"
+  },
+  {
+    "name": "手打ちそば京すき焼き泉乃里",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区殿沢１丁目１−１２"
+  },
+  {
+    "name": "手打そば由のや",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区由比７６"
+  },
+  {
+    "name": "TEXAS",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻東２丁目１−６ ＴＥＸＡＳ"
+  },
+  {
+    "name": "デニーズ 清水インター店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区庵原町１−１３８−２"
+  },
+  {
+    "name": "デリーズキッチン",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区清水区入船町１３−１５"
+  },
+  {
+    "name": "天神屋 大坪店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区大坪２丁目１−１８"
+  },
+  {
+    "name": "天神屋 押切店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区押切５８３−２"
+  },
+  {
+    "name": "天神屋 清水駅前店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町３−１４"
+  },
+  {
+    "name": "天神屋 NEOPASA清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区小河内８８５−１５"
+  },
+  {
+    "name": "天神屋 船越店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区木の下町２７８"
+  },
+  {
+    "name": "天神屋 ベイドリーム清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１ ベイドリーム清水 1F"
+  },
+  {
+    "name": "道とん堀 清水渋川店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区渋川１丁目６−２５ お好み焼道とん堀"
+  },
+  {
+    "name": "十勝 紫あん 道頓堀 ふわとろ 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区上原１丁目６−１６ イオン清水店 1F"
+  },
+  {
+    "name": "とことこ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区千歳町６−２７ 千歳ガーデンヒルズレジデンス 1階"
+  },
+  {
+    "name": "ドッグカフェしっぽーむ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区中之郷３丁目１−２９ エンブルエール草薙駅前Ａ 1"
+  },
+  {
+    "name": "ととすけ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ まぐろ館 ２ 階"
+  },
+  {
+    "name": "巴バーガー",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区巴町７−２０"
+  },
+  {
+    "name": "トラットリア なおちか",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区上原２丁目５−１５"
+  },
+  {
+    "name": "とりきん",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保３５−２０"
+  },
+  {
+    "name": "吞",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町５−２５ のみくいや呑"
+  },
+  {
+    "name": "とんかつレストラン勝富 清水本店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区吉川２９９−１"
+  },
+  {
+    "name": "とん通",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町６−５"
+  },
+  {
+    "name": "どん福",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 1F"
+  },
+  {
+    "name": "丼兵衛",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 河岸の市 まぐろ館 2階"
+  },
+  {
+    "name": "なが田酒店Japan",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町２−２２"
+  },
+  {
+    "name": "なすび庵",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区富士見町５−８"
+  },
+  {
+    "name": "なすび総本店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区富士見町５−８"
+  },
+  {
+    "name": "七富チーズ静岡店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区蛇塚３１１−１"
+  },
+  {
+    "name": "ナマステ カンバラ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原３丁目１４−２"
+  },
+  {
+    "name": "肉匠坂井 清水インター店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保４５−１"
+  },
+  {
+    "name": "ねぎぼうず",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区由比北田１４１−３"
+  },
+  {
+    "name": "呑美喰学遊館 すずき酒店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保５２２"
+  },
+  {
+    "name": "呑処",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区八木間町４３０"
+  },
+  {
+    "name": "BARSOL",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区本郷町１−１ 清水駅前ビル ２F"
+  },
+  {
+    "name": "バーミヤン 清水矢部",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区中矢部町３−８"
+  },
+  {
+    "name": "バール・スパゲッテリア イタリア",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区相生町７−２６ セントラルビル"
+  },
+  {
+    "name": "梅光",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区万世町１丁目６−３０"
+  },
+  {
+    "name": "パスタ屋一丁目 ベイドリーム清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１ ベイドリーム清水１Ｆフードコート内"
+  },
+  {
+    "name": "Patisserie Mare Pere",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡県静岡市葵区鷹匠３丁目１１−３"
+  },
+  {
+    "name": "patisserie Lien",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区辻４丁目３−１３"
+  },
+  {
+    "name": "はなまるうどん ベイドリーム清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１ ベイドリーム清水内フードコート"
+  },
+  {
+    "name": "はまとん",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原１３７−１８"
+  },
+  {
+    "name": "浜焼き小屋 馬鹿貝",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９"
+  },
+  {
+    "name": "晚翠",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "pan ya M's",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区天王東３−１３"
+  },
+  {
+    "name": "ビアードパパ ベイドリーム清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１"
+  },
+  {
+    "name": "ピザーラ草薙店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区中之郷１丁目６−１４ アートヒルズ"
+  },
+  {
+    "name": "Pizza Verde",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区谷田９−３１"
+  },
+  {
+    "name": "PIZZERIA L'APE",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区蜂ヶ谷２９１−４"
+  },
+  {
+    "name": "日出寿司",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区沼田町６−２"
+  },
+  {
+    "name": "日与志",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区船原２丁目１６−２"
+  },
+  {
+    "name": "広島お好み焼き 鉄板焼き Mochi",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "日本、広島県広島市"
+  },
+  {
+    "name": "family cafe restaurant freely",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１丁目１３−１５"
+  },
+  {
+    "name": "フェリーチェ・ドルチェ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "Fukuyama 福",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区巴町１１−７ 内藤貸店舗 1F"
+  },
+  {
+    "name": "ふじ乃や",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町７−６"
+  },
+  {
+    "name": "FUJIMA",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区中之郷６０２−１"
+  },
+  {
+    "name": "ぶどうの丘 草薙",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目２８−１"
+  },
+  {
+    "name": "ブランオーシャン 清水",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町２２３"
+  },
+  {
+    "name": "Flip Flop",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座１−２４"
+  },
+  {
+    "name": "ふるさと",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区春日１丁目８−１２"
+  },
+  {
+    "name": "ふるまき",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区由比町屋原１８７−４"
+  },
+  {
+    "name": "フレンチ食堂",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区平川地５−１０"
+  },
+  {
+    "name": "Bear's Kitchen",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区千歳町７−２０"
+  },
+  {
+    "name": "ベーカリーOBL 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区有東坂５−１６"
+  },
+  {
+    "name": "Bell's MEAT",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "北條",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区小河内３８９９−１"
+  },
+  {
+    "name": "蓬莱亭",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区港町１丁目４−１"
+  },
+  {
+    "name": "ボードゲームカフェ&バー あなぐま",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区巴町７−３ コーポ元城町 S4 3階"
+  },
+  {
+    "name": "ぼくの家",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区長崎７４３ ぼくの家"
+  },
+  {
+    "name": "hobo こっぺ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原小金１２３−４"
+  },
+  {
+    "name": "BonMasuda",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻東１丁目３−１５"
+  },
+  {
+    "name": "まいどおおきに清水江尻食堂",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻台町１４−２３ まいどおおきに食堂清水江尻食堂"
+  },
+  {
+    "name": "まぐろ一船買い問屋バンノウ水産 エスパルスドリームプラザ店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５ エスパルスドリームプラザ 1F"
+  },
+  {
+    "name": "まぐろ一船買い問屋 バンノウ水産 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 河岸の市 まぐろ館 1階"
+  },
+  {
+    "name": "まぐろ王国大ちゃん",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ まぐろ館 1F"
+  },
+  {
+    "name": "まぐろ王国大ちゃん いちば館店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ まぐろ館 1F"
+  },
+  {
+    "name": "鮪専門店一期",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町149番地 まぐろ館 １Ｆ"
+  },
+  {
+    "name": "まぐろダイニング はぐるま",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区三保１３３０−２"
+  },
+  {
+    "name": "マッシモ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区三保８９−１ ＭＡＳＳＩＭＯ"
+  },
+  {
+    "name": "摩天楼",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座８−１７ 摩天楼"
+  },
+  {
+    "name": "丸玄ラーメン",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区由比北田３３−２"
+  },
+  {
+    "name": "マルコデュパン 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区渋川３丁目７−１８"
+  },
+  {
+    "name": "PatisserieMarronnierマロニエ洋菓子店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区押切１７６０"
+  },
+  {
+    "name": "miZuno",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区船越東町２０９−２"
+  },
+  {
+    "name": "御穂鶴",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区三保１０２６ 御穂鶴"
+  },
+  {
+    "name": "ミヤマパン",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目１３−１９"
+  },
+  {
+    "name": "みやもと 河岸の市店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９"
+  },
+  {
+    "name": "宮本商店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９−５０"
+  },
+  {
+    "name": "味楽苑",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区月見町２−２"
+  },
+  {
+    "name": "味楽亭はしもと",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町６−５"
+  },
+  {
+    "name": "みんみ中華飯店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座８−１５ 柴ビル"
+  },
+  {
+    "name": "掬屋",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区梅が岡９−１９"
+  },
+  {
+    "name": "目利きの銀次 清水駅前店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町３−６ ニューアメリカ屋貸店舗 1階2階"
+  },
+  {
+    "name": "麺屋ARIGA",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入江岡町１５−２６"
+  },
+  {
+    "name": "モスバーガー清水エンチョー店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区袖師町１４５５"
+  },
+  {
+    "name": "モスバーガー バロー清水高橋店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区高橋５丁目１−１"
+  },
+  {
+    "name": "モップンキッチン",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区相生町１−５ 大岡ビル １階"
+  },
+  {
+    "name": "もとよし",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区興津中町７５４−１"
+  },
+  {
+    "name": "焼きたてのかるび 清水春日店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区春日１丁目８−８"
+  },
+  {
+    "name": "やきとり鳥元坊",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区袖師町４４５−１０"
+  },
+  {
+    "name": "やきとり家すみれ 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町３−７"
+  },
+  {
+    "name": "焼肉 千番閣",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区大坪１丁目３−１３"
+  },
+  {
+    "name": "焼肉 びっくり屋",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区西高町９−２４"
+  },
+  {
+    "name": "焼肉居酒屋 農家の食卓",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区折戸４丁目７−２２ 農家の食卓"
+  },
+  {
+    "name": "焼肉たんぽぽ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙一里山５−５ 和牛焼肉たんぽぽ"
+  },
+  {
+    "name": "焼肉ふじみ 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区相生町８−８"
+  },
+  {
+    "name": "八木春",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町１−１５"
+  },
+  {
+    "name": "やっちき",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町５−３０ Ｙａｃｃｈｉｋｉ"
+  },
+  {
+    "name": "屋根裏",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座１−９"
+  },
+  {
+    "name": "YAMA no Kitchen",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区宮下町１０−４７"
+  },
+  {
+    "name": "ゆうき",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "芳川",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区吉川"
+  },
+  {
+    "name": "吉野寿司 高部店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区大内新田１３−５ 吉野寿司 高部"
+  },
+  {
+    "name": "よもぎ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区下野北１４−１"
+  },
+  {
+    "name": "らーめん 一心",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区春日２丁目４−３３"
+  },
+  {
+    "name": "らーめん 海山",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区八木間町４１５−１１"
+  },
+  {
+    "name": "らーめん通り",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区八木間町６０９−７"
+  },
+  {
+    "name": "楽酒呑家 西陣",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区袖師町２５８−４"
+  },
+  {
+    "name": "Lhasso ネパールインド料理",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "ネパール"
+  },
+  {
+    "name": "LA PALETTE 清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１丁目１３−１５ エスパルスドリームプラザ"
+  },
+  {
+    "name": "蘭蘭",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区月見町２−５ 富士見ハイツ"
+  },
+  {
+    "name": "リストランテ ロメオ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻台町１−２６ ＲＯＭＥＯ"
+  },
+  {
+    "name": "龍鳳",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区天王南７−７"
+  },
+  {
+    "name": "漁師めし岸家",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 河岸の市 まぐろ館 １階"
+  },
+  {
+    "name": "リンガーハット ベイドリーム清水店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１ ベイドリーム清水 1F フードコート"
+  },
+  {
+    "name": "louis cherry beans",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目２−２６ D1ビル 1階"
+  },
+  {
+    "name": "RAINBOW",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座８−１６ 1F"
+  },
+  {
+    "name": "六六魚",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区船越東町２３８−２"
+  },
+  {
+    "name": "ワイン食堂シャンティ",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区西高町１−１ コーポＳ 1FC"
+  },
+  {
+    "name": "若駒",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原４丁目２６−２"
+  },
+  {
+    "name": "若竹",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区辻２丁目２−５"
+  },
+  {
+    "name": "和CAFE茶楽/茶楽山梨商店",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区興津本町１５８"
+  },
+  {
+    "name": "1LDK~cafe&dining~",
+    "category": "飲食店",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座８−１４ 1F"
+  },
+  {
+    "name": "arc 草薙店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区中之郷１丁目１２−１"
+  },
+  {
+    "name": "アイサポ 清水駅前店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区辻１丁目１−３ アトラス清水駅前 103-2"
+  },
+  {
+    "name": "あいむ三保",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区三保３５２７−４"
+  },
+  {
+    "name": "AOKI 静岡草薙店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区中之郷１丁目２−１"
+  },
+  {
+    "name": "赤池電器",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原３丁目３−６"
+  },
+  {
+    "name": "あかのれん 清水高橋店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区高橋５丁目１−１"
+  },
+  {
+    "name": "アクセス ユープラン清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区辻５丁目３−２３"
+  },
+  {
+    "name": "鰺岡酒店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区岡町"
+  },
+  {
+    "name": "あまのや繁田商店 エスパルスドリームプラザ店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "あまのや繁田商店 ベイドリーム清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町１−８ ベイドリーム清水 1F"
+  },
+  {
+    "name": "庵昇堂",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区庵原町１７８１ 庵昇堂"
+  },
+  {
+    "name": "イエローハット 清水興津店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区八木間町１６６４−１"
+  },
+  {
+    "name": "イエローハット 清水北矢部店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区北矢部町２丁目８−２５"
+  },
+  {
+    "name": "イオン 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区上原１丁目６−１６"
+  },
+  {
+    "name": "池治",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区大坪１丁目４−１４ 池治"
+  },
+  {
+    "name": "石川商店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 河岸の市 いちば館"
+  },
+  {
+    "name": "石川寝具ランド",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町５−２０ 石川寝具ランド"
+  },
+  {
+    "name": "磯部釣具店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原中３１０−３"
+  },
+  {
+    "name": "一茶堂",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区港町１丁目２−１０"
+  },
+  {
+    "name": "入船一星",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１"
+  },
+  {
+    "name": "岩崎酒店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目６−４"
+  },
+  {
+    "name": "植田薬舗",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区吉川９３０−１"
+  },
+  {
+    "name": "ウォーク 興津店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区八木間町１６５９−１"
+  },
+  {
+    "name": "株式会社魚格出口鮮魚店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区興津清見寺町９７"
+  },
+  {
+    "name": "うさぎや",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区港町１丁目１−４ びすとろうさぎや"
+  },
+  {
+    "name": "Excite Mart",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町２−２９ 清水駅前銀座商店 街内"
+  },
+  {
+    "name": "江崎書店 ベイドリーム清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１"
+  },
+  {
+    "name": "エスポア イケヤ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区北矢部町１丁目１５−２２"
+  },
+  {
+    "name": "エディオン 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区永楽町１４−５０"
+  },
+  {
+    "name": "エディオン プラザナカムラ清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区船越３丁目１４−８"
+  },
+  {
+    "name": "エヌ・プランニング グループ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡県富士宮市杉田１３１６−３"
+  },
+  {
+    "name": "オートバックス 清水桜橋店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区桜が丘町５−３０"
+  },
+  {
+    "name": "オオムラ自転車折戸店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区折戸２丁目２−７"
+  },
+  {
+    "name": "御菓子庵田子の月 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区春日２丁目３−３４"
+  },
+  {
+    "name": "荻野商店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区興津中町２３５−５"
+  },
+  {
+    "name": "お茶の緑千",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区袖師町"
+  },
+  {
+    "name": "お仏壇のやまき 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区大坪２丁目６−１６"
+  },
+  {
+    "name": "オプティックパリミキ ベイドリーム清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１ ベイドリーム清水 1F"
+  },
+  {
+    "name": "カーテンじゅうたん王国 清水鳥坂店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区鳥坂１１７２−１"
+  },
+  {
+    "name": "海鮮組!!",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡県静岡市駿河区大和２丁目７−７−１３"
+  },
+  {
+    "name": "海鮮組市場 河岸の市店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "海里",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 海里"
+  },
+  {
+    "name": "カインズ 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区長崎１０２"
+  },
+  {
+    "name": "菓子工房mijon",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "雅正庵 ベイドリーム清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１ 1階"
+  },
+  {
+    "name": "かずさや精肉店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区桜橋町１０−３９ 和牛専門店かずさや"
+  },
+  {
+    "name": "片瀬刃物店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区梅田町８−１０"
+  },
+  {
+    "name": "かっぱ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原堰沢４０２−１"
+  },
+  {
+    "name": "家庭用品のもちづき",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町３−８"
+  },
+  {
+    "name": "角屋",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町７−８"
+  },
+  {
+    "name": "蟹縁",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 河岸の市 いちば館"
+  },
+  {
+    "name": "株式会社カネタカ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区小芝町３−１８ カネタカ"
+  },
+  {
+    "name": "株式会社ギフトの鈴屋",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区大坪２丁目１−２６"
+  },
+  {
+    "name": "株式会社栗田家具センター",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区北脇新田６８０−１"
+  },
+  {
+    "name": "株式会社藤山電化センター",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区船越東町２１３−１ 藤山電化センター"
+  },
+  {
+    "name": "株式会社みかみ 河岸の市店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９"
+  },
+  {
+    "name": "神谷生花店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区清水町１２−１６"
+  },
+  {
+    "name": "かめや釣具 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区長崎南町１−４６"
+  },
+  {
+    "name": "カルディコーヒーファーム エスパルスドリームプラザ店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５ エスパルスドリームプラザ 1F"
+  },
+  {
+    "name": "神沢川酒店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区由比１８１"
+  },
+  {
+    "name": "鑑賞魚餌職人工房",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "蒲原屋",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町６−２５"
+  },
+  {
+    "name": "菊幸刃物店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町７−８"
+  },
+  {
+    "name": "岸山化粧品店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区港南町１−３"
+  },
+  {
+    "name": "キデイランド 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "きもの丸京",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町３−６ 丸京"
+  },
+  {
+    "name": "キャトルセゾン",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区梅ヶ谷４２４ キャトルセゾン"
+  },
+  {
+    "name": "京呉服 しおさか",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区八坂北２丁目１１−２８ 京呉服しおさか"
+  },
+  {
+    "name": "キレートオーイシ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区木の下町３２６−２"
+  },
+  {
+    "name": "GINZAひまわり",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座９−１４ Ｈｉｍａｗａｒｉ"
+  },
+  {
+    "name": "Kuura",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越東町１０−６４"
+  },
+  {
+    "name": "くすりのつつじ堂",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目６−１"
+  },
+  {
+    "name": "くつ・スニーカー うえのや",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙２丁目２５−１０"
+  },
+  {
+    "name": "くつしたの店ラブラブ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目１５−３ Ｌｏｖｅ Ｌｏｖｅ"
+  },
+  {
+    "name": "久保山靴店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入江１丁目８−１６"
+  },
+  {
+    "name": "グラニフ ネオパーサ清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区小河内８８５−１５ NEOPASA清水"
+  },
+  {
+    "name": "クラフトマーケット",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５ エスパルスドリームプラザ 2F"
+  },
+  {
+    "name": "栗田せんべい本舗",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻町１−１０"
+  },
+  {
+    "name": "栗田屋本店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町５−２６"
+  },
+  {
+    "name": "クルル",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区秋吉町２−６４"
+  },
+  {
+    "name": "くれよん",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区八坂北１丁目１３−２７"
+  },
+  {
+    "name": "クロロフイル美顔教室 柳屋",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡県静岡市駿河区南町１２−２０"
+  },
+  {
+    "name": "桑原ストアー",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区八坂東２丁目３−１"
+  },
+  {
+    "name": "ケアショップ 銀のすず",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区永楽町１４−３３"
+  },
+  {
+    "name": "削りぶし製造見学直売所",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "工明電気株式会社",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区八坂東２丁目１−３５"
+  },
+  {
+    "name": "Coast to Coast ドリームプラザ店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "コスモスベリーズ 由比店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区由比７０９−１"
+  },
+  {
+    "name": "こだわり食品の店 オリーブ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区辻２丁目１２−７"
+  },
+  {
+    "name": "後藤紙店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙一里山４−３"
+  },
+  {
+    "name": "ことぶき農園",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区石川本町１３−１５"
+  },
+  {
+    "name": "小松園",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区梅田町９−１７ 小松園"
+  },
+  {
+    "name": "コメリハードアンドグリーン 蒲原店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原３２２−１１"
+  },
+  {
+    "name": "ゴルフパートナー 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区上清水町３−２７"
+  },
+  {
+    "name": "酒蔵屋 高部店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区押切"
+  },
+  {
+    "name": "酒ゃビック 清水飯田店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区飯田町２−３"
+  },
+  {
+    "name": "酒ゃビック 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区大坪２丁目75−４"
+  },
+  {
+    "name": "桜えびと削り節の専門店 カネジョウ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原新田２丁目８−１４ カネジョウ"
+  },
+  {
+    "name": "さくらストーン。",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "さくらや 静岡清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区上原２丁目５−８ 池 沢 1A"
+  },
+  {
+    "name": "酒のuマート",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区木の下町２９６"
+  },
+  {
+    "name": "さすぼし蒲鉾本店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区由比町屋原69番地"
+  },
+  {
+    "name": "サスヨのり",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区幸町１１−２"
+  },
+  {
+    "name": "サッカープラザFA",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保４２−１ サッカープラザＦＡ"
+  },
+  {
+    "name": "サニーマーケット酒蔵屋",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区押切"
+  },
+  {
+    "name": "サルーン東屋",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越東町６−２"
+  },
+  {
+    "name": "三球堂スポーツ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区上２丁目１１−２１"
+  },
+  {
+    "name": "三代目つきや",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区庵原町１３４４−５"
+  },
+  {
+    "name": "幸せの酒 銘酒市川",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区清水区蒲原４０−３"
+  },
+  {
+    "name": "CEサロン +nanko",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区有東坂２丁目２７９−１ サンクレスト清水 105"
+  },
+  {
+    "name": "シェ・ヒロ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区鶴舞町１−２３ ｃｈｅｚＨｉｒｏ"
+  },
+  {
+    "name": "JAしみずグリーンセンター",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区庵原町５７５−８ ＪＡしみずグリーンセンター"
+  },
+  {
+    "name": "静岡工房",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "自転車のオオムラ 矢倉店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区辻５丁目４−２７"
+  },
+  {
+    "name": "柴田薬局",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区庵原町６３−１"
+  },
+  {
+    "name": "渋川園 河岸の市店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 河岸の市 いちば館"
+  },
+  {
+    "name": "清水サイクルセンターいしだ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区南岡町１−６"
+  },
+  {
+    "name": "清水しぞ~か物産展",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区小河内８８５−１５ 新東名高速道路清水PA内"
+  },
+  {
+    "name": "シャレル 静鉄ストア草薙店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目１３−８"
+  },
+  {
+    "name": "シャレル 清水イオン店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区上原１丁目６−１６"
+  },
+  {
+    "name": "ジャンボエンチョー 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区袖師町１４５５"
+  },
+  {
+    "name": "ジャンボエンチョー 清水鳥坂店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区鳥坂８６０"
+  },
+  {
+    "name": "秋月堂 西久保本店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保５１６−１"
+  },
+  {
+    "name": "シュープラザ フレスポ静岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区鳥坂８６０ フレスポ静岡内"
+  },
+  {
+    "name": "ショアライン",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "ジョイプラザ 清水押切店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区押切２４１５"
+  },
+  {
+    "name": "次郎長屋",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町４−９"
+  },
+  {
+    "name": "SWEN清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区袖師町１４７１−４"
+  },
+  {
+    "name": "鈴木米穀",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保２４２"
+  },
+  {
+    "name": "スポーツショップアラジン 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区浜田町１０−２９"
+  },
+  {
+    "name": "駿河みのり市場",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "駿河みやげ横丁",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "SoyLabo",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町６−２１"
+  },
+  {
+    "name": "総合電化 モチデン",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区村松６８１−１３"
+  },
+  {
+    "name": "惣菜屋はなまる ベイドリーム清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１ ベイドリーム清水 １階"
+  },
+  {
+    "name": "創作陶器 平野屋",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座１０−１０"
+  },
+  {
+    "name": "駄菓子彌吉",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町２−２３"
+  },
+  {
+    "name": "タケウチ製パン",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区石川新町８−８番地21"
+  },
+  {
+    "name": "タケムラフォト",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入江２丁目５−８"
+  },
+  {
+    "name": "たこまん 静岡本店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区大坪２丁目４−１"
+  },
+  {
+    "name": "だし屋 西尾商店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原４丁目１５−３７"
+  },
+  {
+    "name": "立花園茶舗",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区辻５丁目１−１ 立花園茶舗"
+  },
+  {
+    "name": "竹翁堂",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入江２丁目１−８ 竹翁堂"
+  },
+  {
+    "name": "ちびまる子ちゃんランド",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５ エスパルスドリームプラザ 3階"
+  },
+  {
+    "name": "TSUTAYA 辻店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区辻１丁目６−１０"
+  },
+  {
+    "name": "つつじ堂薬局 二番館",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目１４−６"
+  },
+  {
+    "name": "tips",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "デジタル補聴器のサガワ 草薙店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目１３−６ 金馬ビル"
+  },
+  {
+    "name": "手塚ふとん店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区興津中町２６９"
+  },
+  {
+    "name": "ヤマダデンキ テックランド 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区清開１丁目３−３"
+  },
+  {
+    "name": "トイザらスベビーザらス静岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区鳥坂８６０ フレスポ静岡 2F"
+  },
+  {
+    "name": "東海道写楽岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区月見町１−３"
+  },
+  {
+    "name": "東海道写楽 船越店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区木の下町２７７−１"
+  },
+  {
+    "name": "東海道駿河楽市",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡県静岡市葵区黒金町４７ アスティ静岡 西館"
+  },
+  {
+    "name": "東京靴流通センター 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区船越１丁目１３−５"
+  },
+  {
+    "name": "東京靴流通センター バロー清水高橋店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区高橋５丁目１−１ バロー清水高橋店 2F"
+  },
+  {
+    "name": "東南物産株式会社",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１２−５"
+  },
+  {
+    "name": "戸田書店 江尻台店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻台町２２−３３ エスジーポートＡ棟 内"
+  },
+  {
+    "name": "ドン・キホーテ 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区長崎南町５−３３"
+  },
+  {
+    "name": "中澤園茶舗",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町２−２８ 駅前銀座"
+  },
+  {
+    "name": "中村米作商店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保５３１"
+  },
+  {
+    "name": "西松屋チェーン 清水北脇店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区北脇２３２"
+  },
+  {
+    "name": "西松屋チェーン ベイドリーム清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１ ベイドリーム清水 1F"
+  },
+  {
+    "name": "ニトリ ベイドリーム清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１ ベイドリーム清水店 1F"
+  },
+  {
+    "name": "日本平月日星",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区村松４０４７−１８"
+  },
+  {
+    "name": "日本平ロープウェイ駅売店 門前の恵み たいらぎ はなあおい",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙５９７−８"
+  },
+  {
+    "name": "沼田酒店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区相生町２−１５"
+  },
+  {
+    "name": "ノエビアco.to.na.",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "ノジマ 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１ ベイドリーム清水 2Ｆ"
+  },
+  {
+    "name": "*nonohana",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区八木間町５７６−６"
+  },
+  {
+    "name": "梅芳園",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区三光町６−３５"
+  },
+  {
+    "name": "ハウマッチライフ 清水高橋店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区高橋３丁目１−１ ハウマッチ・ウェア"
+  },
+  {
+    "name": "はせがわカメラ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原２丁目６−１ はせがわカメラ"
+  },
+  {
+    "name": "パッケージプラザイトウ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区万世町２丁目３−３３ パッケージプラザ イトウ"
+  },
+  {
+    "name": "HappyBakery",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "パティズ 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区上原１丁目６−１６ イオン清水店内 ２Ｆ"
+  },
+  {
+    "name": "パティスリーマチネ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保２２７−９"
+  },
+  {
+    "name": "花のナカムラ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区上１丁目６ 花のナカムラ"
+  },
+  {
+    "name": "花の店 Un ami",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "花勇",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目７−１ イチカワビル"
+  },
+  {
+    "name": "ハリカ 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区梅が岡６−２３"
+  },
+  {
+    "name": "HARUTA",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目１５−２ ＨＡＲＵＴＡ"
+  },
+  {
+    "name": "ファミリーショップuマート",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区木の下町２９６"
+  },
+  {
+    "name": "ふかくら 河岸の市店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９"
+  },
+  {
+    "name": "深沢種苗園芸",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区上２丁目４−８"
+  },
+  {
+    "name": "ふじや",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区緑が丘町１ ふじや"
+  },
+  {
+    "name": "ブックオフ 清水岡町店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区岡町６−１"
+  },
+  {
+    "name": "風土菓 庵原屋",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座１４−１４ ＭｕｓｉｃＬａｎｄ ＹＡＭＡＧＵＣＨＩ"
+  },
+  {
+    "name": "ふとんの三田",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区土８０"
+  },
+  {
+    "name": "プラス10 静鉄ストア草薙店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目１３−８"
+  },
+  {
+    "name": "フラワー大石",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原小金３７１ フラワー大石"
+  },
+  {
+    "name": "フラワー雑貨 小春日和",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区矢倉町３−９ 小春日和"
+  },
+  {
+    "name": "Fleur SAWA",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区押切６２−１"
+  },
+  {
+    "name": "古郡商店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原４丁目２６−４５"
+  },
+  {
+    "name": "プロショップ はる くにもち",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区吉川２６２"
+  },
+  {
+    "name": "文具館四ッ葉 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座１４−１３"
+  },
+  {
+    "name": "ベーカリークレイドル",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区八坂東２丁目２−３"
+  },
+  {
+    "name": "紅屋",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻町６−６"
+  },
+  {
+    "name": "ベルマートキヨスク 清水",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町１−１"
+  },
+  {
+    "name": "宝石・時計 内山",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座１１−２２"
+  },
+  {
+    "name": "ホームアシスト 清水駒越店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１"
+  },
+  {
+    "name": "松尾商店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町６−２５"
+  },
+  {
+    "name": "マニラヤ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区銀座３−６ マニラヤ"
+  },
+  {
+    "name": "マライカ エスパルスドリームプラザ清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５"
+  },
+  {
+    "name": "マルイチ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区高橋６丁目４−１８"
+  },
+  {
+    "name": "丸兼水産 河岸の市店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 河岸の市"
+  },
+  {
+    "name": "マルミ 渡辺商店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区河内"
+  },
+  {
+    "name": "ミスタータイヤマン青山",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区大内７０９−４"
+  },
+  {
+    "name": "水谷商店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原４丁目２３−２４"
+  },
+  {
+    "name": "ミチドンキ NEOPASA清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区小河内８８５−１５"
+  },
+  {
+    "name": "みのや総本舗 清水駅前店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町１−１ 清水駅"
+  },
+  {
+    "name": "みほしるベミュージアムショップ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区三保１３３８−４５"
+  },
+  {
+    "name": "三保の松原 いちまる",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区三保１３３８−４５ 三保松原"
+  },
+  {
+    "name": "宮様まんぢう本舗 潮屋",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区興津本町２７−１"
+  },
+  {
+    "name": "村越くだもの店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町３−５ ＯＲＴＯＬＡＮＯ"
+  },
+  {
+    "name": "名物屋",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "４３５, 興津中町 清水区 静岡市 静岡県 424-0204 日本"
+  },
+  {
+    "name": "眼鏡市場 イオン清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区上原１丁目６−１６"
+  },
+  {
+    "name": "眼鏡市場 清水梅が岡店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区梅が岡９−２１"
+  },
+  {
+    "name": "眼鏡市場 清水駅前店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区本郷町１０−２２"
+  },
+  {
+    "name": "眼鏡市場 清水草薙店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区中之郷１丁目２−１３"
+  },
+  {
+    "name": "眼鏡市場 清水鳥坂店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区鳥坂７４５−４"
+  },
+  {
+    "name": "眼鏡市場 ベイドリーム清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１ ﾍﾞｲﾄﾞﾘｰﾑ清水 1階"
+  },
+  {
+    "name": "メガネスーパー 草薙店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙３丁目１０−２４"
+  },
+  {
+    "name": "メガネのアイガン イオン清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区上原１丁目６−１６"
+  },
+  {
+    "name": "メガネの春田 清水駅前店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町２−１９"
+  },
+  {
+    "name": "メガネの富士",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻台町１−２８"
+  },
+  {
+    "name": "もち吉 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区長崎南町１１−２２"
+  },
+  {
+    "name": "もちづき楽器 静岡草薙店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙杉道３丁目１−２５"
+  },
+  {
+    "name": "もちづき楽器 清水巴町本店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区巴町１０−２４"
+  },
+  {
+    "name": "望月海苔店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区八坂東１丁目９ 52【静岡店】"
+  },
+  {
+    "name": "モンマルシェ 清水本店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区本町１−７"
+  },
+  {
+    "name": "やなぎだてパン",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区村松１丁目３−８３"
+  },
+  {
+    "name": "ヤマクニ水産 河岸の市店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９"
+  },
+  {
+    "name": "やまだ酒店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区清水区蒲原新田１丁目１９−２１"
+  },
+  {
+    "name": "山田酒店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区宝町１−３１"
+  },
+  {
+    "name": "ヤマボシ水産",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区由比今宿１０４３−１"
+  },
+  {
+    "name": "ヤマボシ鮮魚店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区由比今宿１−１０"
+  },
+  {
+    "name": "山本Farm",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "由比・むつみ市場",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区由比町屋原１２０"
+  },
+  {
+    "name": "由比缶詰直売所",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区由比４２９−１"
+  },
+  {
+    "name": "ゆい桜えび館",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区由比６７２−１"
+  },
+  {
+    "name": "油井文具",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区庵原町１７８４−４"
+  },
+  {
+    "name": "有限会社遠藤テレビ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区三保１０８−６ エンドーテレビ"
+  },
+  {
+    "name": "有限会社黒田呉服店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入江１丁目８−２３"
+  },
+  {
+    "name": "有限会社小長谷電設",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡県静岡市葵区巴町72−１１"
+  },
+  {
+    "name": "有限会社しおから本舗",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原小金１４７−８ しおから本舗"
+  },
+  {
+    "name": "有限会社鈴や化粧品店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入江南町２−２４"
+  },
+  {
+    "name": "有限会社ノガデンキ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡県静岡市葵区巴町72−１１"
+  },
+  {
+    "name": "有限会社深沢米店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区興津中町５１４−８"
+  },
+  {
+    "name": "used-OA合同会社",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区山切１０２−５６"
+  },
+  {
+    "name": "ユニクロ エスパルスドリームプラザ店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１丁目１３−１５ エスパルスドリームプラザ パークサイド 2階"
+  },
+  {
+    "name": "聴色",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区沼田町８−２６"
+  },
+  {
+    "name": "洋服の青山 清水清開店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区清開１丁目２−２３"
+  },
+  {
+    "name": "洋服の青山 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区七ツ新屋２丁目６−１"
+  },
+  {
+    "name": "ラ・ローザンヌ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区興津中町６１９"
+  },
+  {
+    "name": "ライフデザイン・ピオン 清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区船越南町８０２−１"
+  },
+  {
+    "name": "ラボサーフ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町４−２１"
+  },
+  {
+    "name": "リカーランドマツナガ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区下野西３−２８"
+  },
+  {
+    "name": "リサイクルキング ベイドリーム清水",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１ ベイドリーム清水 2F"
+  },
+  {
+    "name": "良質酒専門 リバティ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙２丁目１９−３１"
+  },
+  {
+    "name": "レディス ミウラ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町４−６"
+  },
+  {
+    "name": "ロゴスショップ 静岡清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区清水区入船町１丁目１３−１５ エスパルスドリームプラザ Park side 2階 A-204"
+  },
+  {
+    "name": "ワインショップモチヅキ",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区袖師町４４５−５ ｗｉｎｅｓｈｏｐ ｍｏｃｈｉｚｕｋｉ"
+  },
+  {
+    "name": "渡辺忠夫商店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区由比町屋原８５"
+  },
+  {
+    "name": "倭物やカヤ NEOPASA清水店",
+    "category": "ショッピング(小売店)",
+    "ward": "清水区",
+    "address": "静岡市清水区小河内８８５−１５ 新東名高速道路 NEOPASA清水 内"
+  },
+  {
+    "name": "Yesmart 静岡店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区吉川７６４"
+  },
+  {
+    "name": "エスポット清水天王店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区天王南２"
+  },
+  {
+    "name": "エブリィビッグデー清水店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区東大曲町９−３０"
+  },
+  {
+    "name": "エムエムフーズ",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区石川本町１３−１５ エム・エム・フーズ"
+  },
+  {
+    "name": "株式会社マルキフードセンター",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区月見町２−８"
+  },
+  {
+    "name": "業務スーパー清水店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻台町１４−１０−２"
+  },
+  {
+    "name": "業務スーパー清水駒越店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町５−５番１１号"
+  },
+  {
+    "name": "ザ・ビッグ 蒲原店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原３２２−１１"
+  },
+  {
+    "name": "しずてつストア 入江店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区入江１丁目１−１"
+  },
+  {
+    "name": "しずてつストア 興津店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区八木間町383番地"
+  },
+  {
+    "name": "しずてつストア 草薙店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目１３−８"
+  },
+  {
+    "name": "しずてつストア 御門台店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区七ツ新屋１丁目１０−２６"
+  },
+  {
+    "name": "食鮮館タイヨー 庵原店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区庵原町１４６−８"
+  },
+  {
+    "name": "食鮮館タイヨー 長崎店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区長崎６０６"
+  },
+  {
+    "name": "食鮮館タイヨー 二の丸店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区二の丸町７−３２"
+  },
+  {
+    "name": "食鮮館タイヨー 日立店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区日立町１８−１８ タイヨー"
+  },
+  {
+    "name": "食鮮館タイヨー 由比蒲原店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区由比１８５−６"
+  },
+  {
+    "name": "食鮮館タイヨー 横砂店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区横砂中町２５−２０"
+  },
+  {
+    "name": "食鮮館タイヨー 三保店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区三保松原町１６−５"
+  },
+  {
+    "name": "スーパー サカマル",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保４４１−７"
+  },
+  {
+    "name": "スーパーマーケットバロー 清水高橋店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区高橋５丁目１−１"
+  },
+  {
+    "name": "生活協同組合ユーコープ下野東店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区下野東５−１"
+  },
+  {
+    "name": "セブン-イレブン 清水庵原町店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区庵原町２１０−１６"
+  },
+  {
+    "name": "セブンイレブン 清水梅ヶ谷店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区梅ヶ谷１２−４"
+  },
+  {
+    "name": "セブンイレブン 清水江尻東1丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻東１丁目３−２"
+  },
+  {
+    "name": "セブンイレブン 清水大内店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区大内４０１−３"
+  },
+  {
+    "name": "セブン-イレブン 清水岡町",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区岡町"
+  },
+  {
+    "name": "セブンイレブン 清水小島店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区小島町７８−１"
+  },
+  {
+    "name": "セブンイレブン 清水折戸2丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区折戸２丁目５−１"
+  },
+  {
+    "name": "セブンイレブン 清水木の下町店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区木の下町３１４"
+  },
+  {
+    "name": "セブンイレブン 清水渋川3丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区渋川３丁目６−２０"
+  },
+  {
+    "name": "セブンイレブン 清水島崎町店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町６−１５"
+  },
+  {
+    "name": "セブンイレブン 清水中之郷1丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区中之郷１丁目３−１５"
+  },
+  {
+    "name": "セブンイレブン 清水中矢部町店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区中矢部町２−７"
+  },
+  {
+    "name": "セブン-イレブン 清水西久保北店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保４７１ 未来"
+  },
+  {
+    "name": "セブンイレブン 清水西久保店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保１丁目１−２５"
+  },
+  {
+    "name": "セブンイレブン 清水西高町店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区西高町４−２７"
+  },
+  {
+    "name": "セブンイレブン 清水浜田町店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区浜田町３−６"
+  },
+  {
+    "name": "セブンイレブン 清水堀込店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区堀込３１−１"
+  },
+  {
+    "name": "セブンイレブン 清水真砂町店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町４−２８"
+  },
+  {
+    "name": "セブンイレブン 清水宮代町店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区宮代町１４７−１"
+  },
+  {
+    "name": "セブン-イレブン 清水村松原",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区村松原"
+  },
+  {
+    "name": "セブンイレブン 清水八木間店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区八木間町４２３"
+  },
+  {
+    "name": "セブンイレブン 東名清水インター店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区八坂北１丁目１−６"
+  },
+  {
+    "name": "セブンイレブン 清水大坪2丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区大坪２丁目５−２８"
+  },
+  {
+    "name": "セブン-イレブン清水袖師町東店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区袖師町９０１−１"
+  },
+  {
+    "name": "セブンイレブン清水辻1丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区辻１丁目９−１１"
+  },
+  {
+    "name": "セブンイレブン清水三保店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区三保９２−２"
+  },
+  {
+    "name": "田子重鳥坂店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区鳥坂８６０"
+  },
+  {
+    "name": "BIGMOM 清水高部店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区押切１６７７"
+  },
+  {
+    "name": "ヒバリヤ新鮮市場 駒越ベイドリーム店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１"
+  },
+  {
+    "name": "ヒバリヤ新鮮市場 高部店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区押切１９４１"
+  },
+  {
+    "name": "ファミリーマート 興津中町店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区興津中町１３７０−１"
+  },
+  {
+    "name": "ファミリーマート 押切北店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区押切２０７３"
+  },
+  {
+    "name": "ファミリーマート 蒲原バイパス店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原"
+  },
+  {
+    "name": "ファミリーマート コンコルド清水大曲/S店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区東大曲町８−３３"
+  },
+  {
+    "name": "ファミリーマート 清水石川店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区石川新町７−１"
+  },
+  {
+    "name": "ファミリーマート 清水追分店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区追分３丁目５−２０"
+  },
+  {
+    "name": "ファミリーマート 清水由比店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区由比６９８−１ ６９８番地の１"
+  },
+  {
+    "name": "ファミリーマート 興津中町北店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区興津中町１３４７−１"
+  },
+  {
+    "name": "ファミリーマート 清水興津駅前店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区興津中町２３８−４"
+  },
+  {
+    "name": "ファミリーマート清水吉川",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区吉川８７４−１"
+  },
+  {
+    "name": "ファミリーマート清水楠新田東",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区楠新田２０９−２"
+  },
+  {
+    "name": "ファミリーマート清水能島",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区能島６４−１"
+  },
+  {
+    "name": "ファミリーマート新清水店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区相生町２−３０"
+  },
+  {
+    "name": "フードマーケットマム 清水上店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区上２丁目１０−１２"
+  },
+  {
+    "name": "プライムフーズマーケット 清水梅田町店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区梅田町１２−１６"
+  },
+  {
+    "name": "マックスバリュEX清水駅前店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町１−１ 清水駅"
+  },
+  {
+    "name": "マックスバリュEX清水追分店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区追分１丁目３−１８"
+  },
+  {
+    "name": "マックスバリュEX清水村松原店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区村松原１丁目１−２８"
+  },
+  {
+    "name": "マックスバリュ清水興津店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区興津本町１１３−１"
+  },
+  {
+    "name": "マックスバリュ清水三保店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区三保１３３−１４３"
+  },
+  {
+    "name": "マックスバリュ 清水八坂店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区八坂南町２−２６"
+  },
+  {
+    "name": "ミニストップ清水草薙一里山店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙一里山１６−７"
+  },
+  {
+    "name": "ローソン 蒲原東店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原東３３−２"
+  },
+  {
+    "name": "ローソン 静岡小糸製作所店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区北脇５００"
+  },
+  {
+    "name": "ローソン 清水梅が岡店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区梅が岡９−２４"
+  },
+  {
+    "name": "ローソン 清水駅西口店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区辻１丁目１−１"
+  },
+  {
+    "name": "LAWSON 清水大坪二丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区大坪２丁目"
+  },
+  {
+    "name": "ローソン 清水草薙杉道",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙杉道１丁目３−２１"
+  },
+  {
+    "name": "ローソン 清水桜が丘町店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区桜が丘町９−１"
+  },
+  {
+    "name": "ローソン 清水宍原店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区宍原１３８７−２"
+  },
+  {
+    "name": "ローソン 清水新緑町店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区新緑町３−１７"
+  },
+  {
+    "name": "ローソン 清水清開3丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区清開３丁目２−２０"
+  },
+  {
+    "name": "ローソン 清水西久保店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保２３８ あさひ歯科"
+  },
+  {
+    "name": "ローソン 清水万世町",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区万世町２丁目１−１０"
+  },
+  {
+    "name": "ローソン 清水宮加三店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区宮加三７１７−３"
+  },
+  {
+    "name": "ローソン 清水横砂店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区横砂中町２３−２０"
+  },
+  {
+    "name": "ローソン 清水永楽町店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区永楽町１６−１"
+  },
+  {
+    "name": "ローソン 清水天神二丁目店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区天神２丁目４−１７"
+  },
+  {
+    "name": "ローソン ひばり草薙駅南口店",
+    "category": "コンビニ・スーパー",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目３−１５"
+  },
+  {
+    "name": "V・drug 清水長崎店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区長崎４８４"
+  },
+  {
+    "name": "V・drug 清水辻店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区辻４丁目４−１８"
+  },
+  {
+    "name": "V・drug 清水岡店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区岡町７−１３"
+  },
+  {
+    "name": "ウエルシア 清水北矢部店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区北矢部町１丁目１４−２０"
+  },
+  {
+    "name": "ウエルシア 清水高部店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区押切２９２"
+  },
+  {
+    "name": "ウエルシア 清水興津店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区興津中町１３９４−１"
+  },
+  {
+    "name": "ウエルシア 清水庵原店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区庵原町１４６−５"
+  },
+  {
+    "name": "ウエルシア 清水村松店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区村松１丁目４−１"
+  },
+  {
+    "name": "ウエルシア 清水有東坂店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区有東坂１丁目２４８−１"
+  },
+  {
+    "name": "ウエルシア 清水北脇店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区北脇２６１−２"
+  },
+  {
+    "name": "ウエルシア 清水折戸店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区折戸４丁目２−３５"
+  },
+  {
+    "name": "ウエルシア 清水下野店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区下野西１−２７"
+  },
+  {
+    "name": "ウエルシア 清水秋吉町店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区秋吉町３−３３"
+  },
+  {
+    "name": "ウエルシア 清水長崎店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区長崎３８２"
+  },
+  {
+    "name": "ウエルシア 清水天王店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区天王東６−１６"
+  },
+  {
+    "name": "ウエルシア 清水下清水店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区下清水町５−３０"
+  },
+  {
+    "name": "ウエルシア 清水駒越店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越西１丁目２−７０"
+  },
+  {
+    "name": "ウエルシア 清水小島店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区小島本町７"
+  },
+  {
+    "name": "ウエルシア 清水草薙店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙２丁目１７−２４"
+  },
+  {
+    "name": "ウエルシア 清水横砂店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区横砂本町１８−２８"
+  },
+  {
+    "name": "ウエルシア 清水高橋店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区高橋３丁目２−１"
+  },
+  {
+    "name": "ウエルシア 清水八木間店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区谷津町１丁目７７２−１"
+  },
+  {
+    "name": "ウエルシア 清水西久保店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保４４１−８"
+  },
+  {
+    "name": "ウエルシア 清水江尻台店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻台町２２−１"
+  },
+  {
+    "name": "ウエルシア 清水由比店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区由比７４９−１"
+  },
+  {
+    "name": "ウエルシア 清水駅店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町１−１"
+  },
+  {
+    "name": "ウエルシア ベイドリーム清水店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１"
+  },
+  {
+    "name": "杏林堂薬局 清水三保店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区三保１１１−２"
+  },
+  {
+    "name": "草薙薬局",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目１０−１３"
+  },
+  {
+    "name": "さかえ薬局",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻東１丁目１−３８"
+  },
+  {
+    "name": "サンドラッグ 清水渋川店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区渋川１丁目６−１７"
+  },
+  {
+    "name": "サンドラッグ 清水店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区宝町１−８"
+  },
+  {
+    "name": "サンドラッグ 清水八千代店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区八千代町７−３８"
+  },
+  {
+    "name": "全快堂薬局 本店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町２−２２"
+  },
+  {
+    "name": "高橋薬局",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区桜橋町１０−２６ 高橋薬局"
+  },
+  {
+    "name": "田島薬局",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区中之郷１丁目９−３１ 田島薬局"
+  },
+  {
+    "name": "ドラッグストアコスモス 大曲店",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区西大曲町１−１２"
+  },
+  {
+    "name": "みとみどう薬局",
+    "category": "ドラッグストア",
+    "ward": "清水区",
+    "address": "静岡市清水区春日１丁目７−６"
+  },
+  {
+    "name": "ABC-MARTエスパルスドリームプラザ店",
+    "category": "ファッション",
+    "ward": "清水区",
+    "address": "静岡市清水区清水区入船町１丁目１３−１５ PARK-side 3F"
+  },
+  {
+    "name": "クサナギラヴズマーケット",
+    "category": "ファッション",
+    "ward": "清水区",
+    "address": "静岡県清水区草薙一里山４−１７"
+  },
+  {
+    "name": "KUSHITANI PERFOMANCE STORE 清水店",
+    "category": "ファッション",
+    "ward": "清水区",
+    "address": "静岡市清水区辻１丁目１０−２０ 清水住宅公園内"
+  },
+  {
+    "name": "kupu-kupu",
+    "category": "ファッション",
+    "ward": "清水区",
+    "address": "静岡市清水区追分１丁目３−１２"
+  },
+  {
+    "name": "クリスタル パッケージ",
+    "category": "ファッション",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１３−１５ エスパルスドリームプラザ 2F"
+  },
+  {
+    "name": "coran",
+    "category": "ファッション",
+    "ward": "清水区",
+    "address": "静岡市清水区有東坂３６３−１"
+  },
+  {
+    "name": "ジーユー エスパルスドリームプラザ店",
+    "category": "ファッション",
+    "ward": "清水区",
+    "address": "静岡市清水区清水区入船町１丁目１３−１５ エスパルスドリームプラザ パークサイド 3階"
+  },
+  {
+    "name": "十一屋洋服店",
+    "category": "ファッション",
+    "ward": "清水区",
+    "address": "静岡市清水区巴町９−９ ＪＹＵＩＣＨＩ－ＹＡ"
+  },
+  {
+    "name": "31BRIGHT 清水店",
+    "category": "ファッション",
+    "ward": "清水区",
+    "address": "静岡県富士市岩淵１４９８−２ ＥＸＰＡＳＡ富士川"
+  },
+  {
+    "name": "セブンエビス",
+    "category": "ファッション",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻町４−１"
+  },
+  {
+    "name": "tabi",
+    "category": "ファッション",
+    "ward": "清水区",
+    "address": "静岡市清水区谷田１８−２０ ｔａｂｉ"
+  },
+  {
+    "name": "ニットショップ クサガヤ",
+    "category": "ファッション",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原３丁目４−８"
+  },
+  {
+    "name": "LIME.INC ベイドリーム清水",
+    "category": "ファッション",
+    "ward": "清水区",
+    "address": "静岡市清水区駒越北町８−１"
+  },
+  {
+    "name": "駿河健康ランド",
+    "category": "旅館・ホテル",
+    "ward": "清水区",
+    "address": "静岡市清水区興津東町１２３４ クア＆ホテル駿河健康ランド"
+  },
+  {
+    "name": "日本平ホテル",
+    "category": "旅館・ホテル",
+    "ward": "清水区",
+    "address": "静岡市清水区馬走１５００−２"
+  },
+  {
+    "name": "見晴旅館",
+    "category": "旅館・ホテル",
+    "ward": "清水区",
+    "address": "静岡市清水区由比今宿９９６−１"
+  },
+  {
+    "name": "asian relaxation villa 清水有東坂店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区有東坂１丁目２４８−２１ ダイエービル"
+  },
+  {
+    "name": "アトリエ創",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区村松１丁目４−５０"
+  },
+  {
+    "name": "アペゼ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保５５８−１"
+  },
+  {
+    "name": "Amici",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区蜂ヶ谷２９１−４"
+  },
+  {
+    "name": "アルソア樹奈",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区大坪１丁目３−１０ ヴァンベール大坪 1Ｆ"
+  },
+  {
+    "name": "alm.",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区巴町７−１５ 松永ビル 1F"
+  },
+  {
+    "name": "M's Aroma Bar",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区袖師町２５４−２"
+  },
+  {
+    "name": "オールドニュー",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区天王西６−２４ ＯＬＤ ＮＥＷ"
+  },
+  {
+    "name": "CARLIN hair design",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区入江南町９−８ 入江珠算教室"
+  },
+  {
+    "name": "かずっちネイル",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区大内６５４"
+  },
+  {
+    "name": "カットスタジオリバティー",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区追分２丁目２−２５ ＣＵＴ ＳＴＵＤＩＯ Ｌｉｂｅｒｔｙ"
+  },
+  {
+    "name": "color&spa URANUS",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区天王東３−１３"
+  },
+  {
+    "name": "カリオン 香港式リンパサロン",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙２１５０−２"
+  },
+  {
+    "name": "CARING (ケアリング)",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区大坪１丁目９−１５ 佐藤ビル 1D"
+  },
+  {
+    "name": "core TH",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡県静岡市駿河区聖一色７１−６"
+  },
+  {
+    "name": "コアフュール マリー・エレイヌ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区有東坂２丁目３６４−８ コアフュール マリーエレイヌ"
+  },
+  {
+    "name": "酵素風呂RIKU",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区辻１丁目１２−２１"
+  },
+  {
+    "name": "Cheri",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "西, コーポＳ３ 1F, ７-7番5号 巴町 清水区 静岡市 静岡県 424-0829 日本"
+  },
+  {
+    "name": "志田鍼灸接骨院",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻東２丁目６−１０"
+  },
+  {
+    "name": "SMILE",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻町４−１６"
+  },
+  {
+    "name": "swallowtail",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区押切９７８−１７"
+  },
+  {
+    "name": "Sept trois",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "sopi",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区上１丁目９−１２ コーポ上 1F"
+  },
+  {
+    "name": "つかさ治療院",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区押切１４１１"
+  },
+  {
+    "name": "tekuteku",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "TRANSIT",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻東２丁目１−７"
+  },
+  {
+    "name": "Treatment Room Tyy",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区大手２丁目５−２５"
+  },
+  {
+    "name": "ナポレオン・N",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区袖師町１４３２−３ Ｎ Ｎ"
+  },
+  {
+    "name": "パリス美容院",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区真砂町２−１４ ビューティパリス"
+  },
+  {
+    "name": "ピエスヘア",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区天神１丁目１−３"
+  },
+  {
+    "name": "百日草美容室",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区浜田町１２−３ 百日草美容室"
+  },
+  {
+    "name": "Beauty and Photo salon TSUMUGI",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区宮加三１８９−２ グリーンパレット 203号室"
+  },
+  {
+    "name": "美容室 blanca",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区北矢部８６１−３ ブランカ"
+  },
+  {
+    "name": "美容室ルーチェ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区巴町７−３−２ ｌｕｃｅ"
+  },
+  {
+    "name": "FOR YOU 清水店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区辻１丁目１０−２０ 清水住宅公園内"
+  },
+  {
+    "name": "プレミア草薙",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目１４−１１"
+  },
+  {
+    "name": "プレミアムもみかる 草薙店",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目１８−２５"
+  },
+  {
+    "name": "ヘアーサイト ムービズ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "ヘアーサロン アキヤマ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区西高町９−３２"
+  },
+  {
+    "name": "ヘアーサロン カナザワ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区上２丁目４−２"
+  },
+  {
+    "name": "ヘアーサロン サチ",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町２−８ ヘアーサロンサチ"
+  },
+  {
+    "name": "ヘアーサロン パイオニア",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区袖師町７８−５ ＨＡＩＲ ＳＡＬＯＮ Ｐｉｏｎｅｅｒ"
+  },
+  {
+    "name": "HAIRSALON union",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区田町"
+  },
+  {
+    "name": "ヘアーサロンしばきり",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原小金４４７−１"
+  },
+  {
+    "name": "Hair Make Kéké",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "ヘアールームMIYAKE",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区興津中町１５１ ヘアールームＭＩＹＡＫＥ"
+  },
+  {
+    "name": "HAIRSHOP HAYASHI",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区相生町２−１７"
+  },
+  {
+    "name": "petale",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区清水区清水区草薙２丁目２２−５"
+  },
+  {
+    "name": "守接骨院・鍼灸院 清水院",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区石川新町８−３０ A"
+  },
+  {
+    "name": "Mumps",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区月見町４−８ Ｍｕｍｐｓ ｕｔａｔａ"
+  },
+  {
+    "name": "Mumps utata",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区月見町４−８ Ｍｕｍｐｓ ｕｔａｔａ"
+  },
+  {
+    "name": "miho hair and make",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保２１７−９"
+  },
+  {
+    "name": "More爽々",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻台町２２−３３"
+  },
+  {
+    "name": "Reach hair lab",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "relaxation salon Uru.Uru",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区桜が丘町１２−６ 明治安田生命保険清水統括営業部"
+  },
+  {
+    "name": "る一つ美容室",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "Lecielbleu",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡県富士市久沢２丁目９−３６ ル・シエルブルー"
+  },
+  {
+    "name": "RED J-B Hair Co",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区中之郷２丁目２−１０"
+  },
+  {
+    "name": "ロム",
+    "category": "美容院・サロン・整体・マッサージ",
+    "ward": "清水区",
+    "address": "静岡市清水区鳥坂１６５６−３"
+  },
+  {
+    "name": "クリーニングショップイケダ",
+    "category": "クリーニング",
+    "ward": "清水区",
+    "address": "静岡市清水区由比今宿"
+  },
+  {
+    "name": "すぎやまクリーニング",
+    "category": "クリーニング",
+    "ward": "清水区",
+    "address": "静岡市清水区松井町６−１２"
+  },
+  {
+    "name": "ノーベルクリーニング",
+    "category": "クリーニング",
+    "ward": "清水区",
+    "address": "静岡市清水区興津中町 身延道"
+  },
+  {
+    "name": "フジドライ 清水店",
+    "category": "クリーニング",
+    "ward": "清水区",
+    "address": "静岡県静岡市駿河区登呂２丁目１０−３２"
+  },
+  {
+    "name": "株式会社静清交通",
+    "category": "タクシー・運転代行",
+    "ward": "清水区",
+    "address": "静岡県静岡市葵区六番町８−８ エスビル 1階"
+  },
+  {
+    "name": "蒲原タクシー合資会社",
+    "category": "タクシー・運転代行",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原"
+  },
+  {
+    "name": "共栄タクシー株式会社",
+    "category": "タクシー・運転代行",
+    "ward": "清水区",
+    "address": "静岡市清水区押切７９０−３"
+  },
+  {
+    "name": "南急観光株式会社",
+    "category": "タクシー・運転代行",
+    "ward": "清水区",
+    "address": "静岡市清水区庵原町１４６−７ 南急観光"
+  },
+  {
+    "name": "港タクシー株式会社",
+    "category": "タクシー・運転代行",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "サガミシード株式会社 セルフ清水神田",
+    "category": "ガソリンスタンド",
+    "ward": "清水区",
+    "address": "静岡市清水区神田町６−１"
+  },
+  {
+    "name": "セルフ興津川",
+    "category": "ガソリンスタンド",
+    "ward": "清水区",
+    "address": "静岡市清水区小島町１４−１"
+  },
+  {
+    "name": "セルフ清水",
+    "category": "ガソリンスタンド",
+    "ward": "清水区",
+    "address": "静岡市清水区小芝町１−１"
+  },
+  {
+    "name": "フレンドリー清水インターSS",
+    "category": "ガソリンスタンド",
+    "ward": "清水区",
+    "address": "静岡市清水区八坂北１丁目１−１１"
+  },
+  {
+    "name": "フレンドリー清水SS",
+    "category": "ガソリンスタンド",
+    "ward": "清水区",
+    "address": "静岡市清水区三光町１−６"
+  },
+  {
+    "name": "[おきつがわオートキャンプ場]",
+    "category": "娯楽施設",
+    "ward": "清水区",
+    "address": "静岡市清水区茂野島１１００ おきつがわオートキャンプ場"
+  },
+  {
+    "name": "キッズパラダイス",
+    "category": "娯楽施設",
+    "ward": "清水区",
+    "address": "静岡市清水区入船町１０−７ エスパルスドリームプラザ第１駐車場"
+  },
+  {
+    "name": "富士山清水港クルーズ",
+    "category": "娯楽施設",
+    "ward": "清水区",
+    "address": "静岡市清水区港町１丁目７−４１０−３"
+  },
+  {
+    "name": "マイフィット シミズ",
+    "category": "娯楽施設",
+    "ward": "清水区",
+    "address": "静岡市清水区入江南町１−８"
+  },
+  {
+    "name": "ICTパソコンスクール アクセス ユープラン清水辻教室",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区辻５丁目３−２３"
+  },
+  {
+    "name": "アキヤマ",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区淡島町９"
+  },
+  {
+    "name": "auショップ 清水大曲",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区元城町１−１５"
+  },
+  {
+    "name": "auショップ 清水矢部",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区上力町７−８ ａｕショップ 清水矢部"
+  },
+  {
+    "name": "尾崎会計事務所",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区二の丸町３−２１ 七福屋ビル 2階"
+  },
+  {
+    "name": "カービューティーサービス望月",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区長崎新田４２５−５"
+  },
+  {
+    "name": "貸衣装・写真スタジオ blanca",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区春日２丁目３−２５ ２F"
+  },
+  {
+    "name": "片山衣料株式会社",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区清水区清水区入江南町１５−２８"
+  },
+  {
+    "name": "株式会社電友社",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区八千代町１０−３３"
+  },
+  {
+    "name": "株式会社トリプルフォー",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区"
+  },
+  {
+    "name": "けいらく治療院",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区大手３丁目７−３"
+  },
+  {
+    "name": "米ぬか酵素風呂 カリオン",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙２１５０−２"
+  },
+  {
+    "name": "三代目板金屋",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区原１３４−２"
+  },
+  {
+    "name": "自転車のオオムラ 桜橋店",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区春日２丁目３−３１"
+  },
+  {
+    "name": "清水魚市場 河岸の市",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区島崎町１４９ 海里"
+  },
+  {
+    "name": "清孝園",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区入江３丁目４−３０"
+  },
+  {
+    "name": "制服のハマザキ",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区江尻町４−３０"
+  },
+  {
+    "name": "坪井畳店",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区西久保２４３−３"
+  },
+  {
+    "name": "ドイツ式フットケア テネシー",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区巴町１０ １０−１４ １Ｆ"
+  },
+  {
+    "name": "トヨタレンタカー 清水駅前店",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区辻１丁目３−１１"
+  },
+  {
+    "name": "ニコニコレンタカー 清水駅西口店",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区辻１丁目１−３ アトラス清水駅前 103-2"
+  },
+  {
+    "name": "日本調剤 殿沢薬局",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区殿沢１丁目１−１ 日本調剤殿沢薬局"
+  },
+  {
+    "name": "Personal Gym ZIPS",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙一里山４−２"
+  },
+  {
+    "name": "パソコン倶楽部センチュリー",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区吉川１０８−４"
+  },
+  {
+    "name": "パソコンの窓口 静岡店",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区楠新田３８９−２"
+  },
+  {
+    "name": "はんこ屋さん21 清水店",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区大坪１丁目３−７"
+  },
+  {
+    "name": "ひばり天王町薬局",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区天王南３−９"
+  },
+  {
+    "name": "ベイクドハート",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区興津中町２３１−３"
+  },
+  {
+    "name": "HORSEHEAD LABS",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原２丁目４−８"
+  },
+  {
+    "name": "ホテイフーズ 購買",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区由比北田１２７−７ ホテイフーズ"
+  },
+  {
+    "name": "mamoru HIGH-SPEC FITNESS",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区石川新町８−３０ B"
+  },
+  {
+    "name": "有限会社アクアワールド",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区中之郷１丁目１１−２４ ＡＱＵＡ ＷＯＲＬＤ"
+  },
+  {
+    "name": "ローヴィーガンスクール清水南校",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区折戸３丁目２−１"
+  },
+  {
+    "name": "ロン・ポワン洋菓子店",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区草薙１丁目１４−１０"
+  },
+  {
+    "name": "若月オート",
+    "category": "その他",
+    "ward": "清水区",
+    "address": "静岡市清水区蒲原５０５５−１３"
+  }
 ]
