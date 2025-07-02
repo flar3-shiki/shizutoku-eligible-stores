@@ -30,7 +30,7 @@ body.modal-open { overflow: hidden; }
 .filter-group legend { font-weight: bold; padding: 0 10px; color: var(--text-color); }
 .filter-options { display: flex; flex-wrap: wrap; gap: 15px; }
 .filter-options label { display: flex; align-items: center; cursor: pointer; font-size: 14px; }
-.filter-options input[type="checkbox"] { margin-right: 5px; accent-color: var(--primary-color); }
+.filter-options input[type="checkbox"], .filter-options input[type="radio"] { margin-right: 5px; accent-color: var(--primary-color); }
 .filter-category-title { width: 100%; font-weight: bold; margin-top: 10px; margin-bottom: 5px; font-size: 0.9em; color: var(--muted-text-color); }
 .filter-options hr { width: 100%; border: 0; border-top: 1px solid var(--border-color); margin: 8px 0; }
 #results-area { display: none; }
@@ -39,6 +39,7 @@ body.modal-open { overflow: hidden; }
 .shop-card { background: var(--container-bg); border: 1px solid var(--border-color); border-radius: 6px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
 .shop-name { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; color: var(--primary-color); text-decoration: none; }
 .shop-name:hover { text-decoration: underline; }
+.shop-address { font-size: 0.9em; color: var(--muted-text-color); margin: 4px 0 8px 0; line-height: 1.5; }
 .shop-info span { display: inline-block; background-color: var(--tag-bg); color: var(--text-color); padding: 3px 8px; border-radius: 12px; margin-right: 5px; margin-top: 5px; }
 .no-results { text-align: center; padding: 40px; color: var(--muted-text-color); grid-column: 1 / -1; }
 
@@ -74,6 +75,7 @@ body.modal-open { overflow: hidden; }
     #toggle-filters-btn { padding: 8px 16px; border-radius: 4px; border: 1px solid var(--border-color); background-color: var(--container-bg); color: var(--text-color); cursor: pointer; white-space: nowrap; }
     
     .top-bar-filters {
+        /* ★★★★★★★【修正点②】デスクトップのグリッドを3列に戻す ★★★★★★★ */
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 15px;
@@ -83,20 +85,19 @@ body.modal-open { overflow: hidden; }
         opacity: 0;
     }
     .top-bar.is-expanded .top-bar-filters {
-        max-height: 40vh;
-        margin-top: 15px;
-        opacity: 1;
-        padding-bottom: 5px;
+        max-height: 40vh; margin-top: 15px; opacity: 1; padding-bottom: 5px;
     }
-    .top-bar-filters .filter-group {
+    /* ★★★★★★★【修正点③】1列目用のコンテナのスタイルを追加 ★★★★★★★ */
+    .filter-column {
         display: flex;
         flex-direction: column;
-        min-height: 0;
+        gap: 15px; /* 「検索対象」と「区」の間の縦の隙間 */
+    }
+    .top-bar-filters .filter-group {
+        display: flex; flex-direction: column; min-height: 0;
     }
     .top-bar-filters .filter-options {
-        max-height: calc(40vh - 60px);
-        overflow-y: auto;
-        padding-right: 5px;
+        max-height: calc(40vh - 60px); overflow-y: auto; padding-right: 5px;
     }
 }
 
@@ -116,18 +117,14 @@ body.modal-open { overflow: hidden; }
     }
     #notice-modal.modal-overlay { align-items: center; }
     .accordion-state-text { font-size: 0.8em; font-weight: normal; color: var(--muted-text-color); margin-left: 5px; }
-    .filter-group.accordion { display: block; } /* Revert to block for mobile */
+    .filter-group.accordion { display: block; }
     .filter-group.accordion > legend { cursor: pointer; width: 100%; box-sizing: border-box; display: block; }
+    .search-target-group.accordion > legend { cursor: default; } /* 検索対象はアコーディオンにしない */
     .filter-group.accordion .filter-options {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.5s ease-out;
-        padding-top: 0;
+        max-height: 0; overflow: hidden; transition: max-height 0.5s ease-out; padding-top: 0;
     }
     .filter-group.accordion.is-open .filter-options {
-        max-height: 150px; /* Set max-height for scrolling */
-        overflow-y: auto;
-        padding-top: 15px;
-        transition: max-height 0.5s ease-in;
+        max-height: 150px; overflow-y: auto; padding-top: 15px; transition: max-height 0.5s ease-in;
     }
+    .search-target-filter.filter-options { justify-content: flex-center; gap: 25px; }
 }
