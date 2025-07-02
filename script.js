@@ -20,15 +20,17 @@ async function initApp() {
     const fabSearch = document.getElementById('fab-search');
     const searchModalOverlay = document.getElementById('search-modal');
     const modalSearchArea = document.getElementById('modal-search-area');
-    const searchModalCloseBtn = searchModalOverlay.querySelector('.modal-close-btn');
     const noticeModalOverlay = document.getElementById('notice-modal');
-    const noticeModalCloseBtn = noticeModalOverlay.querySelector('.modal-close-btn');
     const initialView = document.getElementById('initial-view');
     const resultsArea = document.getElementById('results-area');
     const resultsContainer = document.getElementById('results-container');
     const resultsCountSpan = document.getElementById('results-count');
     const showAllBtn = document.getElementById('show-all-btn');
     const siteNoticeLink = document.getElementById('site-notice-link');
+
+    // ★★★★★★★【修正点①】個別の閉じるボタンの取得を削除します ★★★★★★★
+    // const searchModalCloseBtn = searchModalOverlay.querySelector('.modal-close-btn');
+    // const noticeModalCloseBtn = noticeModalOverlay.querySelector('.modal-close-btn');
 
     const formElements = {};
     const searchState = { term: '', searchTarget: 'name', ward: [], category: [], chain: [] };
@@ -59,9 +61,6 @@ async function initApp() {
     toggleBtn.id = 'toggle-filters-btn';
     toggleBtn.textContent = '絞り込み ▼';
     topBarMainRow.append(searchInputDesktop, toggleBtn);
-    
-    // ★★★★★★★【修正点①】デスクトップ用のHTML構造を変更 ★★★★★★★
-    // 「検索対象」と「区」を一つのdivで囲み、1列目のアイテムとする
     const desktopFiltersHTML = `
         <div class="filter-column">
             ${searchTargetFormHTML}
@@ -73,11 +72,11 @@ async function initApp() {
     topBarFiltersContainer.innerHTML = desktopFiltersHTML;
     formElements.topbar = { input: searchInputDesktop, searchTargetFilter: topBarFiltersContainer.querySelector('.search-target-filter'), wardFilter: topBarFiltersContainer.querySelector('.ward-filter'), catFilter: topBarFiltersContainer.querySelector('.category-filter'), chainFilter: topBarFiltersContainer.querySelector('.chain-filter') };
     
-    // Modal Form (モバイル用は変更なし)
+    // Modal Form
     modalSearchArea.innerHTML = `<input type="text" class="search-input" placeholder="店舗名や住所で検索...">${searchTargetFormHTML}${wardFormHTML}${catFormHTML}${chainFormHTML}`;
     formElements.modal = { input: modalSearchArea.querySelector('.search-input'), searchTargetFilter: modalSearchArea.querySelector('.search-target-filter'), wardFilter: modalSearchArea.querySelector('.ward-filter'), catFieldset: modalSearchArea.querySelectorAll('.accordion')[0], catFilter: modalSearchArea.querySelector('.category-filter'), chainFieldset: modalSearchArea.querySelectorAll('.accordion')[1], chainFilter: modalSearchArea.querySelector('.chain-filter') };
 
-    // --- 3. Sync & Render Logic ---
+    // --- 3. Sync & Render Logic --- (ここは変更なし)
     function syncStateFrom(form) {
         searchState.term = form.input.value;
         if (form.searchTargetFilter) {
@@ -234,15 +233,41 @@ async function initApp() {
 
     fabSearch.addEventListener('click', () => { activateSearch(); syncFormsFromState(); searchModalOverlay.classList.add('is-visible'); document.body.classList.add('modal-open'); formElements.modal.input.focus(); });
 
+    // ★★★★★★★【修正点②】モーダルを閉じる処理を全面的に書き換えます ★★★★★★★
     function closeSearchModal() { searchModalOverlay.classList.remove('is-visible'); document.body.classList.remove('modal-open'); }
-    searchModalCloseBtn.addEventListener('click', closeSearchModal);
-    searchModalOverlay.addEventListener('click', (e) => { if (e.target === searchModalOverlay) closeSearchModal(); });
-
     function openNoticeModal() { noticeModalOverlay.classList.add('is-visible'); document.body.classList.add('modal-open'); }
     function closeNoticeModal() { noticeModalOverlay.classList.remove('is-visible'); document.body.classList.remove('modal-open'); }
-    siteNoticeLink.addEventListener('click', openNoticeModal);
-    if (!localStorage.getItem('shizuTokuNoticeViewed')) { openNoticeModal(); localStorage.setItem('shizuTokuNoticeViewed', 'true'); }
     
+    siteNoticeLink.addEventListener('click', openNoticeModal);
+    
+    // 初回訪問時に注意モーダルを開く
+    if (!localStorage.getItem('shizuTokuNoticeViewed')) {
+        openNoticeModal();
+        localStorage.setItem('shizuTokuNoticeViewed', 'true');
+    }
+    
+    // イベント委任を使って、すべてのモーダル関連のクリックを処理
+    document.addEventListener('click', (e) => {
+        // クリックされたのが「閉じるボタン」(.modal-close-btn) の場合
+        const closeButton = e.target.closest('.modal-close-btn');
+        if (closeButton) {
+            // そのボタンがどのモーダル(.modal-overlay)の中にあるか調べる
+            const modal = closeButton.closest('.modal-overlay');
+            if (modal) {
+                if (modal.id === 'search-modal') closeSearchModal();
+                if (modal.id === 'notice-modal') closeNoticeModal();
+            }
+            return;
+        }
+
+        // クリックされたのがモーダルの外側（オーバーレイ自身）の場合
+        if (e.target.matches('.modal-overlay')) {
+            if (e.target.id === 'search-modal') closeSearchModal();
+            // 注意モーダルは外側クリックで閉じない場合は、この行は不要
+            // if (e.target.id === 'notice-modal') closeNoticeModal();
+        }
+    });
+
     window.addEventListener('resize', () => document.body.style.paddingTop = window.innerWidth > 1024 ? topBarEl.offsetHeight + 'px' : '0');
     document.body.style.paddingTop = window.innerWidth > 1024 ? topBarEl.offsetHeight + 'px' : '0';
 }
