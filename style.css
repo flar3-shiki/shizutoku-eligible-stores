@@ -3,8 +3,21 @@
     --border-color: #dddddd; --primary-color: #0055a4; --tag-bg: #e9ecef;
     --modal-bg-blur: rgba(248, 249, 250, 0.85); --danger-color: #d9534f;
 }
+/* === THEME REFACTOR START === */
+html[data-theme='light'] {
+    --bg-color: #f4f4f4; --container-bg: #ffffff; --text-color: #333333; --muted-text-color: #666666;
+    --border-color: #dddddd; --primary-color: #0055a4; --tag-bg: #e9ecef;
+    --modal-bg-blur: rgba(248, 249, 250, 0.85); --danger-color: #d9534f;
+}
+html[data-theme='dark'] {
+    --bg-color: #121212; --container-bg: #1e1e1e; --text-color: #e0e0e0; --muted-text-color: #aaaaaa;
+    --border-color: #444444; --primary-color: #58a6ff; --tag-bg: #333333;
+    --modal-bg-blur: rgba(33, 37, 41, 0.85); --danger-color: #e57373;
+}
+/* === THEME REFACTOR END === */
+
 @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([data-theme='light']) {
         --bg-color: #121212; --container-bg: #1e1e1e; --text-color: #e0e0e0; --muted-text-color: #aaaaaa;
         --border-color: #444444; --primary-color: #58a6ff; --tag-bg: #333333;
         --modal-bg-blur: rgba(33, 37, 41, 0.85); --danger-color: #e57373;
@@ -24,12 +37,12 @@ body.modal-open { overflow: hidden; }
 .top-bar h1 { text-align: left; color: var(--text-color); margin: 0; font-size: 1.5em; }
 .container { max-width: 900px; margin: 20px auto; padding: 0 15px; }
 
-.search-area { display: flex; flex-direction: column; gap: 20px; }
 .search-input { width: 100%; padding: 10px; font-size: 16px; border: 1px solid var(--border-color); background-color: var(--container-bg); color: var(--text-color); border-radius: 4px; box-sizing: border-box; }
 .filter-group { border: 1px solid var(--border-color); padding: 15px; border-radius: 4px; }
 .filter-group legend { font-weight: bold; padding: 0 10px; color: var(--text-color); }
 .filter-options { display: flex; flex-wrap: wrap; gap: 15px; }
 .filter-options label { display: flex; align-items: center; cursor: pointer; font-size: 14px; }
+#link-action-settings label { width: 100%; }
 .filter-options input[type="checkbox"], .filter-options input[type="radio"] { margin-right: 5px; accent-color: var(--primary-color); }
 .filter-category-title { width: 100%; font-weight: bold; margin-top: 10px; margin-bottom: 5px; font-size: 0.9em; color: var(--muted-text-color); }
 .filter-options hr { width: 100%; border: 0; border-top: 1px solid var(--border-color); margin: 8px 0; }
@@ -37,7 +50,9 @@ body.modal-open { overflow: hidden; }
 #results-count { margin: 20px 0 15px 0; font-weight: bold; text-align: right; color: var(--muted-text-color); }
 #results-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; }
 .shop-card { background: var(--container-bg); border: 1px solid var(--border-color); border-radius: 6px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-.shop-name { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; color: var(--primary-color); text-decoration: none; }
+.shop-name, .shop-name-no-link { font-weight: bold; font-size: 1.1em; margin-bottom: 8px; }
+.shop-name { color: var(--primary-color); text-decoration: none; }
+.shop-name-no-link { color: var(--text-color); }
 .shop-name:hover { text-decoration: underline; }
 .shop-address { font-size: 0.9em; color: var(--muted-text-color); margin: 4px 0 8px 0; line-height: 1.5; }
 .shop-info span { display: inline-block; background-color: var(--tag-bg); color: var(--text-color); padding: 3px 8px; border-radius: 12px; margin-right: 5px; margin-top: 5px; }
@@ -51,17 +66,154 @@ body.modal-open { overflow: hidden; }
 
 .page-footer { text-align: center; padding: 20px; margin-top: 40px; font-size: 0.85em; color: var(--muted-text-color); border-top: 1px solid var(--border-color); }
 .page-footer p { margin: 5px 0; }
-#site-notice-link { color: var(--primary-color); text-decoration: underline; cursor: pointer; }
+#site-notice-link, #settings-link { color: var(--primary-color); text-decoration: underline; cursor: pointer; }
 
 #fab-search, .modal-overlay, #top-bar-search-input, #toggle-filters-btn, .top-bar-filters { display: none; }
-.modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0); display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: background-color 0.3s, opacity 0.3s, visibility 0.3s; z-index: 1000; }
-.modal-overlay.is-visible { background-color: rgba(0, 0, 0, 0.6); opacity: 1; visibility: visible; }
-.modal-content { background-color: var(--modal-bg-blur); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid var(--border-color); padding: 20px; border-radius: 16px; width: 90%; max-width: 500px; box-sizing: border-box; max-height: 90vh; overflow-y: auto; transform: scale(0.95); opacity: 0; transition: transform 0.25s ease-in, opacity 0.25s ease-in; }
-.modal-overlay.is-visible .modal-content { transform: scale(1); opacity: 1; transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
+/* === MODAL REFACTOR START === */
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none; /* Close: No interaction */
+    transition: opacity 0.4s ease;
+    z-index: 1000;
+}
+.modal-overlay.is-open {
+    opacity: 1;
+    pointer-events: auto; /* Open: Allow interaction */
+}
+
+.modal-content {
+    background-color: var(--modal-bg-blur);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 500px;
+    box-sizing: border-box;
+    max-height: 90vh;
+    overflow-y: auto;
+    /* Default animation (for Desktop) */
+    transform: scale(0.95);
+    opacity: 0;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+.modal-overlay.is-open .modal-content {
+    transform: scale(1);
+    opacity: 1;
+}
+/* === MODAL REFACTOR END === */
+
 .modal-content h2 { margin-top: 0; text-align: center; color: var(--primary-color); }
 .modal-close-btn { display: block; width: 100%; padding: 10px; margin-top: 20px; background-color: var(--muted-text-color); color: var(--bg-color); border: none; border-radius: 4px; font-size: 16px; cursor: pointer; }
 .btn-red { background-color: var(--danger-color); color: white; transition: opacity 0.2s; }
 .btn-red:hover { opacity: 0.85; }
+
+.main-wrapper.is-blurred {
+    filter: blur(8px);
+    transition: filter 0.3s ease;
+}
+
+.btn-subtle {
+    background: none;
+    border: none;
+    color: var(--muted-text-color);
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.btn-subtle:hover {
+    color: var(--text-color);
+}
+
+/* === Reset Slider Styles === */
+#reset-slider-container {
+    margin-top: 25px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 50px;
+}
+.slider-track {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: var(--danger-color);
+    border-radius: 45px;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+}
+.slider-knob {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: var(--danger-color);
+    cursor: grab;
+}
+.slider-knob::after {
+    content: '▶';
+}
+.slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+
+/* Spinner Styles */
+#reset-spinner-container {
+    display: none; /* Initially hidden */
+    text-align: center;
+    padding: 20px 0;
+}
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(0,0,0,0.1);
+    border-left-color: var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 15px auto;
+}
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* State change on processing */
+#reset-confirm-modal.is-processing #reset-slider-container,
+#reset-confirm-modal.is-processing #cancel-reset-btn,
+#reset-confirm-modal.is-processing h2,
+#reset-confirm-modal.is-processing > .modal-content > p {
+    display: none;
+}
+#reset-confirm-modal.is-processing #reset-spinner-container {
+    display: block;
+}
+
+
 #notice-modal a { color: var(--primary-color); }
 
 @media (min-width: 1025px) {
@@ -75,7 +227,6 @@ body.modal-open { overflow: hidden; }
     #toggle-filters-btn { padding: 8px 16px; border-radius: 4px; border: 1px solid var(--border-color); background-color: var(--container-bg); color: var(--text-color); cursor: pointer; white-space: nowrap; }
     
     .top-bar-filters {
-        /* ★★★★★★★【修正点②】デスクトップのグリッドを3列に戻す ★★★★★★★ */
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 15px;
@@ -87,7 +238,6 @@ body.modal-open { overflow: hidden; }
     .top-bar.is-expanded .top-bar-filters {
         max-height: 40vh; margin-top: 15px; opacity: 1; padding-bottom: 5px;
     }
-    /* ★★★★★★★【修正点③】1列目用のコンテナのスタイルを追加 ★★★★★★★ */
     .filter-column {
         display: flex;
         flex-direction: column;
@@ -104,18 +254,71 @@ body.modal-open { overflow: hidden; }
 @media (max-width: 1024px) {
     .container { padding: 0 15px 20px 15px; }
     .top-bar { box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-    #fab-search { position: fixed; bottom: 20px; right: 20px; width: 50px; height: 50px; background-color: var(--primary-color); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; border: none; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); opacity: 0; visibility: hidden; transform: scale(0.8); transition: opacity 0.3s, visibility 0.3s, transform 0.3s; z-index: 999; }
-    #fab-search.is-visible { opacity: 1; visibility: visible; transform: scale(1); }
-    .modal-overlay { align-items: flex-end; }
-    #search-modal.modal-overlay .modal-content {
-        border-radius: 16px 16px 0 0; width: 100%; max-width: 100%; transform: translateY(100%);
-        transition: transform 0.3s ease-out;
+    #fab-search {
+        position: fixed; bottom: 20px; right: 20px; width: 50px; height: 50px; 
+        background-color: var(--primary-color); color: white; 
+        border-radius: 50%; 
+        display: flex; align-items: center; justify-content: center; 
+        font-size: 24px; border: none; cursor: pointer; 
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+        /* Always visible on mobile, with a fade-in animation */
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+        transition: transform 0.3s, opacity 0.3s;
     }
-    #search-modal.modal-overlay.is-visible .modal-content {
+    #fab-search:active {
+        transform: scale(0.9);
+    }
+    
+    /* --- Mobile Modal Refactor Start --- */
+    .modal-overlay {
+        align-items: flex-end;
+        /* On mobile, the dark background is part of the content's parent, not animated itself */
+        background-color: transparent;
+    }
+    .modal-overlay::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+        transition: opacity 0.4s ease;
+        pointer-events: none;
+    }
+    .modal-overlay.is-open::before {
+        opacity: 1;
+    }
+
+    #search-modal.modal-overlay .modal-content,
+    #settings-modal.modal-overlay .modal-content,
+    #reset-confirm-modal.modal-overlay .modal-content {
+        border-radius: 16px 16px 0 0; 
+        width: 100%; 
+        max-width: 100%;
+        /* Override desktop animation */
+        transform: translateY(100%);
+        opacity: 1; /* Opacity is not used for mobile slide animation */
+        transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    #search-modal.modal-overlay.is-open .modal-content,
+    #settings-modal.modal-overlay.is-open .modal-content,
+    #reset-confirm-modal.modal-overlay.is-open .modal-content {
         transform: translateY(0);
-        transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1);
     }
-    #notice-modal.modal-overlay { align-items: center; }
+    #notice-modal.modal-overlay { 
+        align-items: center; 
+    }
+    #notice-modal.modal-overlay .modal-content {
+        /* Re-apply desktop animation for notice modal on mobile */
+        transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    }
+    /* === MOBILE MODAL REFACTOR END === */
+
+    .slider-text {
+        font-size: 14px; /* Adjust font size for mobile */
+    }
+
     .accordion-state-text { font-size: 0.8em; font-weight: normal; color: var(--muted-text-color); margin-left: 5px; }
     .filter-group.accordion { display: block; }
     .filter-group.accordion > legend { cursor: pointer; width: 100%; box-sizing: border-box; display: block; }

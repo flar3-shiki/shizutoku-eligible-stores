@@ -9,6 +9,14 @@ async function initApp() {
         const jsonData = await Promise.all(responses.map(res => res.json()));
         chainData = jsonData.pop();
         shopData = jsonData.flat();
+
+        // --- Search Performance Improvement ---
+        // Pre-calculate normalized search fields to avoid doing it on every keystroke.
+        shopData.forEach(shop => {
+            shop.searchName = shop.name.normalize('NFKC').toLowerCase();
+            shop.searchAddress = (shop.address || '').normalize('NFKC').toLowerCase();
+        });
+
     } catch (error) {
         console.error("データの読み込みに失敗しました:", error);
         document.getElementById('results-container').innerHTML = '<div class="no-results">エラー: データを読み込めませんでした。</div>';
@@ -27,21 +35,25 @@ async function initApp() {
     const resultsCountSpan = document.getElementById('results-count');
     const showAllBtn = document.getElementById('show-all-btn');
     const siteNoticeLink = document.getElementById('site-notice-link');
-
-    // ★★★★★★★【修正点①】個別の閉じるボタンの取得を削除します ★★★★★★★
-    // const searchModalCloseBtn = searchModalOverlay.querySelector('.modal-close-btn');
-    // const noticeModalCloseBtn = noticeModalOverlay.querySelector('.modal-close-btn');
+    const settingsLink = document.getElementById('settings-link');
+    const settingsModalOverlay = document.getElementById('settings-modal');
+    const linkActionSettings = document.getElementById('link-action-settings');
+    const themeSettings = document.getElementById('theme-settings');
+    const resetSettingsBtn = document.getElementById('reset-settings-btn');
+    const resetConfirmModal = document.getElementById('reset-confirm-modal');
+    const cancelResetBtn = document.getElementById('cancel-reset-btn');
+    const resetSlider = document.getElementById('reset-slider-container');
 
     const formElements = {};
-    const searchState = { term: '', searchTarget: 'name', ward: [], category: [], chain: [] };
+    const searchState = { term: '', searchTarget: 'both', ward: [], category: [], chain: [] };
     
     const searchTargetFormHTML = `
         <fieldset class="filter-group search-target-group">
             <legend>検索対象</legend>
             <div class="search-target-filter filter-options">
-                <label><input type="radio" name="searchTarget" value="name" checked> 店舗名</label>
+                <label><input type="radio" name="searchTarget" value="both" checked> 両方</label>
+                <label><input type="radio" name="searchTarget" value="name"> 店舗名</label>
                 <label><input type="radio" name="searchTarget" value="address"> 住所</label>
-                <label><input type="radio" name="searchTarget" value="both"> 両方</label>
             </div>
         </fieldset>`;
     const wardFormHTML = `<fieldset class="filter-group"><legend>区で絞り込み</legend><div class="ward-filter filter-options"></div></fieldset>`;
@@ -63,7 +75,7 @@ async function initApp() {
     topBarMainRow.append(searchInputDesktop, toggleBtn);
     const desktopFiltersHTML = `
         <div class="filter-column">
-            ${searchTargetFormHTML}
+            ${searchTargetFormHTML.replace(/name="searchTarget"/g, 'name="searchTargetDesktop"')}
             ${wardFormHTML}
         </div>
         ${catFormHTML.replace('accordion', '')}
@@ -73,14 +85,16 @@ async function initApp() {
     formElements.topbar = { input: searchInputDesktop, searchTargetFilter: topBarFiltersContainer.querySelector('.search-target-filter'), wardFilter: topBarFiltersContainer.querySelector('.ward-filter'), catFilter: topBarFiltersContainer.querySelector('.category-filter'), chainFilter: topBarFiltersContainer.querySelector('.chain-filter') };
     
     // Modal Form
-    modalSearchArea.innerHTML = `<input type="text" class="search-input" placeholder="店舗名や住所で検索...">${searchTargetFormHTML}${wardFormHTML}${catFormHTML}${chainFormHTML}`;
+    modalSearchArea.innerHTML = `<input type="text" class="search-input" placeholder="店舗名や住所で検索...">${searchTargetFormHTML.replace(/name="searchTarget"/g, 'name="searchTargetMobile"')}${wardFormHTML}${catFormHTML}${chainFormHTML}`;
     formElements.modal = { input: modalSearchArea.querySelector('.search-input'), searchTargetFilter: modalSearchArea.querySelector('.search-target-filter'), wardFilter: modalSearchArea.querySelector('.ward-filter'), catFieldset: modalSearchArea.querySelectorAll('.accordion')[0], catFilter: modalSearchArea.querySelector('.category-filter'), chainFieldset: modalSearchArea.querySelectorAll('.accordion')[1], chainFilter: modalSearchArea.querySelector('.chain-filter') };
 
-    // --- 3. Sync & Render Logic --- (ここは変更なし)
     function syncStateFrom(form) {
         searchState.term = form.input.value;
         if (form.searchTargetFilter) {
-            searchState.searchTarget = form.searchTargetFilter.querySelector('input:checked').value;
+            const checkedRadio = form.searchTargetFilter.querySelector('input:checked');
+            if (checkedRadio) { // Check if a radio button is actually checked
+                searchState.searchTarget = checkedRadio.value;
+            }
         }
         searchState.ward = form.wardFilter ? [...form.wardFilter.querySelectorAll('input:checked')].map(cb => cb.value) : [];
         searchState.category = form.catFilter ? [...form.catFilter.querySelectorAll('input:checked')].map(cb => cb.value) : [];
@@ -114,19 +128,16 @@ async function initApp() {
             
             let textMatch = false;
             if (normalizedSearchTerm) {
-                const normalizedShopName = shop.name.normalize('NFKC').toLowerCase();
-                const normalizedAddress = (shop.address || '').normalize('NFKC').toLowerCase();
-                
                 switch (searchState.searchTarget) {
                     case 'address':
-                        textMatch = normalizedAddress.includes(normalizedSearchTerm);
+                        textMatch = shop.searchAddress.includes(normalizedSearchTerm);
                         break;
                     case 'both':
-                        textMatch = normalizedShopName.includes(normalizedSearchTerm) || normalizedAddress.includes(normalizedSearchTerm);
+                        textMatch = shop.searchName.includes(normalizedSearchTerm) || shop.searchAddress.includes(normalizedSearchTerm);
                         break;
                     case 'name':
                     default:
-                        textMatch = normalizedShopName.includes(normalizedSearchTerm);
+                        textMatch = shop.searchName.includes(normalizedSearchTerm);
                         break;
                 }
             } else {
@@ -145,15 +156,31 @@ async function initApp() {
         if (filteredShops.length === 0) {
             resultsContainer.innerHTML = '<div class="no-results">該当する店舗が見つかりませんでした。</div>';
         } else {
+            const currentLinkAction = localStorage.getItem('linkAction') || 'map_address';
+
             filteredShops.forEach(shop => {
                 const shopCard = document.createElement('div');
                 shopCard.className = 'shop-card';
                 
-                const mapQuery = encodeURIComponent(shop.address || `${shop.name} 静岡市 ${shop.ward}`);
-                const mapUrl = `https://www.google.com/maps/search/?api=1&query=${mapQuery}`;
+                let nameElement = '';
+                switch (currentLinkAction) {
+                    case 'map_address':
+                        const mapQuery = encodeURIComponent(shop.address || `${shop.name} 静岡市 ${shop.ward}`);
+                        const mapUrl = `https://www.google.com/maps/search/?api=1&query=${mapQuery}`;
+                        nameElement = `<a href="${mapUrl}" target="_blank" rel="noopener noreferrer" class="shop-name">${shop.name}</a>`;
+                        break;
+                    case 'google_search':
+                        const searchQuery = encodeURIComponent(`${shop.name} 静岡市 ${shop.ward}`);
+                        const searchUrl = `https://www.google.com/search?q=${searchQuery}`;
+                        nameElement = `<a href="${searchUrl}" target="_blank" rel="noopener noreferrer" class="shop-name">${shop.name}</a>`;
+                        break;
+                    case 'none':
+                        nameElement = `<span class="shop-name-no-link">${shop.name}</span>`;
+                        break;
+                }
 
                 shopCard.innerHTML = `
-                    <a href="${mapUrl}" target="_blank" rel="noopener noreferrer" class="shop-name">${shop.name}</a>
+                    ${nameElement}
                     <p class="shop-address">${shop.address || '住所情報なし'}</p>
                     <div class="shop-info">
                         <span>${shop.ward}</span>
@@ -228,17 +255,152 @@ async function initApp() {
     
     toggleBtn.addEventListener('click', () => { topBarEl.classList.toggle('is-expanded'); toggleBtn.textContent = topBarEl.classList.contains('is-expanded') ? '閉じる ▲' : '絞り込み ▼'; topBarFiltersContainer.addEventListener('transitionend', updateBodyPadding, { once: true }); updateBodyPadding(); });
     
-    const h1Observer = new IntersectionObserver(entries => { fabSearch.classList.toggle('is-visible', window.innerWidth <= 1024 && entries[0].boundingClientRect.bottom < 0); }, { threshold: [0] });
-    h1Observer.observe(topBarEl.querySelector('h1'));
+    fabSearch.addEventListener('click', () => { 
+        activateSearch(); 
+        syncFormsFromState(); 
+        searchModalOverlay.classList.add('is-open'); 
+        document.body.classList.add('modal-open'); 
+        formElements.modal.input.focus(); 
+    });
 
-    fabSearch.addEventListener('click', () => { activateSearch(); syncFormsFromState(); searchModalOverlay.classList.add('is-visible'); document.body.classList.add('modal-open'); formElements.modal.input.focus(); });
+    // === MODAL REFACTOR START ===
+    function closeModal(modal) {
+        if (!modal) return;
+        modal.classList.remove('is-open');
+        // Only remove body class if no other modals are open
+        if (document.querySelectorAll('.modal-overlay.is-open').length === 1) {
+            document.body.classList.remove('modal-open');
+        }
+    }
 
-    // ★★★★★★★【修正点②】モーダルを閉じる処理を全面的に書き換えます ★★★★★★★
-    function closeSearchModal() { searchModalOverlay.classList.remove('is-visible'); document.body.classList.remove('modal-open'); }
-    function openNoticeModal() { noticeModalOverlay.classList.add('is-visible'); document.body.classList.add('modal-open'); }
-    function closeNoticeModal() { noticeModalOverlay.classList.remove('is-visible'); document.body.classList.remove('modal-open'); }
+    function openNoticeModal() {
+        noticeModalOverlay.classList.add('is-open');
+        document.body.classList.add('modal-open');
+    }
+
+    function closeNoticeModal() {
+        noticeModalOverlay.classList.remove('is-open');
+        document.body.classList.remove('modal-open');
+    }
+
+    function openSettingsModal() {
+        settingsModalOverlay.classList.add('is-open');
+        document.body.classList.add('modal-open');
+    }
+
+    function closeSettingsModal() {
+        settingsModalOverlay.classList.remove('is-open');
+        document.body.classList.remove('modal-open');
+    }
+    // === MODAL REFACTOR END ===
     
     siteNoticeLink.addEventListener('click', openNoticeModal);
+    settingsLink.addEventListener('click', openSettingsModal);
+
+    // --- Settings Logic ---
+    function applyAndSaveLinkAction(action) {
+        localStorage.setItem('linkAction', action);
+        // Immediately re-render results to apply the new setting
+        if (!isInitial) {
+            renderResults();
+        }
+    }
+
+    linkActionSettings.addEventListener('change', (e) => {
+        if (e.target.name === 'linkAction') {
+            applyAndSaveLinkAction(e.target.value);
+        }
+    });
+
+    // Load initial setting on startup
+    const savedLinkAction = localStorage.getItem('linkAction') || 'map_address';
+    linkActionSettings.querySelector(`input[value="${savedLinkAction}"]`).checked = true;
+
+    // --- Theme Logic ---
+    function applyAndSaveTheme(theme) {
+        localStorage.setItem('theme', theme);
+        if (theme === 'system') {
+            document.documentElement.removeAttribute('data-theme');
+        } else {
+            document.documentElement.setAttribute('data-theme', theme);
+        }
+    }
+
+    themeSettings.addEventListener('change', (e) => {
+        if (e.target.name === 'theme') {
+            applyAndSaveTheme(e.target.value);
+        }
+    });
+
+    // Load initial theme on startup
+    const savedTheme = localStorage.getItem('theme') || 'system';
+    themeSettings.querySelector(`input[value="${savedTheme}"]`).checked = true;
+    applyAndSaveTheme(savedTheme); // Apply theme on initial load
+
+    // --- Reset Logic ---
+    function openResetConfirmModal() {
+        closeModal(settingsModalOverlay); // Close settings modal first
+        document.querySelector('.main-wrapper').classList.add('is-blurred');
+        resetConfirmModal.classList.add('is-open');
+    }
+
+    function closeResetConfirmModal() {
+        if (resetConfirmModal.dataset.unclosable === 'true') return; // Don't close if processing
+        document.querySelector('.main-wrapper').classList.remove('is-blurred');
+        resetConfirmModal.classList.remove('is-open');
+        // Reset slider state if cancelled
+        knob.style.transform = 'translateX(0px)'; 
+        sliderText.style.opacity = 1;
+    }
+
+    resetSettingsBtn.addEventListener('click', openResetConfirmModal);
+    cancelResetBtn.addEventListener('click', closeResetConfirmModal);
+
+    // Slider Logic
+    const knob = resetSlider.querySelector('.slider-knob');
+    const track = resetSlider.querySelector('.slider-track');
+    const sliderText = resetSlider.querySelector('.slider-text');
+    let isDragging = false;
+
+    function moveSlider(clientX) {
+        if (!isDragging) return;
+        const rect = track.getBoundingClientRect();
+        const max = rect.width - knob.offsetWidth - 10; // 10 = 5px padding on each side
+        let x = clientX - rect.left - (knob.offsetWidth / 2);
+        x = Math.max(0, Math.min(x, max));
+        knob.style.transform = `translateX(${x}px)`;
+        sliderText.style.opacity = 1 - (x / max) * 2;
+
+        if (x >= max - 1) { // Reached the end
+            isDragging = false;
+            resetConfirmModal.classList.add('is-processing');
+            document.getElementById('reset-message').textContent = 'リセットしています...';
+
+            // Make modal unclosable during processing
+            resetConfirmModal.dataset.unclosable = 'true';
+
+            setTimeout(() => {
+                localStorage.removeItem('linkAction');
+                localStorage.removeItem('theme');
+                localStorage.removeItem('shizuTokuNoticeViewed');
+                document.getElementById('reset-message').textContent = 'リセットが完了しました。ページをリロードします。';
+                
+                setTimeout(() => {
+                    window.location.reload();
+                }, 1500); // Wait a bit after showing the final message
+
+            }, 3000); // Wait 3 seconds
+        }
+    }
+
+    knob.addEventListener('mousedown', () => { isDragging = true; knob.style.cursor = 'grabbing'; });
+    knob.addEventListener('touchstart', () => { isDragging = true; }, { passive: true });
+
+    window.addEventListener('mouseup', () => { if(isDragging) { isDragging = false; knob.style.cursor = 'grab'; knob.style.transform = 'translateX(0px)'; sliderText.style.opacity = 1; } });
+    window.addEventListener('touchend', () => { if(isDragging) { isDragging = false; knob.style.transform = 'translateX(0px)'; sliderText.style.opacity = 1; } });
+
+    window.addEventListener('mousemove', (e) => moveSlider(e.clientX));
+    window.addEventListener('touchmove', (e) => moveSlider(e.touches[0].clientX));
     
     // 初回訪問時に注意モーダルを開く
     if (!localStorage.getItem('shizuTokuNoticeViewed')) {
@@ -251,20 +413,17 @@ async function initApp() {
         // クリックされたのが「閉じるボタン」(.modal-close-btn) の場合
         const closeButton = e.target.closest('.modal-close-btn');
         if (closeButton) {
-            // そのボタンがどのモーダル(.modal-overlay)の中にあるか調べる
             const modal = closeButton.closest('.modal-overlay');
-            if (modal) {
-                if (modal.id === 'search-modal') closeSearchModal();
-                if (modal.id === 'notice-modal') closeNoticeModal();
-            }
+            if (modal) closeModal(modal);
             return;
         }
 
         // クリックされたのがモーダルの外側（オーバーレイ自身）の場合
-        if (e.target.matches('.modal-overlay')) {
-            if (e.target.id === 'search-modal') closeSearchModal();
-            // 注意モーダルは外側クリックで閉じない場合は、この行は不要
-            // if (e.target.id === 'notice-modal') closeNoticeModal();
+        if (e.target.matches('.modal-overlay.is-open')) {
+            // Reset confirm modal has its own close logic, don't close it here
+            if (e.target.id !== 'reset-confirm-modal') {
+                closeModal(e.target);
+            }
         }
     });
 

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-vvt4KWwuNr51XfE5m+hzeNEGhiOfZzG97ccfqGsPwvE='; style-src 'self' 'unsafe-inline'; connect-src 'self';">
     <title>しずトク商品券 取扱店検索</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,7 +14,6 @@
                 <div class="top-bar-main-row">
                      <h1>しずトク商品券 取扱店検索</h1>
                 </div>
-                <div id="top-bar-search-area"></div>
             </div>
         </header>
 
@@ -33,7 +33,7 @@
     <footer class="page-footer">
         <p>Last updated: 2025-07-01</p>
         <p>情報の正確性には万全を期しておりますが、保証するものではありません。</p>
-        <p><span id="site-notice-link">このサイトに関する注意</span></p>
+        <p><span id="site-notice-link">このサイトに関する注意</span> | <span id="settings-link">設定</span></p>
     </footer>
 
     <button id="fab-search" aria-label="検索フォームを開く">🔍</button>
@@ -55,6 +55,48 @@
             <p>しずトク商品券 店舗リストのPDF：<a href="https://shizu-tokushouhinken.com/stores/" target="_blank" rel="noopener noreferrer">shizu-tokushouhinken.com/stores/</a></p>
             <p>必要に応じて、直接店舗 または しずトク商品券コールセンターへご確認いただくことを強くおすすめします。</p>
             <button class="modal-close-btn btn-red">わかりました</button>
+        </div>
+    </div>
+
+    <div id="settings-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>設定</h2>
+            <fieldset class="filter-group">
+                <legend>店舗名タップ時の動作</legend>
+                <div class="filter-options" id="link-action-settings">
+                    <label><input type="radio" name="linkAction" value="map_address"> 住所をマップで開く (デフォルト)</label>
+                    <label><input type="radio" name="linkAction" value="google_search"> 店舗名でGoogle検索</label>
+                    <label><input type="radio" name="linkAction" value="none"> 何もしない</label>
+                </div>
+            </fieldset>
+            <fieldset class="filter-group">
+                <legend>テーマ設定</legend>
+                <div class="filter-options" id="theme-settings">
+                    <label><input type="radio" name="theme" value="system"> 端末の設定に連動 (デフォルト)</label>
+                    <label><input type="radio" name="theme" value="light"> ライト</label>
+                    <label><input type="radio" name="theme" value="dark"> ダーク</label>
+                </div>
+            </fieldset>
+            <button class="modal-close-btn">閉じる</button>
+            <button id="reset-settings-btn" class="btn-subtle">設定をリセット</button>
+        </div>
+    </div>
+
+    <div id="reset-confirm-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button id="cancel-reset-btn" class="btn-subtle">キャンセル</button>
+            <h2>設定をリセットしますか？</h2>
+            <p>すべての設定が初期状態に戻ります。この操作は取り消せません。</p>
+            <div id="reset-slider-container">
+                <div class="slider-track">
+                    <div class="slider-knob"></div>
+                    <span class="slider-text">→ スライドしてリセット</span>
+                </div>
+            </div>
+            <div id="reset-spinner-container">
+                <div class="spinner"></div>
+                <p id="reset-message"></p>
+            </div>
         </div>
     </div>
 
